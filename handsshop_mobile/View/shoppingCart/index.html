@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../../Static/Css/common/sm.min.css">
+    <link rel="stylesheet" href="../../Static/Css/common/base.css">
+    <link rel="stylesheet" href="../../Static/Css/shoppingCart/index.css">
+</head>
+<body class="mHome">
+
+    <!--  加载层   -->
+    <div id="loader">
+        <div class="loaderInner">
+            <img src="../../Static/Image/common/logo/logo1.png" alt="">
+        </div>
+    </div>
+
+    <!--  页面    -->
+    <div class="page-group">
+
+        <!--  商品   -->
+        <div class="shoppingCartBox">
+            <div class="delete cf"><span class="icon icon-remove fr deleteIcon"></span></div>
+            <div class="subCartBox cf copy" data-num="5">
+                <i class="isChecked fl"></i>
+                <div class="cartImgBox fl"><img src="../../Static/Image/common/goods/goods1.png" alt=""></div>
+                <div class="cartInfo fl">
+                    <p class="bestName">Lancome兰蔻套装asdfasdfasdfasdfsd</p>
+                    <p class="bestDetail">小黑瓶精华肌底液化妆品套装护肤组合女4件</p>
+                    <p class="goodsPrice">￥<span class="goodsPriceVal">1</span></p>
+                </div>
+                <div class="cart_num cf">
+                    <input class="cart_min pull-left" type="button" value="-" disabled="disabled">
+                    <input class="cart_text_box" id="quantity" type="number" value="1" onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}">
+                    <input class="cart_add pull-right" type="button" value="+">
+                </div>
+            </div>
+            <!--  没有商品   -->
+            <div class="noGoods cf hide">
+                <p class="info fl">空空如也~ </p>
+                <a class="goLink fl" href="javascript:void(0)">去逛逛</a>
+            </div>
+        </div>
+
+        <!--  全选结算栏  -->
+        <div class="balanceBox cf">
+            <div class="allCheckBox cf fl"><i class="isChecked fl active"></i><span class="checkName">全选</span></div>
+            <a class="balanceBtn fr" href="../../View/order/index.html">结算</a>
+            <div class="balanceInfo fr">
+                <p class="totalPrice">总价：￥<span id="confirmTotalPrice">0</span></p>
+                <p class="post">邮费：包邮</p>
+            </div>
+        </div>
+
+        <!--  热销榜单   -->
+        <div class="hotList bg_white marBot">
+            <div class="titCommon fl"><span>—</span> 热销榜单 <span>—</span></div>
+            <div class="subModel">
+                <ul class="bestBoxWrap cf">
+                    <li class="subBest fl copy" data-num="4">
+                        <img class="bestImg" src="../../Static/Image/common/goods/goods3.png" alt="">
+                        <p class="bestName">Lancome兰蔻套装asdfasdfasdfasdfsd</p>
+                        <p class="bestDetail">小黑瓶精华肌底液化妆品套装护肤组合女4件</p>
+                        <p class="bestSale">已售 <span>1899</span></p>
+                        <p class="bestPrice">￥1999</p>
+                        <i class="lineBottom"></i>
+                        <i class="lineRight"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--   底部导航栏   -->
+        <nav class="bar bar-tab">
+            <a class="tab-item external footTap-index" href="../../View/index/index.html">
+                <span class="icon"></span>
+                <span class="tab-label">首页</span>
+            </a>
+            <a class="tab-item external footTap-classify" href="../../View/classify/index.html">
+                <span class="icon"></span>
+                <span class="tab-label">分类</span>
+            </a>
+            <a class="tab-item external footTap-shoppingCart active" href="../../View/shoppingCart/index.html">
+                <span class="icon"></span>
+                <span class="tab-label">购物车</span>
+            </a>
+            <a class="tab-item external footTap-center" href="../../View/personalCenter/index.html">
+                <span class="icon"></span>
+                <span class="tab-label">我的</span>
+            </a>
+        </nav>
+    </div>
+
+<script src="../../Static/Js/common/zepto.min.js"></script>
+<script src="../../Static/Js/common/sm.min.js"></script>
+<script src="../../Static/Js/common/public.js"></script>
+<script src="../../Static/Js/shoppingCart/index.js"></script>
+</body>
+</html>

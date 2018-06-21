@@ -1,0 +1,50 @@
+/* 选择付款方式 */
+.payMode{padding: 60px 20px 30px;}
+.payModeTitle{font-size: 18px;margin: 10px 0;}
+.payModeFlow{font-size: 18px;margin: 10px 0;color: #999;}
+
+/* 付款方式 */
+.mode{height: 60px;line-height: 60px;padding-left: 20px;font-size: 18px;background: #f4f4f4;color: #333;}
+.modeUl{margin: 40px 0 70px;}
+.modeUl li{width: 33%;height: 200px;line-height: 200px;text-align: center;}
+.modeUl li a{display: block;}
+.modeUl li i{display: inline-block;width: 120px;height: 120px;vertical-align: middle;}
+.modeUl li span{font-size: 20px;font-weight: 600;margin-left: 10px;vertical-align: middle;}
+.aliPay i{background: url("../../Image/payment/alipay.png") no-repeat center;background-size: 82px 82px;}
+.weChatPay i{background: url("../../Image/payment/weChatPay.png") no-repeat center;background-size: 99px 87px;}
+.unionPay i{background: url("../../Image/payment/unionPay.png") no-repeat center;background-size: 118px 75px;}
+
+.aliPay ,.weChatPay{border: 1px solid #dcdcdc;border-right: none;}
+.unionPay{border: 1px solid #dcdcdc;}
+
+/* 选择 */
+.modeUl .active{border: 1px solid #f8981d;}
+
+.payBtn{text-align: right;margin-bottom: 100px;}
+.immediatePay{text-align: center;width: 220px;height: 60px;line-height: 60px;background: #f8981d;color: #fff;font-size: 18px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

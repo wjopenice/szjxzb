@@ -1,0 +1,47 @@
+/*   noCart     */
+.noCart{height:443px;margin: 25px 0 30px 0;border:1px solid #D2D2D2;}
+.noCart .inner{position:absolute;top:0;right:0;bottom:0;left:0;width: 290px;height: 140px;margin: auto;}
+.noCart .noCartIcon{display: block;float:left;width: 96px;height: 102px;background: url(../../Image/common/noSome.png) no-repeat;background-size: 96px 102px;}
+.noCart .noCartInfo{float:left;margin:20px 0 20px 20px;font-size: 20px;color: #FFE8CD;}
+.noCart .noCartBtn{display: block;float:left;width: 100px;height: 30px;margin-left:40px;line-height:30px;text-align:center;color:#F8981D;border:1px solid #F8981D;}
+
+/*   hasCart  */
+.cartCon{margin: 30px 0;}
+.checkDiv,.goodsInfoDiv,.unitPriceDiv,.numDiv,.totalDiv,.operateDiv{float: left;}
+.cartCon .cartOperation{width: 1198px;height: 60px;line-height: 60px;background: #F4F4F4;border:1px solid #DCDCDC;}
+.checkDiv{width: 10%;}
+.goodsInfoDiv{width: 30%;}
+.unitPriceDiv{width:8%;text-align: center;}
+.numDiv{width: 25%;text-align: center;}
+.totalDiv{width: 14%;text-align: center;}
+.operateDiv{width: 13%;}
+.cartOperation .check{float: left;margin: 21px 8px 0 20px;}
+.subCart{margin-top:25px;padding:20px 0;background: #F4F4F4;}
+.cartInfoBox .check{float: left;margin: 40px 20px;}
+.cartInfoBox .unitPriceDiv{line-height: 100px;}
+.cartInfoBox .cart_num{margin: 25px 70px;}
+.cartInfoBox .totalDiv{line-height:100px;color: #F81D1D;}
+.cartInfoBox .operateDiv a{display: block;float: left;width: 100%;}
+.cartInfoBox .operateDiv .addFavBtn{margin-top: 20px;}
+.cartInfoBox .operateDiv .delBtn{height: 40px;line-height: 40px;}
+.cartInfoBox .operateDiv .addFavBtn:hover{color: #F81D1D;}
+.cartInfoBox .operateDiv .delBtn:hover{color: #F8981D;}
+
+/*     cartOrder      */
+.cartOrder{width: 1198px;height: 80px;margin-top:30px;line-height: 80px;background: #F4F4F4;border:1px solid #DCDCDC;}
+.cartOrder .check{margin: 30px 10px 0 20px;}
+.cartOrder .batchDel,.cartOrder .clearGoods{margin-left: 40px;}
+.cartOrder .orderBtn{width: 170px;height:80px;margin-left:20px;line-height: 80px;font-size:24px;text-align: center;color:#FFF;background: #F8981D;}
+.shouldPay,.couponPay{margin-left: 35px;}
+
+/*     lovely      */
+.lovelyBox{margin-top: 60px;}
+.lovelyBox .tit{font-size:20px;text-align: center;color: #333;}
+.lovelyGoods{overflow:hidden;width:1140px;height:360px;margin: 40px auto;}
+.lovelyGoods .subGoodsBox{width: 275px;margin-right: 10px}
+.lovelyGoods .slide-content{height: 500px;margin: 0 auto;}
+.goodsBoxImgWrap{height:220px;padding:25px 0;background: #F4F4F4;}
+.subGoodsBox .goodsBoxImg{width:220px;height: 220px;margin:0 auto;}
+.slide-btns .next, .slide-btns .prev{margin-top: -60px}
+.slide-btns .next{right: 9px;}
+

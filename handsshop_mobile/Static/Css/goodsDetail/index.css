@@ -1,0 +1,87 @@
+.mHome{margin-bottom: 0;}
+.cart_num .cart_text_box{left: 1rem;}
+/*    商品图片     */
+.goodsImgPageBox{width: 2rem;height: 1rem;font-size:.6rem;text-align:center;color:#FFF;background: #CCC;border-radius: .2rem;}
+.swiper-slide,.swiper-slide img{width: 100%;height: 16rem;}
+.swiper-pagination-bullet{width: .4rem;height: .4rem;border:1px solid #999;}
+.swiper-pagination-bullet-active{border:1px solid #FF5959; }
+.swiper-container-horizontal>.swiper-pagination{bottom: 1rem;}
+
+/*    商品价格    */
+.goodsInfo{margin-bottom: .5rem;}
+.goodsInfo .goodsPriceBox{padding-bottom:1rem;border-bottom: 1px solid #CCC;}
+.goodsPriceBox .priceNow,.goodsPriceBox .sale{width: 90%;margin: 0 auto;}
+.goodsPriceBox .priceNow{height: 1.5rem;margin-left:.7rem;line-height: 1.5rem;font-size: 1.3rem;color: #FF5959;}
+.goodsPriceBox .sale{font-size: .8rem;color: #999;}
+.priceLast{text-decoration: line-through;}
+
+/*   商品名称   */
+.goodsNameBox{padding:.5rem .7rem;}
+.goodsNameContent{overflow: hidden;}
+.goodsNameBox .goodsName{width: 83%;font-size:.8rem;color: #333;}
+.goodsNameBox .favourite{width: 3rem;height: 1.7rem;margin:.3rem -.7rem 0 0;background:url(../../Image/common/favourite/favourite.png) no-repeat -2.16rem -.1rem;background-size: 4.53rem 1.94rem;border-left: 1px solid #CCC;}
+.goodsNameBox .favourite.active{background: url(../../Image/common/favourite/favourite.png) no-repeat -.1rem -.1rem;background-size: 4.53rem 1.94rem;}
+.goodsNameBox .goodsIntroduce{margin-top:.5rem;font-size: .6rem;color: #999;}
+
+/*   邮费相关   */
+.subGoodsPost{height:2rem;padding:0 .7rem;font-size:.6rem;line-height:2rem;color:#666;border-top:1px solid #CCC;}
+.subGoodsPost .getPost{display:block;float:left;width:3rem;height:1rem;margin:.5rem .3rem .3rem 0;line-height:.9rem;text-align:center;font-style: normal;color:#FF5050;border:1px solid #FF5050;border-radius: .2rem;}
+.promisePost{width: 33%;}
+.promisePost i{display: block;float: left;width: .9rem;height: .9rem;margin:.6rem .4rem 0 0;background: url(../../Image/common/isChecked.png) no-repeat -.1rem -.1rem;background-size: 3.86rem 2.1rem;}
+
+/*    购买口碑   */
+.shopPraise .goodsTit{height: 2.5rem;line-height: 2.5rem;text-align: center;color:#333;border-bottom: 1px solid #CCC;}
+.scoreBox{height: 2rem;padding:0 .7rem;font-size:.6rem;line-height: 2rem;border-bottom: 1px solid #CCC;}
+.getScore{color: #999;}
+.getScore .star{position:relative;display: block;width: 4rem;height: 1rem;margin:.3rem .5rem 0 0;background: url(../../Image/common/star.png) no-repeat 0 .3rem;}
+.getScore .star span{position:absolute;bottom:0;left:0;display:block;height: .5rem;background: url(../../Image/common/star.png) no-repeat 0 -.85rem;}
+.scoreBox .scorePeopleNum{color: #666;}
+
+.subPraise{padding:.7rem;font-size:.7rem;border-bottom: 1px solid #CCC;}
+.headBox .headImg{width: 2rem;height: 2rem;border-radius: 50%;}
+.headBox .headName{margin-left:.5rem;font-size:.8rem;color: #333;}
+.subPraise .praiseBox{margin:.3rem 0;color: #666;}
+.subPraise .praiseTime{color: #999;}
+.seeMore{margin-bottom: .5rem;}
+
+/*   商品详情    */
+.goodsDetailTit{width: 100%;height: 2.5rem;line-height: 2.5rem;background:#FFF;border-bottom: 1px solid #F0F0F0;}
+.goodsDetailTit.fixed{position: fixed;top:0;z-index: 999;}
+.subGoodsDetailTit{width: 33.3%;text-align: center;}
+.subGoodsDetailTit.active a{color: #F8B500;border-bottom: 1px solid #F8B500;}
+
+.subGoodProperty{float: left;width:100%;height: 2rem;padding:0 .7rem;font-size:.7rem;line-height: 2rem;border-bottom: 1px dashed #CCC;}
+.propertyName{display: block;float: left;}
+.propertyCon{overflow:hidden;display: block;float: left;width: 59.5%;text-overflow:ellipsis;white-space:nowrap}
+.longGoodProperty{float:left;padding: .6rem;font-size:.7rem;}
+.goodsDetailContent{margin-bottom: 3rem;}
+.subGoodsDetailCon{padding-bottom: 3rem;}
+
+/*   固定导航栏    */
+.cartFixBar{position: fixed;bottom: 0;width: 100%;height: 2rem;line-height: 2rem;font-size: .7rem;}
+.cartFixBar .addCartNum,.cartFixBar .addCartBtn,.cartFixBar .buyBtn{display: block;height:2rem;text-align: center;}
+.addCartNum,.addCartBtn{background: #000;color: #FFF;border-left: 1px solid #FFF;border-bottom: 1px solid #FFF;}
+.addCartNum{width:14%;}
+.addCartNum i{position:relative;display:block;width:1.5rem;height:1rem;margin:.5rem 0 0 .2rem;background: url(../../Image/goodsDetail/shoppingCartIcon.png) no-repeat;background-size: 1.5rem 1rem;}
+.cartNumEm{position:absolute;right:-.3rem;top:-.3rem;display: block;width: .9rem;height: .9rem;line-height:.9rem;font-size:.5rem;font-style:normal;text-align: center;background: #F8B500;border-radius: 50%;}
+.addCartBtn,.buyBtn{width: 43%;}
+.buyBtn{color:#FFF;background: #F8B500;}
+
+/*   选择商品属性   */
+.popup .choseProperty{position:fixed;bottom:2rem;width:100%;background: #FFF;}
+.popup .propertyBoxTop,.popup .propertyParticular,.popup .propertyPost{margin: 0 .5rem;padding:.5rem 0;border-bottom: 1px solid #CCC;}
+.popup .propertyImg{display:block;width: 3rem;height: 3rem;}
+.popup .propertyNameBox{width: 9rem;margin-left:.5rem;font-size: .7rem;}
+.popup .propertyName{overflow:hidden;width:100%;margin:.2rem 0;font-weight:700;color: #333;text-overflow:ellipsis;white-space:nowrap}
+.popup .priceNow{margin-right:.5rem;color: #FF5959;}
+.popup .pricePast{text-decoration:line-through;color: #999;}
+.popup .closeBtn{display: block;width: .8rem;height: .8rem;background: url(../../Image/goodsDetail/close.png) no-repeat;background-size: .8rem .8rem;}
+.popup .propertyTit{height: 1.5rem;margin-right:1rem;line-height: 1.5rem;font-size: .7rem;}
+.popup .propertyChose{display: block;float: left;width: 4rem;height: 1.5rem;margin-right:.2rem;text-align:center;line-height:1.5rem;font-size:.8rem;color:#FFF;background: #CCC;border-radius: .2rem;}
+.popup .propertyChose.active{background: #F8B500;}
+.popup .propertyPost{height: 2.2rem;font-size:.7rem;color:#666;border-bottom: 1px solid #CCC;}
+.popup .getPost{display: block;width: 3rem;height: 1.2rem;margin-right:.3rem;line-height:1.2rem;font-style:normal;font-size:.7rem;text-align:center;color:#FF5959;border:1px solid #FF5959;}
+.popup .choseNumBox{margin: 0 .5rem;padding:1rem 0;}
+.popup .choseNumTit{font-size: .7rem;}
+.popup .cart_num{width: 3rem;}
+

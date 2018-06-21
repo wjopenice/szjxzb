@@ -1,0 +1,96 @@
+/* 我的资产 */
+.myAssetsUl{padding: 40px 10px 0;}
+.myAssetsUl li{background: #f8f8f8;padding: 0 10px;margin-bottom: 10px;}
+.myAssetsTime{height: 50px;line-height: 50px;border-bottom: 1px solid #eee;color: #999;font-size: 16px;}
+.beOverdue{width: 120px;vertical-align: middle;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.myAssetsDate{margin-left: 10px;font-size: 12px;vertical-align: sub;}
+.voucher{height: 50px;line-height: 50px;color: #999;font-size: 15px;}
+.myAssetsDetail{margin-left: 20px;font-size: 15px;color: #6699cc;}
+.unMyAssetsIcon{display: inline-block;width: 275px;height: 169px;background: url(../../Image/personalCenter/message/unMyAssetsIcon.png) no-repeat center;background-size: 275px 169px;}
+.total{width: 400px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;vertical-align: middle;}
+
+/* 通知消息 */
+.noticeMessageUl{padding: 30px 0;}
+.noticeMessageTime{height: 50px;line-height: 50px;border-bottom: 1px solid #eee;color: #999;font-size: 16px;}
+.survey{height: 19px;line-height: 19px;padding-left: 20px;border-left: 2px solid #f8981d;width: 280px;vertical-align: middle;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.noticeMessageDate{margin-left: 10px;font-size: 12px;}
+.noticeMessageExplain{margin: 10px 0;}
+.noticeMessageText{display: block;width: 100%;vertical-align: middle;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;;color: #999;font-size: 15px;}
+.noticeMessageDetail{font-size: 15px;color: #6699cc;margin-top: 8px;}
+.unLogisticsIcon{display: inline-block;width: 275px;height: 169px;background: url(../../Image/personalCenter/message/unInteractionIcon.png) no-repeat center;background-size: 275px 169px;}
+
+/* 物流助手 */
+.logisticsUl{padding: 30px 0;}
+.logisticsTime{height: 50px;line-height: 50px;border-bottom: 1px solid #eee;color: #999;font-size: 16px;}
+.deliver{padding-left: 20px;border-left: 2px solid #f8981d;}
+.logisticsDate{margin-left: 10px;font-size: 12px;}
+.logisticsExplain img{height: 160px;width: 160px;}
+.logisticsName{width: 776px;height: 160px;padding-left: 20px;margin-top: 18px;}
+.logisticsName p{width: 200px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;padding: 4px 0;font-size: 16px;color: #333;}
+.logisticsDetail{font-size: 15px;color: #6699cc;}
+.unLogisticsIcon{display: inline-block;width: 276px;height: 169px;background: url(../../Image/personalCenter/message/unLogisticsIcon.png) no-repeat center;background-size: 276px 169px;}
+
+/* 互动消息 */
+.unInteractionIcon{display: inline-block;width: 275px;height: 169px;background: url(../../Image/personalCenter/message/unInteractionIcon.png) no-repeat center;background-size: 275px 169px;}
+
+/* 无消息 */
+.unMyAssets{text-align: center;margin: 100px 0;}
+.unMyAssetsText{font-size: 14px;color: #999;padding: 10px 0;}
+
+/* 点击切换 */
+
+.messageContentList{display: none;}
+.cur{display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

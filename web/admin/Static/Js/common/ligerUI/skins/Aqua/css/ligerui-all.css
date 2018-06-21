@@ -1,0 +1,10 @@
+﻿/*最后一个  是自定义  css  其他 的css 尽量不要更改        如需更改在最后一个css 里面 进行覆盖 更改*/
+@import url("ligerui-common.css");
+@import url("ligerui-dialog.css");
+@import url("ligerui-form.css");
+@import url("ligerui-grid.css");
+@import url("ligerui-layout.css");
+@import url("ligerui-menu.css");
+@import url("ligerui-tab.css");
+@import url("ligerui-tree.css");
+@import url("ligerui_cus.css");/* 自定义  */

@@ -1,0 +1,30 @@
+/*   商品    */
+.delete{width: 100%;height: 2rem;}
+.deleteIcon{display: block;width:2rem;height: 2rem;line-height: 2rem;text-align: center;color: #999;}
+
+.subCartBox{position:relative;padding:.8rem .3rem .8rem 0;background: #FFF;border-bottom: 1px solid #F4F4F4;}
+.subCartBox .isChecked{margin-top: 1.7rem;}
+.shoppingCartBox{margin-bottom: .5rem;}
+.cartImgBox{width: 4.5rem;height: 4.5rem;border:1px solid #999;}
+.cartImgBox img{width: 3.5rem;height: 3.5rem;margin: .5rem;}
+.cartInfo{width: 38.2%;margin-top: -.2rem;}
+.goodsPrice{margin-left:.4rem;font-size: .6rem;color: #000;}
+.cart_num{margin: 3.2rem .4rem 0 0;}
+
+/*   热销榜单     */
+.marBot{margin-bottom: 2.9rem;}
+.titCommon{line-height: 2rem;}
+
+/*   结算栏    */
+.balanceBox{position: fixed;bottom:3rem;left:0;z-index:999;width: 100%;height:3rem;background: #FFF;border-top: 1px solid #EEE;}
+.isChecked{margin: .9rem .4rem .9rem .6rem;}
+.checkName{float: left;height: 3rem;line-height: 3rem;}
+.balanceBtn{display: block;width: 4rem;height: 2rem;margin:.5rem;line-height:2rem;text-align:center;color:#FFF;background: #F8B500;border-radius: 5px;}
+.balanceInfo{height:2rem;margin-top:.5rem;text-align: right;}
+.balanceBox .totalPrice{font-size:.8rem;color: #333;}
+.balanceBox .post{font-size: .7rem;color: #999;}
+
+/* 加减 */
+.cart_num .cart_min, .cart_num .cart_add{top: 0;right: 2rem;}
+.cart_num .cart_text_box{position: absolute;top: 0;right: 1rem;}
+.cart_num .cart_add{top: 0;right: 0;}

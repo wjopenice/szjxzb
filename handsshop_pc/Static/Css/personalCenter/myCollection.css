@@ -1,0 +1,62 @@
+/* 积分兑换好礼头部 */
+.rightContent{width: 958px;}
+.infoTitle{height: 44px;line-height: 44px;padding: 0 20px;text-align: left;background: #f8981d;font-size: 16px;color: #fff;}
+.delIcon{display: inline-block;width: 16px;height: 18px;background: url(../../Image/personalCenter/myCollection/delIcon.png) no-repeat center;background-size: 16px 18px;vertical-align: middle;}
+.delText{vertical-align: middle;margin-left: 10px;}
+.batch{cursor: pointer;}
+
+/* 积分兑换好礼列表 */
+.shopUl{border: 1px solid #e8e8e8;}
+.shopUl li{width: 25%;text-align: center;padding-top: 20px;}
+.shopUl li a{display: block;}
+.shopUl li img{width: 201px;height: 211px;background: #f4f4f4;}
+.shopExplain{margin: 20px 0;}
+.shopName{padding: 2px 0;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: 18px;}
+.shopUl .money{color: #ff0000;padding: 2px 0;}
+
+/* 批量删除 */
+.del{position: absolute;top: 20px;right: 19px;width: 24px;height: 24px;background: url(../../Image/personalCenter/myCollection/del.png) no-repeat center;background-size: 24px 24px;}
+
+.complete{cursor: pointer;background: #facd89;font-size: 16px;width: 52px;height: 28px;line-height: 28px;text-align: center;margin-top: 7px;border: 1px solid #fae1bc;}
+
+/* 暂无收藏 */
+.notLi{text-align: center;padding: 50px 300px;}
+.notLi i{display: inline-block;width: 276px;height: 168px;background: url(../../Image/personalCenter/myCollection/notIcon.png) no-repeat center;background-size: 276px 168px;}
+.notLi span{display: block;text-align: center;font-size: 15px;color: #666;margin-top: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

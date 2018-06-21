@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>登录页</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../../Static/Css/login/index.css">
+    <script src="../../Static/Js/common/jquery.js"></script>
+    <script src="../../Static/Js/common/jquery.SuperSlide.2.1.2.js"></script>
+    <script src="../../Static/Js/common/jquery.validation.min.js"></script>
+    <script src="../../Static/Js/common/jquery.cookie.js"></script>
+    <script type="text/javascript">
+    //若cookie值不存在，则跳出iframe框架
+    if(!$.cookie('tpshopActionParam') && $.cookie('admin_type') != 1){
+        $.cookie('admin_type','1' , {expires: 1 ,path:'/'});
+    }
+    </script>
+</head>
+<body>
+    <!--   轮播图    -->
+    <div class="bannerBox">
+        <ul class="slideBanner">
+            <li><img class="subSlideImg" src="../../Static/Image/login/banner_1.png"></li>
+            <li><img class="subSlideImg" src="../../Static/Image/login/banner_2.png"></li>
+            <li><img class="subSlideImg" src="../../Static/Image/login/banner_3.png"></li>
+        </ul>
+    </div>
+    <!--   登录     -->
+    <div class="login-layout">
+        <div class="logo">
+            <img src="../../Static/Image/common/logo.png">
+        </div>
+        <form action="" name='theForm' id="theForm" method="post">
+            <div class="login-form pr">
+                <div class="formContent">
+                    <div class="title">管理中心</div>
+                    <div class="formInfo">
+                        <div class="errorMsg"></div>
+                        <div class="formText cf">
+                            <i class="icon icon-user"></i>
+                            <input type="text" name="username" autocomplete="off" class="input-text userName" value="" placeholder="用户名">
+                        </div>
+                        <div class="formText cf">
+                            <i class="icon icon-pwd"></i>
+                            <input type="password" name="password" autocomplete="off" class="input-text pwd" value="" placeholder="密  码">
+                        </div>
+                        <div class="formText cf">
+                            <i class="icon icon-chick"></i>
+                            <input type="text" name="verify" id="verify" autocomplete="off" class="input-text chick_ue verifyCode" value="" placeholder="验证码">
+                            <img src="" class="imgCode" id="imgVerify" alt="" onclick="fleshVerify()">
+                        </div>
+                        <div class="formText cf submitDiv">
+                            <input type="button" name="submit" class="sub btnLogin" value="登录">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+<script src="../../Static/Js/login/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+.mHome{margin-bottom: 0;}
+.noticeUl{padding: 0 .7rem;}
+.noticeUl li{padding: .6rem 0;border-bottom: 1px solid #ccc;}
+.noticeText{padding: .2rem 0;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: .78rem;color: #333;}
+.date{font-size: .78rem;color: #999;}
+.lookBtn{font-size: .78rem;color: #eeaf1b;}

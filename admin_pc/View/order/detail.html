@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单日志</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="../../Static/Css/common/font-awesome.min.css" rel="stylesheet">
+    <link href="../../Static/Js/common/ligerUI/skins/Aqua/css/ligerui-tab.css" rel="stylesheet">
+    <link href="../../Static/Css/common/public.css" rel="stylesheet">
+    <link href="../../Static/Css/common/page.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="page">
+        <div class="fixed-bar">
+            <div class="item-title">
+                <div class="subject">
+                    <h3>商品订单</h3>
+                    <h5>商城实物商品交易订单查询及管理</h5>
+                </div>
+                <div class="subject" style="width:62%">
+                    <a href="javascript:void(0);" style="float:right;margin-right:10px" class="ncap-btn-big ncap-btn-green"><i class="fa fa-pencil-square-o"></i>修改订单</a>
+                    <a href="javascript:void(0);" style="float:right;margin-right:10px" class="ncap-btn-big ncap-btn-green"><i class="fa fa-external-link-square"></i>拆分订单</a>
+                    <a href="javascript:void(0);" target="_blank" style="float:right;margin-right:10px" class="ncap-btn-big ncap-btn-green"><i class="fa fa-print"></i>打印订单</a>
+                </div>
+            </div>
+        </div>
+        <div class="ncap-order-style">
+            <div class="ncap-order-details">
+                <form id="order-action">
+                    <div class="tabs-panels">
+                        <div class="misc-info">
+                            <h3>基本信息</h3>
+                            <dl>
+                                <dt>订单 ID：</dt>
+                                <dd>1637</dd>
+                                <dt>订单号：</dt>
+                                <dd>201803291903215995</dd>
+                                <dt>会员：</dt>
+                                <dd>hello  ID:1</dd>
+                            </dl>
+                            <dl>
+                                <dt>E-Mail：</dt>
+                                <dd>240874144@qq.com</dd>
+                                <dt>电话：</dt>
+                                <dd>13512345678</dd>
+                                <dt>应付金额：</dt>
+                                <dd>8938.72</dd>
+                            </dl>
+                            <dl>
+                                <dt>订单状态：</dt>
+                                <dd>待确认 / 未支付<span style="color: red">(货到付款)</span>/ 未发货</dd>
+                                <dt>下单时间：</dt>
+                                <dd>2018-03-29 19:03</dd>
+                                <dt>支付时间：</dt>
+                                <dd>
+                                    N
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>支付方式：</dt>
+                                <dd>到货付款</dd>
+                                <dt>发票抬头：</dt>
+                                <dd>qiuqiquiqu</dd>
+                                <dt>纳税人识别号：</dt>
+                                <dd>485252211555222</dd>
+                            </dl>
+                        </div>
+                        <div class="addr-note">
+                            <h4>收货信息</h4>
+                            <dl>
+                                <dt>收货人：</dt>
+                                <dd>张谷泉</dd>
+                                <dt>联系方式：</dt>
+                                <dd>13512345678</dd>
+                            </dl>
+                            <dl>
+                                <dt>收货地址：</dt>
+                                <dd>广东省，深圳市，龙岗区，五和大道五和商业广场2017</dd>
+                            </dl>
+                            <dl>
+                                <dt>邮编：</dt>
+                                <dd>N</dd>
+                            </dl>
+                            <dl>
+                                <dt>配送方式：</dt>
+                            </dl>
+                            <dl>
+                                <dt>留言：</dt>
+                                <dd></dd>
+                            </dl>
+                        </div>
+                        <div class="goods-info">
+                            <h4>商品信息</h4>
+                            <table>
+                                <thead>
+                                <tr>
+                                    <th>商品编号</th>
+                                    <th colspan="2">商品</th>
+                                    <th>规格属性</th>
+                                    <th>数量</th>
+                                    <th>单品价格</th>
+                                    <th>会员折扣价</th>
+                                    <th>单品小计</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class="w60">TP0000140</td>
+                                    <td class="w30"><div class="goods-thumb"><a href="javascript:void(0);" target="_blank"><img alt="" src="../../Static/Image/order/detail/goods_thumb_140_200_200.jpeg"> </a></div></td>
+                                    <td style="text-align: left;"><a href="javascript:void(0);" target="_blank">Apple iPhone 6s 16GB 玫瑰金色 移动联通电信4G手机</a><br></td>
+                                    <td class="w80">网络:4G 内存:16G 颜色:黑色</td>
+                                    <td class="w60">2</td>
+                                    <td class="w100">4858.00</td>
+                                    <td class="w60">4469.36</td>
+                                    <td class="w80">8938.72</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="total-amount contact-info">
+                            <h3>订单总额：￥8938.72</h3>
+                        </div>
+                        <div class="contact-info">
+                            <h3>费用信息 </h3>
+                            <div class="form_class">
+                                <a class="btn green" href="javascript:void(0);"><i class="fa fa-pencil-square-o"></i>修改费用</a>
+                            </div>
+                            <dl>
+                                <dt>小计：</dt>
+                                <dd>8938.72</dd>
+                                <dt>运费：</dt>
+                                <dd>+0.00</dd>
+                                <dt>积分 (-0)：</dt>
+                                <dd>-0.00</dd>
+                            </dl>
+                            <dl>
+                                <dt>余额抵扣：</dt>
+                                <dd>-0.00</dd>
+                                <dt>优惠券抵扣：</dt>
+                                <dd>-0.00</dd>
+                                <dt>价格调整：</dt>
+                                <dd>减：0.00</dd>
+                            </dl>
+                            <dl>
+                                <dt>应付：</dt>
+                                <dd><strong class="red_common">8938.72</strong></dd>
+                            </dl>
+                        </div>
+                        <div class="contact-info">
+                            <h3>操作信息</h3>
+                            <dl class="row">
+                                <dt class="tit">
+                                    <label for="note">操作备注</label>
+                                </dt>
+                                <dd class="opt" style="margin-left:10px">
+                                    <textarea id="note" name="note" style="width:600px" rows="6" placeholder="请输入操作备注" class="tarea"></textarea>
+                                </dd>
+                            </dl>
+                            <dl class="row">
+                                <dt class="tit">
+                                    <label for="note">可执行操作</label>
+                                </dt>
+                                <dd class="opt" style="margin-left:10px">
+                                    <a class="ncap-btn-big ncap-btn-green" onclick="verifyForm('order-action','/index.php/Admin/order/order_action/order_id/1637/type/confirm');">确认</a>
+                                    <a class="ncap-btn-big ncap-btn-green" onclick="verifyForm('order-action','/index.php/Admin/order/order_action/order_id/1637/type/invalid');">无效</a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="goods-info">
+                            <h4>操作记录</h4>
+                            <table>
+                                <thead>
+                                <tr>
+                                    <th>操作者</th>
+                                    <th>操作时间</th>
+                                    <th>订单状态</th>
+                                    <th>付款状态</th>
+                                    <th>发货状态</th>
+                                    <th>描述</th>
+                                    <th>备注</th>
+                                </tr>
+                                </thead>
+                                <tbody id="order_action"><tr><td class="text-center">用户:hello</td><td class="text-center">2018-03-29 19:03:21</td><td class="text-center">待确认</td><td class="text-center">未支付</td><td class="text-center">未发货</td><td class="text-center">提交订单</td><td class="text-center">您提交了订单，请等待系统确认</td></tr></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<script src="../../Static/Js/common/jquery.js"></script>
+<script src="../../Static/Js/common/layer/laydate/laydate.js"></script>
+<script src="../../Static/Js/common/layer/layer.js"></script>
+<script src="../../Static/Js/common/ligerUI/js/core/base.js"></script>
+<script src="../../Static/Js/common/ligerUI/js/plugins/ligerAccordion.js"></script>
+<script src="../../Static/Js/common/ligerUI/js/plugins/ligerLayout.js"></script>
+<script src="../../Static/Js/common/ligerUI/js/plugins/ligerTab.js"></script>
+<script src="../../Static/Js/common/public.js"></script>
+</body>
+</html>

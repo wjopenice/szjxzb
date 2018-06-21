@@ -1,0 +1,24 @@
+body{background: #030000;}
+.mHome{margin-bottom: 0;}
+.returnBox{height: 2.6rem;line-height: 2.6rem;padding: 0 .7rem;}
+.return{color: #fff;}
+.return span{vertical-align: middle;}
+.reg{color: #f8b500;}
+
+/* logo */
+.logo{text-align: center;padding: 1.9rem 3.8rem;}
+.logoImg{width: 3.7rem;height: 4.7rem;}
+
+/*   表单   */
+.formBox{padding: 0 1.6rem;}
+.formBoxWrap{border-bottom: 1px solid #abaaaa;height: 2.4rem;line-height: 2.4rem;}
+.formBoxWrap i{width: 1.2rem;height: 1.2rem;display: block;}
+.formBoxWrap input{width: 100%;height: 2.4rem;line-height: 2.4rem;border: none;background: none;padding-left: 2.4rem;font-size: .8rem;color: #fff;caret-color:#f8b500;}
+.account i{position: absolute;left: .4rem;top: .6rem;background: url(../../Image/login/login.png) no-repeat -.33rem -.33rem;background-size: 5rem 1.8rem;}
+.pwd i{position: absolute;left: .4rem;top: .6rem;background: url(../../Image/login/login.png) no-repeat -3.43rem -.33rem;background-size: 5rem 1.8rem;}
+.btnLogin{display: block;border-radius: 8px;margin: 2.4rem 0 .4rem;height: 2.4rem;line-height: 2.4rem;font-size: .9rem;letter-spacing: 8px;text-align: center;background: #f8b500;color: #fff;}
+.operation{text-align: right;}
+.forgetPwd{font-size: .8rem;color: #fff;}
+
+
+

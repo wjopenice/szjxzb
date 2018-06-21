@@ -1,0 +1,14 @@
+/*     收货地址      */
+.mHome{margin-bottom: 0;}
+.subInputBox{position:relative;min-height:2.5rem;padding:0 .5rem;line-height:2.5rem;color:#666;background: #FFF;border-bottom: 1px solid #F4F4F4;}
+.subInputBox .rightIcon{position: absolute;right: .8rem;top:1rem;}
+.writeInfo{width: 11rem;height:2rem;margin-top:.25rem;line-height:2rem;caret-color:#EEAF1B;border:none;}
+.inputName{width: 4rem;font-size: .8rem;}
+.areaBox{margin-top: .6rem;}
+.areaInfo{margin-right: .3rem;font-size: .7rem;}
+.detailBox{padding-bottom: .5rem;}
+.detailBox textarea{width: 100%;min-height:6rem;line-height:1.2rem;border:none;}
+.confirmBtn{display: block;width: 90%;height: 2rem;margin:.5rem auto;line-height: 2rem;font-size:.9rem;text-align: center;color:#FFF;background: #EEAF1B;border-radius: .4rem;}
+.setDefault{margin: .7rem 5%;color: #666;}
+.setDefault .choseBox{display: block;width: 1.2rem;height: 1.2rem;margin-right:.5rem;background: url(../../Image/common/isChecked.png) no-repeat -1.78rem -1.47rem;background-size: 5.36rem 2.91rem;}
+.setDefault .choseBox.active{background: url(../../Image/common/isChecked.png) no-repeat -.3rem -1.7em;background-size: 5.36rem 2.91rem;}

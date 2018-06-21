@@ -1,0 +1,40 @@
+.page-group{background: #FFF;}
+
+/*   banner   */
+.swiper-container.bannerBox{margin-top: 2.2rem;}
+
+/*   分类    */
+.classifyBoxWrap{margin: 1rem 0;}
+.subClassify{width: 20%;font-size: .7rem;text-align: center;}
+.subClassify a{display: block;width: 100%;}
+.subClassify i{display: block;float: left;width:100%;height:2.3rem;margin: .5rem 0;}
+.subClassify p{float: left;width: 100%;}
+.iconJewelry i{background: url(../../Image/index/classify/icon1.png) no-repeat center center;background-size: 2.3rem 2.3rem;}
+.iconCos i{background: url(../../Image/index/classify/icon2.png) no-repeat center center;background-size: 2.3rem 2.3rem;}
+.iconClothes i{background: url(../../Image/index/classify/icon3.png) no-repeat center center;background-size: 2.2rem 2.3rem;}
+.iconShoe i{background: url(../../Image/index/classify/icon4.png) no-repeat center center;background-size: 1.7rem 2.3rem;}
+.iconFood i{background: url(../../Image/index/classify/icon5.png) no-repeat center center;background-size: 1rem 2.3rem;}
+.iconHome i{background: url(../../Image/index/classify/icon6.png) no-repeat center center;background-size: 2.3rem 1.7rem;}
+.iconPag i{background: url(../../Image/index/classify/icon7.png) no-repeat center center;background-size: 2.3rem 2.3rem;}
+.iconOrnament i{background: url(../../Image/index/classify/icon8.png) no-repeat center center;background-size: 1rem 2.3rem;}
+.iconFamily i{background: url(../../Image/index/classify/icon9.png) no-repeat center center;background-size: 2rem 2.3rem;}
+.iconAll i{background: url(../../Image/index/classify/icon10.png) no-repeat center center;background-size: 2.3rem 2.3rem;}
+
+/*   优惠券的banner图   */
+.coupon .couponLink,.coupon .couponImg{width: 100%;height: 5rem;}
+
+/*  推荐    */
+.recommendBoxWrap{margin-bottom: .5rem;}
+.bannerImg,.bannerImg img{width: 100%;}
+.bannerImg img{z-index:9;height: 6rem;}
+.goodsBoxWrap{overflow-x:auto;padding: .5rem 0;border-bottom: 1px solid #E2E2E2;}
+.subGoodsBox{width: 25%;}
+.subGoodsLink{width: 100%;text-align: center;}
+.goodsImg{width: 3rem;height: 3rem;display: inline-block;}
+.goodsName{overflow:hidden;width: 4rem;margin:0 auto;font-size: .7rem;text-align: center;text-overflow:ellipsis;white-space:nowrap;}
+.goodsPrice{font-size:.7rem;text-align: center;color: #FF0101;}
+
+/*   至IN尖货 和 热销榜单   */
+.bestGoods{margin-bottom: 1rem;}
+
+

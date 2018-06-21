@@ -1,0 +1,68 @@
+/* 修改支付密码内容 */
+.rightContent{width: 896px;padding: 26px 0 0;border: 1px solid #eee;}
+.pwdTitle{padding: 0 30px;font-size: 18px;font-weight: 600;color: #333;}
+
+/* 输入框 */
+.setPwd ,.inputComplete{text-align: center;margin: 50px 0 120px;}
+.inputBox{padding: 0 292px;overflow: hidden;}
+.phoneNumber ,.verificationCode{margin: 14px 0;}
+.phoneNumber input{width: 300px;height: 42px;font-size: 15px;padding-left: 10px;border: 1px solid #eee;}
+.verificationInput{width: 200px;height: 42px;font-size: 15px;padding-left: 10px;border: 1px solid #eee;}
+.codeButton{width: 100px;height: 44px;font-size: 15px;line-height: 44px;text-align: center;background: #f8981d;border: none;color: #fff;}
+
+/* 完成 */
+.inputCompleteIcon{vertical-align: middle;display: inline-block;width: 44px;height: 44px;background: url(../../Image/personalCenter/modifyPassword/completeIcon.png) no-repeat center;background-size: 44px 44px;}
+.inputCompleteText{vertical-align: middle;font-size: 18px;font-weight: 600;color: #333;margin-left: 10px;}
+
+/* 提交 */
+.subBtn{width: 144px;height: 44px;margin-top: 10px;line-height: 44px;text-align: center;font-size: 16px;background: #f8981d;color: #fff;}
+.subBtn:active{color: #fff;}
+
+/* 温馨提醒 */
+.pwdExplain{background: #f5f5f5;padding: 20px 30px;}
+.pwdExplainTitle{font-size: 16px;font-weight: 600;color: #333;}
+.pwdExplain p{margin: 6px 0;font-size: 15px;color: #999;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

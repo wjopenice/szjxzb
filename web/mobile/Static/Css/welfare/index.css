@@ -1,0 +1,45 @@
+/* 成功领取优惠券 */
+.mHome{margin-bottom: 0;}
+.page-group{padding: .4rem .7rem;}
+.welfareTitle{padding-top: 2rem;height: 8rem;background: url("../../Image/welfare/voucherTitleBg.png") no-repeat;background-size: 100% 100%;}
+.fullCut{padding: 0 .6rem;height: 2rem;line-height:2rem;width: 60%;text-align:center;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: 1.2rem;font-weight: 600;color: #f8981d;}
+.available{padding: 0 .6rem;height: 2rem;line-height:2rem;width: 60%;text-align:center;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: 1rem;font-weight: 500;color: #333;}
+
+/* 领取马上使用 */
+.welfareReceive{text-align: center;margin-top: 1rem;}
+.welfareReceive span{display: block;font-size: .8rem;color: #333;}
+.welfareReceive a{margin: .8rem 0 1rem;padding: .2rem 1rem;font-size: .76rem;background: #f8981d;color: #fff;}
+
+/* 券列表 */
+.welfareUl li{height: 5.4rem;margin-bottom: .7rem;background: url("../../Image/welfare/voucher1.png") no-repeat;background-size: 100% 100%;}
+.dateLeft{margin-top: 3.9rem;width: 60%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;padding: 0 .3rem;text-align: left;font-size: .6rem;color: #fff;}
+.explainRight{width: 40%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;text-align: right;padding: 1rem .4rem;}
+.explainRight span{display: block;color: #fff;}
+.explainRightMoney{height: 1.8rem;line-height: 1.8rem;}
+.explainRightMoney i{font-style: normal;}
+.money{font-size: 1.8rem;font-weight: 600;}
+.explainRightTitle{height: .8rem;line-height: .8rem;font-size: .68rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

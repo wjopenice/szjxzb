@@ -1,0 +1,43 @@
+/* 基本资料Title */
+.rightContent{width: 958px;}
+.infoTitle{height: 44px;line-height: 44px;padding: 0 20px;text-align: left;background: #f8981d;font-size: 15px;color: #fff;}
+
+/* 基本资料内容 */
+.infoContent{margin: 0 50px;padding: 30px 0 60px;border-bottom: 1px dashed #f8981d;}
+.headPortrait img{vertical-align: middle;}
+.infoContent li{padding: 14px 0;}
+.idNum{font-size: 15px;color: #666;}
+.accountText{font-size: 15px;color: #333;}
+.nicknameInput{width: 180px;height: 34px;line-height: 34px;padding-left: 10px;border: 1px solid #ccc;font-size: 15px;color: #333;}
+.sexIcon{vertical-align: middle;}
+.male{margin-right: 20px;cursor: pointer;}
+.male span{display: inline-block;width: 15px;height: 15px;vertical-align: middle;background: url(../../Image/personalCenter/accountInfo/sexUnActive.png) no-repeat center;background-size: 15px 15px;}
+.male span{vertical-align: middle;font-size: 15px;color: #333;margin-right: 6px;}
+.active span{display: inline-block;width: 15px;height: 15px;vertical-align: middle;background: url(../../Image/personalCenter/accountInfo/sexActive.png) no-repeat center;background-size: 15px 15px;}
+.leftText{width: 120px;vertical-align: middle;font-size: 15px;color: #333;}
+.bindNum{vertical-align: middle;font-size: 15px;color: #6699cc;}
+
+/* layDate */
+.demo-input{width: 262px;height: 34px;line-height: 34px;padding-left: 10px;border: 1px solid #ccc;font-size: 15px;color: #333;}
+
+/* 保存 */
+.preservation{width: 140px;height: 44px;line-height: 44px;text-align: center;margin: 40px 0 0 170px;font-size: 18px;color: #fff;background: #f8981d;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

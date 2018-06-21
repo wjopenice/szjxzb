@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>首页</title>
+    <link rel="stylesheet" href="../../Static/Css/common/sm.min.css">
+    <link rel="stylesheet" href="../../Static/Css/common/sm-extend.min.css">
+    <link rel="stylesheet" href="../../Static/Css/common/base.css">
+    <link rel="stylesheet" href="../../Static/Css/index/index.css">
+    <script src="../../Static/Js/common/zepto.min.js"></script>
+</head>
+<body class="mHome">
+
+    <!--  加载层   -->
+    <div id="loader">
+        <div class="loaderInner">
+            <img src="../../Static/Image/common/logo/logo1.png" alt="">
+        </div>
+    </div>
+
+    <!--  页面    -->
+    <div class="page-group">
+
+        <!--  搜索    -->
+        <div class="bar bar-header-secondary">
+            <div class="searchbar">
+                <a class="searchbar-cancel">取消</a>
+                <div class="search-input">
+                    <label class="icon icon-search" for="search"></label>
+                    <input type="search" id='search' placeholder='搜索感兴趣的内容'/>
+                </div>
+            </div>
+        </div>
+
+        <!--  banner   -->
+        <div class="swiper-container bannerBox">
+            <div class="swiper-wrapper slide-banner_uc">
+                <div class="swiper-slide"><a href="" class="external"><img alt="" src="../../Static/Image/index/banner/banner1.png"></a></div>
+                <div class="swiper-slide"><a href="" class="external"><img alt="" src="../../Static/Image/index/banner/banner1.png"></a></div>
+                <div class="swiper-slide"><a href="" class="external"><img alt="" src="../../Static/Image/index/banner/banner1.png"></a></div>
+                <div class="swiper-slide"><a href="" class="external"><img alt="" src="../../Static/Image/index/banner/banner1.png"></a></div>
+                <div class="swiper-slide"><a href="" class="external"><img alt="" src="../../Static/Image/index/banner/banner1.png"></a></div>
+                <div class="swiper-slide"><a href="" class="external"><img alt="" src="../../Static/Image/index/banner/banner1.png"></a></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!--  分类  -->
+        <div class="classifyBoxWrap">
+            <ul class="cf">
+                <li class="fl subClassify iconJewelry"><a class="cf" href="../../View/search/detail.html"><i></i><p>珠宝</p></a></li>
+                <li class="fl subClassify iconCos"><a class="cf" href="../../View/search/detail.html"><i></i><p>美妆</p></a></li>
+                <li class="fl subClassify iconClothes"><a class="cf" href="../../View/search/detail.html"><i></i><p>衣服</p></a></li>
+                <li class="fl subClassify iconShoe"><a class="cf" href="../../View/search/detail.html"><i></i><p>鞋子</p></a></li>
+                <li class="fl subClassify iconFood"><a class="cf" href="../../View/search/detail.html"><i></i><p>食品</p></a></li>
+                <li class="fl subClassify iconHome"><a class="cf" href="../../View/search/detail.html"><i></i><p>居家</p></a></li>
+                <li class="fl subClassify iconPag"><a class="cf" href="../../View/search/detail.html"><i></i><p>箱包</p></a></li>
+                <li class="fl subClassify iconOrnament"><a class="cf" href="../../View/search/detail.html"><i></i><p>配饰</p></a></li>
+                <li class="fl subClassify iconFamily"><a class="cf" href="../../View/search/detail.html"><i></i><p>家用</p></a></li>
+                <li class="fl subClassify iconAll"><a class="cf" href="../../View/search/detail.html"><i></i><p>全部</p></a></li>
+            </ul>
+        </div>
+
+        <!--  优惠券banner图   -->
+        <div class="coupon">
+            <a class="couponLink" href="../../View/welfare/index.html">
+                <img src="../../Static/Image/index/banner/banner-coupon.png" class="couponImg" alt="">
+            </a>
+        </div>
+
+        <!--  推荐   -->
+        <div class="recommendBoxWrap cf">
+            <div class="titCommon fl"><span>—</span> 推荐 <span>—</span></div>
+            <div class="subModel">
+                <div class="bannerImg"><img src="../../Static/Image/index/recommend/banner1.png" alt=""></div>
+                <div class="goodsBoxWrap cf ">
+                    <div class="subGoodsBox fl copy" data-num="4">
+                        <a class="cf subGoodsLink" href="../../View/goodsDetail/index.html">
+                            <img class="goodsImg" src="" onerror="noPic(this,'../../Static/Image/common/logo/logo-default.png')" alt="">
+                            <p class="goodsName">天使宝宝结练练</p>
+                            <p class="goodsPrice">￥1915</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="bannerImg"><img src="../../Static/Image/index/recommend/banner2.png" alt=""></div>
+                <div class="goodsBoxWrap cf">
+                    <div class="subGoodsBox fl copy" data-num="4">
+                        <a class="cf subGoodsLink" href="../../View/goodsDetail/index.html">
+                            <img class="goodsImg" src="" alt="" onerror="noPic(this,'../../Static/Image/common/logo/logo-default.png')">
+                            <p class="goodsName">天使宝宝结练练</p>
+                            <p class="goodsPrice">￥1915</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  至IN尖货  -->
+        <div class="bestGoods">
+            <div class="titCommon fl"><span>—</span> 至IN尖货 <span>—</span></div>
+            <div class="subModel">
+                <ul class="bestBoxWrap cf">
+                    <li class="subBest fl copy" data-num="4">
+                        <img class="bestImg" src="" alt="" onerror="noPic(this,'../../Static/Image/common/logo/logo-default.png')">
+                        <p class="bestName">Lancome兰蔻套装asdfasdfasdfasdfsd</p>
+                        <p class="bestDetail">小黑瓶精华肌底液化妆品套装护肤组合女4件</p>
+                        <p class="bestSale">已售 <span>1899</span></p>
+                        <p class="bestPrice">￥1999</p>
+                        <i class="lineBottom"></i>
+                        <i class="lineRight"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--  热销榜单   -->
+        <div class="hotList">
+            <div class="titCommon fl"><span>—</span> 热销榜单 <span>—</span></div>
+            <div class="subModel">
+                <ul class="bestBoxWrap cf">
+                    <li class="subBest fl copy" data-num="4">
+                        <img class="bestImg" src="" alt="" onerror="noPic(this,'../../Static/Image/common/logo/logo-default.png')">
+                        <p class="bestName">Lancome兰蔻套装asdfasdfasdfasdfsd</p>
+                        <p class="bestDetail">小黑瓶精华肌底液化妆品套装护肤组合女4件</p>
+                        <p class="bestSale">已售 <span>1899</span></p>
+                        <p class="bestPrice">￥1999</p>
+                        <i class="lineBottom"></i>
+                        <i class="lineRight"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--   查看更多   -->
+        <a href="javascript:void(0)" class="seeMore">查看更多 》</a>
+
+        <!--   底部导航栏   -->
+        <nav class="bar bar-tab">
+            <a class="tab-item external footTap-index active" href="../../View/index/index.html">
+                <span class="icon"></span>
+                <span class="tab-label">首页</span>
+            </a>
+            <a class="tab-item external footTap-classify" href="../../View/classify/index.html">
+                <span class="icon"></span>
+                <span class="tab-label">分类</span>
+            </a>
+            <a class="tab-item external footTap-shoppingCart" href="../../View/shoppingCart/index.html">
+                <span class="icon"></span>
+                <span class="tab-label">购物车</span>
+            </a>
+            <a class="tab-item external footTap-center" href="../../View/personalCenter/index.html">
+                <span class="icon"></span>
+                <span class="tab-label">我的</span>
+            </a>
+        </nav>
+    </div>
+
+
+
+<script src="../../Static/Js/common/sm.min.js"></script>
+<script src="../../Static/Js/common/sm-extend.min.js"></script>
+<script src="../../Static/Js/common/public.js"></script>
+<script src="../../Static/Js/index/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+
+手店桶商城目录介绍
+
+  config 统一配置目录
+  ext 统一扩展自定义类目录
+  helpers 统一自定义全局函数目录
+  modules 项目mvc目录 
+  web 统一公共存放脚本/样式/图片/上传文件/字体目录
+  vendor yii系统文件
+  index.php 项目入口文件
+  本项目路由规则  index.php?r=模块名/控制器/操作&参数key=参数value
+
+=========================================================================
+
+1.新增自动跳转页面提示功能
+
+操作方法如下：
+
+第一步：请将文件夹ext目录下的base文件夹拷贝在，你自己对应的模块下面的views目录里面去
+第二步：在C控制器使用代码如下
+
+  return $this->success("模块名/控制器名/操作名",跳转时间);   //成功跳转
+
+  return $this->error("错误提示",跳转时间);   //失败跳转
+
+
+2.yii内置csrf验证，如何出现post提交失败请用如下方法解决
+
+   方法一：ajaxpost提交：添加参数  _csrf:"<?= Yii::$app->request->csrfToken ?>"
+   方法二：控制器 public $enableCsrfValidation = false;
+   方法三：同步提交  <input type='hidden' name='_csrf' value="<?= Yii::$app->request->csrfToken ?>" />
+  
+3.自定义扩展类统一存放在根目录下面的ext目录里面（以Test类为例）
+
+   第一步：在ext目录下创建文件 Test.php 文件
+   第二步：创建命名空间 namespace app\ext;
+   第三步：创建类  class Test{}
+   第四步：使用类  use app\ext\Test;  或者  new \app\ext\Test();
+
+
+4.使用扩展数据库操作
+
+
+<?php
+namespace app\modules\admin\controllers;
+use app\ext\Page;
+use yii\web\Controller;
+use app\ext\Modeli;
+class OrderController extends Controller{
+
+    public function actionIndex(){
+        //调取数据库操作类
+        $model = new Modeli();
+        //调取分页操作类
+        $page = new Page();
+        //常规SQL语句
+        $sql = "select count(*) as total from shop_goods";
+        //执行SQL语句
+        $arrData = $model->action($sql);
+        //初始化分页类
+        $page->init($arrData[0]['total'],2);
+        //分页sql语句
+        $pageSql = "select * from shop_goods ".$page->limit;
+        //执行分页SQL语句
+        $arrDataPage = $model->action($pageSql);
+        //获取数据
+        var_dump($arrDataPage);
+        //前端输出请用  $page->show()   常规分页
+        //前端输出请用  $page->show($str)  搜索分页
+        exit;
+    }
+
+}
+
+
+5.使用上传类
+
+ 前台：
+ <form action="?r=home/index/upload" method="post" enctype="multipart/form-data">
+    <input type='hidden' name='_csrf' value="<?= Yii::$app->request->csrfToken ?>" />
+
+    上传文件：<input type="file" name="file" value="" /><br />
+    <input type="submit" name="btn" value="上传" />
+ </form> 
+
+ 后台：
+ public function actionUpload(){
+        $this->layout = false;
+        $request = Yii::$app->request;
+        if($request->isPost){
+            $file = UploadedFile::getInstanceByName("file");
+            $year = date("Y",time()+0);
+            $time = date("m-d",time()+0);
+            //文件的绝对路径
+            $dir = dirname(dirname(dirname(dirname(__FILE__))))."/public/upload/goods/".$year."/".$time."/";
+            if(!file_exists($dir)){
+                mkdir($dir,0777,true);
+            }
+            $fileName  =  $dir.preg_replace("/[\s\－]+/","",iconv("utf-8","gb2312",$file->name));
+            $fileSize = $file->size;
+            $fileError = $file->error;
+            $fileTmpName = $file->tempName;
+            $fileType = $file->type;
+            //保存文件函数，将图片保存到本地
+            $status = $file->saveAs($fileName,true);
+            //进行判断,保存本地失败
+            if($status){
+                echo "上传成功";
+            }else{
+                echo "上传失败";
+            }
+        }else{
+            return $this->render("upload");
+        }
+    }
+	
+
+6.文件上传413错误解决办法
+
+    修改nginx配置conf/nginx.conf没有此参数请添加
+      
+	  http {
+	      client_max_body_size 20m;  
+	  }
+	  
+	修改php配置php.ini
+	
+	     upload_max_filesize = 20M
+	
+	
+	
+7.新增功能yii/web/controller
+
+   
+    public $actionParams = [];
+    public $layoutSql = "select g.goods_id,g.goods_name,g.shop_price,i.image_url1 from mzsm_goods as g inner join mzsm_img as i on i.goods_id = g.goods_id ";
+    public $layAllSql = "select * from mzsm_goods as g inner join mzsm_img as i on i.goods_id = g.goods_id ";
+    public $laySelectSql = "select  g.goods_id,g.goods_name,g.shop_price,i.image_url1,t.name from mzsm_goods as g inner join mzsm_img as i on i.goods_id = g.goods_id inner join mzsm_type as t on t.id = g.mzsm_type_id";
+    public $crumbs;
+    public $nav;
+    public function init()
+    {
+        parent::init();
+        //面包屑
+        $this->crumbs = [
+            "51"=>"高贵黄金","7"=>"箱包鞋类","4"=>"家居家纺","52"=>"奢华钻石","5"=>"衣裳服饰",
+            "1"=>"智能电器","2"=>"智能电器","11"=>"智能电器","19"=>"智能电器","94"=>"智能电器"
+        ];
+        //导航
+        $this->nav = [
+            "高贵黄金"=>"fashionclothe","箱包鞋类"=>"multipurpose","家居家纺"=>"lightmakeup",
+            "奢华钻石"=>"boundless","衣裳服饰"=>"anexplosive","智能电器"=>"gorgeous"
+        ];
+    }	

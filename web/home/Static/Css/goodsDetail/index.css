@@ -1,0 +1,86 @@
+/*   nav Bar    */
+.commonNavBar{height: 76px;line-height: 76px;font-size: 18px;color: #A7A7A7;}
+
+/*   goodsBox    */
+.goodsLeft{margin-right: 60px;}
+.goodsRight{width: 566px;}
+.goodsBig,.goodsBig img{width: 546px;height: 540px;}
+.goodsBig img{border:1px solid #F4F4F4;}
+.subLittleBox{width:120px;height:120px;margin: 22px 22px 0 0;border:1px solid #F4F4F4;}
+.subLittleBox.active{width:116px;height:116px;border:2px solid #EDD7AB;}
+.goodsName{width:100%;line-height:30px;font-size: 24px;color: #333;}
+.goodsExplain{margin:20px 0;line-height: 30px;font-size: 16px;color: #999;}
+.goodGreyBox{width:532px;padding:20px;font-size:18px;color:#666;background: #F5F3EF;border-top:1px dashed #999;border-bottom: 1px dashed #999;}
+.goodsGreyTop{width: 100%;padding-bottom:15px;border-bottom: 1px dashed #999;}
+.goodsTit{width: 65px;}
+.lastPrice{height:40px;margin-left:20px;font-size: 18px;line-height:40px;color: #999;}
+.lastPrice span{text-decoration: line-through;}
+.nowPrice{height: 40px;margin-top:-2px;line-height: 40px;}
+.goodsPrice{font-size: 24px;}
+.subGoodsGrey{width:100%;height: 40px;line-height: 40px;}
+.goodsGreyBottom{padding-top: 5px;}
+.specBox{width:572px;margin-top: 30px;}
+.specTit{width: 60px;margin-left:20px;height: auto;line-height:40px;}
+.specCon{width: 80%;}
+.subSpec{width:auto;height: 38px;margin:0 20px 20px 0;padding:0 25px;line-height: 38px;border:1px solid #CCC;cursor: pointer;}
+.subSpec.active{border:1px solid #F8981D;background: url(../../Image/goodsDetail/choseTrangle.png) no-repeat right bottom;}
+.colorBox{margin-top: 10px;}
+.numBox{margin-top: 20px;}
+.numTit{width:60px;margin-left: 20px;line-height: 40px;}
+.stockBox{margin-left:60px;line-height:40px;font-size: 16px;color: #999;}
+.operateBox{margin-top: 50px;}
+.btn_buy,.btn_addCart{display: block;width: 200px;margin-right:20px;font-size:24px;text-align: center;}
+.btn_buy{height:68px;margin-left:20px;line-height:68px;color:#F8981D;background:#F5F3EF;border:1px solid #EDD7AB;}
+.btn_addCart{height: 70px;line-height: 70px;color: #FFF;background:#F8981D;}
+.btn_fav{display: block;width: 70px;height: 68px;line-height: 18px;text-align:center;color:#999;border:1px solid #CCC;}
+.btn_fav i{display: block;width: 70px;height: 40px;margin-top:5px;background: url(../../Image/common/fav/fav_grey.png) no-repeat center center;background-size: 27px 25px;}
+.btn_fav.active{color:#F8981D;border:1px solid #F8981D;}
+.btn_fav.active i{background: url(../../Image/common/fav/fav_org.png) no-repeat center;}
+
+/*   people all look    */
+.allLookBox{width: 1198px;margin-top:65px;border:1px solid #CCC;}
+.allLookBox .tit{width: 100%;height: 80px;;line-height: 80px;background:#F4F4F4;}
+.allLookBox .tit span{margin-left: 30px;}
+.allLookBox .con{overflow:hidden;width:1140px;height:355px;padding:30px;}
+.allLookBox .subGoodsBox{width: 285px;}
+.allLookBox .subGoodsBox img{width: 90%;height:258px;margin: 0 5%;border:1px solid #ccc;}
+.slide-btns .next, .slide-btns .prev{margin-top: -15px;}
+.slide-btns .prev{left: 0;}
+
+/*   detailBox    */
+.detailBox{margin: 40px 0;}
+.detailLeft{width: 798px;}
+.detailTab{width: 99.8%;height: 60px;line-height:60px;background: #F4F4F4;border:1px solid #CCC;}
+.subDetailTab{display: block;float: left;width:200px;height: 60px;font-size:20px;text-align: center;border-left: 1px solid #CCC;border-right: 1px solid #CCC;}
+.subDetailTab.active{position:relative;z-index:999;height:58px;margin-left:-1px;margin-right:-1px;background:#FFF;border-top:2px solid #F0C38A;border-bottom: 1px solid #FFF;}
+.subDetailCon{width: 100%;}
+.commentDetailCon{border-left: 1px solid #CCC;border-right: 1px solid #CCC;border-bottom: 1px solid #CCC;}
+.commentBox{margin: 0 30px;padding:30px 0;}
+.goodComment{width:143px;font-size:18px;text-align: center;color: #999;border-right: 1px solid #CCC;}
+.goodComment .commentRate{height:80px;line-height:80px;font-size: 40px;color: #DA4545;}
+.goodComment .starBox{margin:0 auto;}
+.allComment{width:574px;margin-left: 20px;font-size: 18px;color: #333;}
+.eachCommentUl{margin-top:15px;}
+.subEachComment{float: left;height: 40px;margin:0 20px 10px 0;padding:0 15px;line-height: 40px;text-align: center;background: #F5F3EF;border-radius: 30px;}
+.subEachComment.active{color: #FFF;background: #F8981D;}
+.subCommentBox{margin: 0 30px;padding:30px 0;border-top:1px dashed #D5D5D5;}
+.headBox{width: 75px;margin-right: 40px;}
+.headBox .headImg{width: 50px;height: 50px;margin-bottom:25px;border-radius: 50%;}
+.headBox .headName{width: 100%;}
+.commentCon{width: 80%;font-size:18px;color: #999;}
+.commentCon .spec{height: 50px;line-height: 50px;}
+.commentCon .commentWhat{width:100%;line-height:30px;color: #333;}
+.commentCon .commentImg{width: 120px;height: 120px;margin-right: 10px;margin-top: 10px;}
+.commentTime{margin-top:15px;font-size: 16px;}
+
+/*   热销榜    */
+.detailRight{width: 360px;margin-left:40px;}
+.detailRight .tit{width:100%;height: 60px;line-height: 60px;text-align:center;background: #F4F4F4;border:1px solid #CCC;}
+.detailRight .con{margin-bottom:-1px;border-bottom: 1px solid #CCC;border-left: 1px solid #CCC;border-right: 1px solid #CCC;}
+.detailRight .con ul{margin-bottom: -1px;}
+.detailRight .subGoodsBox{width: 300px;margin: 0 30px;padding:30px 0;border-bottom: 1px solid #CCC;}
+
+/* 规格 */
+.specifications{border: 1px solid #ccc;border-top: none;padding: 40px;font-size: 14px;color: #666;}
+.parameter{margin: 30px 0 14px;}
+.specifications ul li{width: 50%;float: left;margin: 2px 0;}

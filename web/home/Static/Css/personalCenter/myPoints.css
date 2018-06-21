@@ -1,0 +1,60 @@
+/* 头部 */
+.giftTitle{width: 958px;height: 160px;background: url(../../Image/personalCenter/myPoints/giftBg.png) no-repeat center;background-size: 958px 160px;}
+.available{line-height: 160px;margin-left: 80px;font-size: 15px;color: #333;}
+.detailed{line-height: 160px;margin-right: 60px;}
+.detailed a{margin-left: 10px;width: 88px;height: 30px;line-height: 30px;text-align: center;font-size: 14px;border: 1px solid #f8981d;background: #facd89;color: #fff;}
+.available span{vertical-align: middle;}
+.value{font-size: 28px;color: #f8981d;}
+
+/* 积分兑换好礼 */
+.rightContent{width: 958px;}
+.infoTitle{height: 44px;line-height: 44px;padding: 0 20px;margin-top: 20px;text-align: left;background: #f8981d;font-size: 15px;color: #fff;}
+
+.shopUl li{width: 25%;text-align: center;}
+.shopUl li a{padding: 20px;}
+.shopUl li img{width: 201px;height: 211px;}
+.shopExplain{width: 255px;margin: 50px 0;}
+.shopName{padding: 2px 0;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: 18px;}
+.shopUl .money{color: #ff0000;padding: 2px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>评论</title>
+    <link rel="stylesheet" href="../../Static/Css/common/sm.min.css">
+    <link rel="stylesheet" href="../../Static/Css/common/sm-extend.min.css">
+    <link rel="stylesheet" href="../../Static/Css/common/base.css">
+    <link rel="stylesheet" href="../../Static/Css/comment/index.css">
+</head>
+<body class="mHome">
+    <!--  加载层   -->
+    <div id="loader">
+        <div class="loaderInner">
+            <img src="../../Static/Image/common/logo/logo1.png" alt="">
+        </div>
+    </div>
+
+    <!-- content -->
+    <div class="page-group">
+        <div class="feedbackTitle cf"><span class="fl">添加您的评论内容：</span><a class="fr save" href="javascript:;">保存</a></div>
+
+        <!-- 商品内容 -->
+        <div class="listContent">
+            <a href="../../View/goodsDetail/index.html">
+                <div class="shopInfo cf">
+                    <div class="shopInfoLeft fl">
+                        <img class="listImg dib" src="../../Static/Image/myOrder/shop.png" alt="">
+                    </div>
+                    <div class="shopInfoRight fl">
+                        <p class="shopName">莱斯璧 RECIPE</p>
+                        <p class="shopText">水晶防晒喷雾180ml SPF50(防晒隔离 补水保湿 )</p>
+                        <p class="shopPrice cf"><span class="price fl">￥1999</span><span class="num fr">x1</span></p>
+                    </div>
+                </div>
+                <div class="shopNum cf"><span class="total fl">共1件</span><span class="money fr">合计：<i>￥<span class="unPayMoney">1999</span></i></span></div>
+            </a>
+        </div>
+
+        <!-- 评论框 -->
+        <div class="feedbackContent">
+            <textarea class="feedbackText" id="area" placeholder="宝贝满足你的期待吗？说说你的使用心得，分享给想买的他们吧"></textarea>
+            <p class="surplus">剩余<span id="word">200</span>个字</p>
+        </div>
+
+        <!-- 评分 -->
+        <div class="score"><i></i><span>店铺评分</span></div>
+        <div class="scoreDate">
+            <div class="describe cf">
+                <span class="describeTitle fl">描述相符：</span>
+                <div class="star fl">
+                    <span onclick="describeStar(0)" id="describeOneStar"><img class="dib" src="../../Static/Image/myOrder/unStar.png" alt=""></span>
+                    <span onclick="describeStar(1)" id="describeTwoStar"><img class="dib" src="../../Static/Image/myOrder/unStar.png" alt=""></span>
+                    <span onclick="describeStar(2)" id="describeThreeStar"><img class="dib" src="../../Static/Image/myOrder/unStar.png" alt=""></span>
+                    <span onclick="describeStar(3)" id="describeFourStar"><img class="dib" src="../../Static/Image/myOrder/unStar.png" alt=""></span>
+                    <span onclick="describeStar(4)" id="describeFiveStar"><img class="dib" src="../../Static/Image/myOrder/unStar.png" alt=""></span>
+                </div>
+                <span id="evaluate1" class="evaluate fl"></span>
+            </div>
+            <div class="logistics cf">
+                <span class="describeTitle fl">物流服务：</span>
+                <div class="star fl">
+                    <span onclick="logisticsStar(0)" id="logisticsOneStar"><img class="dib" src="../../Static/Image/myOrder/unStar.png" alt=""></span>
+                    <span onclick="logisticsStar(1)" id="logisticsTwoStar"><img class="dib" src="../../Static/Image/myOrder/unStar.png" alt=""></span>
+                    <span onclick="logisticsStar(2)" id="logisticsThreeStar"><img class="dib" src="../../Static/Image/myOrder/unStar.png" alt=""></span>
+                    <span onclick="logisticsStar(3)" id="logisticsFourStar"><img class="dib" src="../../Static/Image/myOrder/unStar.png" alt=""></span>
+                    <span onclick="logisticsStar(4)" id="logisticsFiveStar"><img class="dib" src="../../Static/Image/myOrder/unStar.png" alt=""></span>
+                </div>
+                <span id="evaluate2" class="evaluate fl"></span>
+            </div>
+            <div class="describe cf">
+                <span class="describeTitle fl">服务态度：</span>
+                <div class="star fl">
+                    <span onclick="attitudeStar(0)" id="attitudeOneStar"><img class="dib" src="../../Static/Image/myOrder/unStar.png" alt=""></span>
+                    <span onclick="attitudeStar(1)" id="attitudeTwoStar"><img class="dib" src="../../Static/Image/myOrder/unStar.png" alt=""></span>
+                    <span onclick="attitudeStar(2)" id="attitudeThreeStar"><img class="dib" src="../../Static/Image/myOrder/unStar.png" alt=""></span>
+                    <span onclick="attitudeStar(3)" id="attitudeFourStar"><img class="dib" src="../../Static/Image/myOrder/unStar.png" alt=""></span>
+                    <span onclick="attitudeStar(4)" id="attitudeFiveStar"><img class="dib" src="../../Static/Image/myOrder/unStar.png" alt=""></span>
+                </div>
+                <span id="evaluate3" class="evaluate fl"></span>
+            </div>
+
+        </div>
+
+
+    </div>
+
+<script src="../../Static/Js/common/zepto.min.js"></script>
+<script src="../../Static/Js/common/sm.min.js"></script>
+<script src="../../Static/Js/common/sm-extend.min.js"></script>
+<script src="../../Static/Js/common/public.js"></script>
+<script src="../../Static/Js/comment/index.js"></script>
+</body>
+</html>

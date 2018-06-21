@@ -1,0 +1,64 @@
+/* 收货地址头部 */
+.orderTit{height: 44px;line-height: 44px;font-size: 14px;color: #333;background: #eee;border:1px solid #CCC;}
+.orderTime{margin:0 80px 0 20px;}
+
+/* 地址详情 */
+.addressDetail{border: 1px solid #ccc;border-top: none;padding: 30px 40px;font-size: 15px;color: #333;}
+.addressBox{margin: 10px 0;}
+.addressLeft{width: 76%;}
+.addressLeft p{width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.payRight{width: 24%;}
+.payRight p{width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.totalLine{padding-bottom: 30px;border-bottom: 1px dashed #ccc;}
+.addressTitle{color: #999;}
+.total{color: #be4141;font-size: 16px;font-weight: 600;}
+.realPay{padding: 20px 0 0;vertical-align: middle;}
+.realPay i{vertical-align: middle;margin-left: 14px;width: 17px;height: 17px;background: url(../../Image/personalCenter/orderDetail/explainIcon.png) no-repeat center;background-size: 17px 17px;}
+
+/* 订单详情 */
+.orderDetailTitle{border: 1px solid #ccc;margin-top: 20px;padding: 16px 20px;background: #eee;}
+.orderState{height: 42px;font-size: 16px;color: #333;}
+.service a{width: 90px;height: 30px;text-align: center;line-height: 30px;font-size: 16px;margin-left: 4px;}
+.service .afterSale{border: 1px solid #ccc;color: #999;}
+.service .again{background: #fae1bc;border: 1px solid #facd89;color: #f8981d;}
+.service .sure{background: #facd89;border: 1px solid #f8981d;color: #fff;}
+.logistics{background: #fff;height: 36px;line-height: 36px;padding: 0 20px;font-size: 15px;color: #999;}
+.logisticsInfo{width: 500px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;color: #333;}
+
+/* 商品详情 */
+.shopDetail{border-right: 1px solid #ccc;border-left: 1px solid #ccc;}
+.shopInfo{border-bottom: 1px solid #ccc;padding: 0 20px;}
+.shopDetailTitle{padding: 0 20px;height: 55px;line-height: 55px;border-bottom: 1px dashed #ccc;font-size: 15px;color: #333;}
+.goodInfo{width: 396px;text-align: left;}
+.unitPrice{width: 140px;text-align: center;}
+.num{width: 140px;text-align: center;}
+.smallPlan{width: 140px;text-align: center;}
+.realPayment{width: 140px;text-align: center;}
+
+.orderImgBox{width: 120px;height: 120px;margin: 30px;}
+.orderName{width: 216px;padding: 57px 0;}
+.orderName p{margin-bottom: 14px;font-size: 14px;color: #333;}
+.orderName p span{font-size: 14px;color: #999;}
+
+.amount{line-height: 180px;font-size: 15px;color: #333;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

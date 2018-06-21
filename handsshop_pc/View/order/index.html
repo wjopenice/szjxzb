@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <link rel="stylesheet" href="../../Static/Css/common/base.css">
+    <link rel="stylesheet" href="../../Static/Css/common/public.css">
+    <link rel="stylesheet" href="../../Static/Css/order/index.css">
+</head>
+<body class="header footer bg_body">
+
+    <div class="container">
+        <!--   收货信息填写    -->
+        <div class="receiveInfo">
+            <div class="tit"><span>收货信息</span></div>
+            <div class="con cf">
+                <div class="receiveForm cf fl">
+                    <div class="subForm cf fl">
+                        <div class="formName fl">所在地区 ：</div>
+                        <div class="subFormCon fl cf">
+                            <select class="provinceBox fl">
+                                <option value="">广东省</option>
+                            </select>
+                            <select class="cityBox fl">
+                                <option value="">深圳市</option>
+                            </select>
+                            <select class="districtBox fl">
+                                <option value="">罗湖区</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="subForm cf fl">
+                        <div class="formName fl">详细地址 ：</div>
+                        <div class="subFormCon fl">
+                            <textarea class="detailAddress" name="" id=""></textarea>
+                        </div>
+                    </div>
+                    <div class="subForm cf fl">
+                        <div class="formName fl">收货人 ：</div>
+                        <div class="subFormCon fl">
+                            <input class="receiver" type="text">
+                        </div>
+                    </div>
+                    <div class="subForm cf fl">
+                        <div class="formName fl">手机号码 ：</div>
+                        <div class="subFormCon fl">
+                            <input class="phoneNum" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="setDefault fl cf">
+                    <div class="setBox fl cf"><i class="check fl"></i><p class="fl">设置为默认地址</p></div>
+                    <a class="saveBtn fl" href="javascript:void(0)">保存</a>
+                    <a class="cancelBtn fl" href="javascript:void(0)">取消</a>
+                </div>
+            </div>
+        </div>
+        <!--   管理收货地址    -->
+        <div class="manageReceiveBox hide">
+            <ul class="receiverUl cf">
+                <li class="subReceiver fl copy" data-num="4">
+                    <div class="receiverInfo">
+                        <p class="cf"><span class="fl">张三</span><span class="fr">13168798287</span></p>
+                        <p class="receiverAddress">广东省深证市罗湖区水贝二街3号宝琳国金大厦4楼D区中宝珠宝</p>
+                    </div>
+                    <div class="receiverOp">
+                        <p class="fl cf defaultBox"><i class="check fl"></i><span class="fl">默认地址</span></p>
+                        <p class="fr cf">
+                            <a class="delReceiver fr cf" href="javascript:void(0)"><i></i>删除</a>
+                            <a class="editReceiver fr cf" href="javascript:void(0)"><i></i>编辑</a>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <a class="btnAddAddress" href="javascript:void(0)">+增加地址</a>
+        </div>
+        <!--   收货信息增修    -->
+        <div class="receiveBox hide">
+            <div class="tit"><span>收货信息</span></div>
+            <div class="con">
+                <div class="addressUpdateBox cf">
+                    <p class="fl cf">
+                        <i class="addressIcon fl"></i>
+                        <a class="fl updateBtn" href="javascript:void(0)">修&nbsp;改</a>
+                    </p>
+                    <a class="fr btnChangeAddress" href="javascript:void(0)">地址切换</a>
+                </div>
+                <p class="subRInfo">收货人：<span>张三</span></p>
+                <p class="subRInfo">联系方式：<span>13526589452</span></p>
+                <p class="subRInfo">收货地址：<span>广东省深圳市罗湖区水贝二街3号宝琳国金大厦4楼D区</span></p>
+            </div>
+            <a class="btnAddAddress" href="javascript:void(0)">+增加地址</a>
+        </div>
+        <!--   商品信息    -->
+        <div class="goodsInfoBoxWrap">
+            <table>
+                <thead>
+                    <tr>
+                        <td class="goodsInfoName">商品信息</td>
+                        <td class="unitPrice">单价</td>
+                        <td class="goodsNum">数量</td>
+                        <td class="subGoodsTotal">小计</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="goodsInfoDiv cf">
+                            <img class="fl" src="../../Static/Image/goodsDetail/goodsLittle2.png" alt="">
+                            <p class="fl name">迪奥（Dior）</p>
+                            <p class="fl instr">魅惑润唇膏烈艳蓝金999 3.5g</p>
+                        </td>
+                        <td class="unitPrice">￥<span>279</span></td>
+                        <td class="goodsNum">1</td>
+                        <td class="subGoodsTotal">￥<span>279</span></td>
+                    </tr>
+                    <tr>
+                        <td class="goodsInfoDiv cf">
+                            <img class="fl" src="../../Static/Image/goodsDetail/goodsLittle2.png" alt="">
+                            <p class="fl name">迪奥（Dior）</p>
+                            <p class="fl instr">魅惑润唇膏烈艳蓝金999 3.5g</p>
+                        </td>
+                        <td class="unitPrice">￥<span>279</span></td>
+                        <td class="goodsNum">1</td>
+                        <td class="subGoodsTotal">￥<span>279</span></td>
+                    </tr>
+                    <tr>
+                        <td class="goodsInfoDiv cf">
+                            <img class="fl" src="../../Static/Image/goodsDetail/goodsLittle2.png" alt="">
+                            <p class="fl name">迪奥（Dior）</p>
+                            <p class="fl instr">魅惑润唇膏烈艳蓝金999 3.5g</p>
+                        </td>
+                        <td class="unitPrice">￥<span>279</span></td>
+                        <td class="goodsNum">1</td>
+                        <td class="subGoodsTotal">￥<span>279</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="countTotal cf">
+                <p class="fr">商品合计：￥15000.00</p>
+            </div>
+            <div class="countTotal cf">
+                <p class="fl couponTit">使用优惠券（1张）</p>
+                <p class="fr couponMoneyBox">- ￥<span>500.00</span></p>
+            </div>
+            <div class="payBox cf">
+                <div class="inner fr cf">
+                    <a class="fr btnPay" href="javascript:void(0)">付款</a>
+                    <div class="payFinallyBox fr">
+                        <p>运费：￥<span>0.00</span></p>
+                        <p>应付总额：<span class="shouldPayBox">￥<span>1020.00</span></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="../../Static/Js/common/jquery.js"></script>
+<script src="../../Static/Js/common/jquery.ext.js"></script>
+<script src="../../Static/Js/common/public.js"></script>
+<script src="../../Static/Js/order/index.js"></script>
+</body>
+</html>

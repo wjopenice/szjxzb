@@ -1,0 +1,10 @@
+/* 列表 */
+.mHome{margin-bottom: 0;}
+.setUl li a{width: 100%;font-size: .8rem;}
+.numSet ,.addressManagement{margin: .7rem 0 0;padding: 0 .7rem;height: 2.6rem;line-height: 2.6rem;color: #333;background: #fff;}
+.commonProblem{padding: 0 .7rem;height: 2.6rem;line-height: 2.6rem;border-top: 1px solid #f4f4f4;color: #333;background: #fff;}
+.signOut{display: block;margin: 2rem 0;letter-spacing: 1px;height: 2.6rem;line-height: 2.6rem;text-align: center;font-size: .86rem;color: #333;background: #fff;}
+
+
+
+

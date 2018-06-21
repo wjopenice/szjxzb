@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="../../Static/Css/common/sm.min.css">
+    <link rel="stylesheet" href="../../Static/Css/common/sm-extend.min.css">
+    <link rel="stylesheet" href="../../Static/Css/common/base.css">
+    <link rel="stylesheet" href="../../Static/Css/personalCenter/index.css">
+</head>
+<body class="mHome">
+
+    <!--  加载层   -->
+    <div id="loader">
+        <div class="loaderInner">
+            <img src="../../Static/Image/common/logo/logo1.png" alt="">
+        </div>
+    </div>
+
+    <div class="page-group">
+
+        <!-- 个人中心头部 -->
+        <div class="headBox pr">
+            <div class="headContent">
+                <a href="../../View/personalData/index.html">
+                    <img class="dib" src="../../Static/Image/personalCenter/headPortrait.png" alt="">
+                    <span class="headText">不忘初心</span>
+                </a>
+            </div>
+            <a class="shopCar dib" href="../../View/shoppingCart/index.html"><i></i><span>5</span></a>
+            <ul class="headUl cf">
+                <li class="dib fl collection"><a href="../../View/collection/index.html"><span class="dib date">0</span><span>收藏</span></a></li>
+                <li class="dib fl discount"><a href="../../View/coupon/index.html"><span class="dib date">0</span><span>优惠券</span></a></li>
+                <li class="dib fl"><a href="javascript:;"><span class="dib date">0</span><span>积分</span></a></li>
+            </ul>
+        </div>
+
+        <!-- 列表 -->
+        <div class="list-block">
+            <ul>
+                <li class="item-content item-myOrder cf">
+                    <a href="../../View/myOrder/index.html?tab=1"><i></i><span class="item-title">我的订单</span><span class="icon icon-right fr"></span></a>
+                </li>
+                <li class="cf itemOrderLi">
+                    <a class="fl dib pendPay" href="../../View/myOrder/index.html?tab=2"><i></i><span class="pendText">待付款</span></a>
+                    <a class="fl dib pendDelivery" href="../../View/myOrder/index.html?tab=3"><i></i><span class="pendText">待发货</span></a>
+                    <a class="fl dib pendGoods" href="../../View/myOrder/index.html?tab=4"><i></i><span class="pendText">待收货</span></a>
+                    <a class="fl dib pendEvaluate" href="../../View/myOrder/index.html?tab=5"><i></i><span class="pendText">待评价</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <ul>
+                <li class="item-content item-about cf">
+                    <a href="../../View/aboutUs/index.html"><i></i><span class="item-title">关于我们</span><span class="icon icon-right fr"></span></a>
+                </li>
+                <li class="item-content item-contact cf">
+                    <a href="../../View/contactUs/index.html"><i></i><span class="item-title">联系我们</span><span class="icon icon-right fr"></span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <ul>
+                <li class="item-content item-notice cf">
+                    <a href="../../View/notice/index.html"><i></i><span class="item-title">通知</span><span class="icon icon-right fr"></span></a>
+                </li>
+                <li class="item-content item-set cf">
+                    <a href="../../View/setUp/index.html"><i></i><span class="item-title">设置</span><span class="icon icon-right fr"></span></a>
+                </li>
+            </ul>
+        </div>
+
+
+        <!--   底部导航栏   -->
+        <nav class="bar bar-tab">
+            <a class="tab-item external footTap-index" href="../../View/index/index.html">
+                <span class="icon"></span>
+                <span class="tab-label">首页</span>
+            </a>
+            <a class="tab-item external footTap-classify" href="../../View/classify/index.html">
+                <span class="icon"></span>
+                <span class="tab-label">分类</span>
+            </a>
+            <a class="tab-item external footTap-shoppingCart" href="../../View/shoppingCart/index.html">
+                <span class="icon"></span>
+                <span class="tab-label">购物车</span>
+            </a>
+            <a class="tab-item external footTap-center active" href="../../View/personalCenter/index.html">
+                <span class="icon"></span>
+                <span class="tab-label">我的</span>
+            </a>
+        </nav>
+
+    </div>
+
+
+
+
+<script src="../../Static/Js/common/zepto.min.js"></script>
+<script src="../../Static/Js/common/sm.min.js"></script>
+<script src="../../Static/Js/common/sm-extend.min.js"></script>
+<script src="../../Static/Js/common/public.js"></script>
+<script src="../../Static/Js/personalCenter/index.js"></script>
+</body>
+</html>

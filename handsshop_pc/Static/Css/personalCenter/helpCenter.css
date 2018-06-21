@@ -1,0 +1,39 @@
+/* 面包屑 */
+.crumbs{padding: 0 20px;height: 60px;line-height: 60px;font-size: 15px;}
+.secondLevel{color: #999;}
+
+/* 左侧边导航 */
+.content{margin-bottom: 160px;}
+.leftNavigation{width: 180px;height: 700px;margin-right: 20px;border: 1px solid #f4f4f4;}
+.leftNavigation a{display: block;font-size: 15px;margin: 16px 0;padding-left: 40px;color: #666;}
+.leftNavigation .active{color: #f8981d;}
+
+/* 右侧内容 */
+.rightContent{width: 998px;}
+.problem{height: 60px;line-height: 60px;padding-left: 20px;font-size: 18px;color: #333;border: 1px solid #f4f4f4;border-bottom: none;border-bottom: 1px dashed #9b9b9b;}
+.problemList{padding-left: 20px;border: 1px solid #f4f4f4;border-top: none;}
+.problemList li{font-size: 15px;color: #333;padding: 20px 0;}
+.ask{margin-bottom: 6px;}
+
+
+/* 内容为空时 */
+.noBuild{text-align: center;margin: 200px 0;}
+.noBuild i{width: 172px;height: 114px;background: url(../../Image/personalCenter/helpCenter/noBuildIcon.png) no-repeat center;background-size: 172px 114px;}
+.noBuild p{font-size: 15px;color: #333;margin-top: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

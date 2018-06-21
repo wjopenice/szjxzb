@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>退换货</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="../../Static/Css/common/font-awesome.min.css" rel="stylesheet">
+    <link href="../../Static/Css/common/public.css" rel="stylesheet">
+    <link href="../../Static/Css/common/page.css" rel="stylesheet">
+    <style>
+        .selectLeft{height: 26px;line-height: 26px;}
+        .flexigrid .sDiv2{border: none;}
+        .flexigrid .sDiv2 .qsbox, .flexigrid .sDiv2 .select, .flexigrid .sDiv2 .btn{border: 1px solid #D7D7D7;}
+        .checkbox{width: 18px;height: 18px;margin-top: 4px;}
+        .flexigrid .hDiv th, .flexigrid .bDiv td{border-bottom: none;}
+        .flexigrid tr{border-bottom: solid 1px #f5eded;}
+        .flexigrid .sDiv2 .qsbox, .flexigrid .sDiv2 .select, .flexigrid .sDiv2 .btn{border: none;}
+        .flexigrid .sDiv2{border: 1px solid #D7D7D7;}
+        .trSelected{color: #333;background: #FFFFDF;border-color: transparent;}
+        .flexigrid div.bDiv tr.trSelected:hover td, .flexigrid div.bDiv tr.trSelected:hover td.sorted, .flexigrid div.bDiv tr.trOver.trSelected td.sorted, .flexigrid div.bDiv tr.trOver.trSelected td, .flexigrid tr.trSelected td.sorted, .flexigrid tr.trSelected td{border-bottom: none;}
+        .flexigrid .hDiv th{border-bottom: none;}
+        .flexigrid div.bDiv tr:hover td, .flexigrid div.bDiv tr:hover td.sorted, .flexigrid div.bDiv tr.trOver td.sorted, .flexigrid div.bDiv tr.trOver td{background:#fff;}
+        .fa-send-o:before{content: "\f1d9";}
+        .flexigrid .bDiv a.btn {font-size: 12px;font-weight: normal;line-height: 20px;color: #777;background: #FFF none;vertical-align: top;letter-spacing: normal;display: inline-block;height: 20px;padding: 1px 6px;margin: 0 5px 0 0;border: solid 1px #F5F5F5;border-radius: 4px;}
+        .flexigrid .bDiv a.btn:hover {color: #555;text-decoration: none;box-shadow: 2px 2px 0 rgba(0,0,0,0.1);}
+        .flexigrid .bDiv a.green:hover {color: #FFF;background-color: #1BBC9D;border-color: #16A086;}
+    </style>
+</head>
+<body>
+<div class="page">
+    <!--  标题栏   -->
+    <div class="fixed-bar">
+        <div class="item-title">
+            <div class="subject">
+                <h3>退货退款管理</h3>
+                <h5>商品订单退货申请及审核处理</h5>
+            </div>
+        </div>
+    </div>
+    <!--  操作提示  -->
+    <div id="explanation" class="explanation">
+        <div id="checkZoom" class="title">
+            <i class="fa pressIcon"></i>
+            <h4 title="提示相关设置操作时应注意的要点">操作提示</h4>
+            <span title="收起提示"></span>
+        </div>
+        <ul>
+            <li>买家提交的退货申请, 商家同意并平台审核通过之后, 以余额的方式返回到用户账户上</li>
+        </ul>
+    </div>
+    <!--  表格     -->
+    <div class="flexigrid">
+        <div class="mDiv">
+            <div class="ftitle">
+                <h3>待处理的线上实物交易订单退货列表</h3><h5>(共45条记录)</h5>
+            </div>
+            <a href="javascript:void(0)"><div title="刷新数据" class="pReload"><i class="fa fa-refresh"></i></div></a>
+            <form class="navbar-form form-inline" method="get">
+                <input type="hidden" name="ctime" value="{$ctime}">
+                <div class="sDiv">
+                    <div class="sDiv2">
+                        <select class="form-control" id="status" name="mtype" style="border: none;width:100px;padding-right:5px;padding-left:5px;height: 26px;">
+                            <option value="">处理状态</option>
+                            <option value="1">已取消</option>
+                            <option value="-1">审核未通过</option>
+                            <option value="">待审核</option>
+                            <option value="1">审核通过</option>
+                            <option value="-1">已发货</option>
+                            <option value="-1">已完成</option>
+                        </select>
+                    </div>
+                    <div class="sDiv2">
+                        <input size="30" placeholder="订单编号" value="" name="goods_name" class="qsbox" type="text">
+                        <input class="btn" value="搜索" type="submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="hDiv">
+            <div class="hDivBox">
+                <table cellspacing="0" cellpadding="0" style="width: 100%;">
+                    <thead>
+                    <tr class="cf">
+                        <th class="sign fl" axis="col6" onclick="checkAllSign(this)">
+                            <div style="width: 26px;"><i class="ico-check"></i></div>
+                        </th>
+                        <th align="center" abbr="article_title" axis="col6" class="fl">
+                            <div style=" width:180px;" class="ta_c">订单编号</div>
+                        </th>
+                        <th align="center" abbr="ac_id" axis="col4" class="fl">
+                            <div style=" width: 300px;" class="ta_c">商品名称</div>
+                        </th>
+                        <th align="center" abbr="ac_img" axis="col10" class="fl">
+                            <div style=" width: 130px;" class="ta_c">类型</div>
+                        </th>
+                        <th align="center" abbr="article_show" axis="col6" class="fl">
+                            <div style="width: 120px;" class="ta_c">申请日期</div>
+                        </th>
+                        <th align="center" abbr="article_time" axis="col6" class="fl">
+                            <div style="width: 100px;" class="ta_c">状态</div>
+                        </th>
+                        <th align="center" abbr="article_time" axis="col6" class="fl">
+                            <div style="width: 100px;" class="ta_c">操作</div>
+                        </th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <div class="bDiv">
+            <div id="flexigrid">
+                <table style="width: 100%;">
+                    <tr class="cf">
+                        <td class="sign fl" axis="col6">
+                            <div style="width: 24px;"><i class="ico-check"></i></div>
+                        </td>
+                        <td align="center" axis="col6" class="fl">
+                            <div class="ta_c" style="width: 178px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;">201709271337419178</div>
+                        </td>
+                        <td align="center" axis="col6" class="fl">
+                            <div class="ta_c" style="width: 298px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;">爸爸2陆毅代言索扬20000毫安充电宝轻薄正品手爸爸2陆毅代言索扬20000毫安充电宝轻薄正品手</div>
+                        </td>
+                        <td align="center" axis="col10" class="fl">
+                            <div class="ta_c" style="width: 128px;">退货退款</div>
+                        </td>
+                        <td align="center" axis="col6" class="fl">
+                            <div class="ta_c" style="width: 118px;">2017-09-27 13:57</div>
+                        </td>
+                        <td align="center" axis="col6" class="fl">
+                            <div class="ta_c" style="width: 98px;">待审核</div>
+                        </td>
+                        <td align="center" axis="col6" class="fl">
+                            <div class="ta_c" style="width: 98px;">
+                                <a class="btn green" href="detail.html" data-toggle="tooltip" title="" class="btn btn-info" data-original-title="查看详情"><i class="fa fa-list-alt"></i>查看</a>
+                                <a class="btn green" href="javascript:;" data-toggle="tooltip"  class="btn btn-info" onclick="del(1,'del')"><i class="fa fa-list-alt"></i>删除</a>
+                            </div>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../../Static/Js/common/jquery.js"></script>
+<script src="../../Static/Js/common/layer/layer.js"></script>
+<script src="../../Static/Js/common/ligerUI/js/core/base.js"></script>
+<script src="../../Static/Js/common/ligerUI/js/plugins/ligerAccordion.js"></script>
+<script src="../../Static/Js/common/ligerUI/js/plugins/ligerLayout.js"></script>
+<script src="../../Static/Js/common/ligerUI/js/plugins/ligerTab.js"></script>
+<script src="../../Static/Js/common/public.js"></script>
+<script>
+    $(document).ready(function(){
+        // 点击刷新数据
+        $('.fa-refresh').click(function(){
+            location.href = location.href;
+        });
+    });
+
+    function del(ids,handle_type){
+        layer.confirm('确认当前操作？', {
+                btn: ['确定', '取消'] //按钮
+            }, function () {
+                // 确定
+                $.ajax({
+                    url: $('#flexigrid').data('url'),
+                    type:'post',
+                    data:{ids:ids,type:handle_type},
+                    dataType:'JSON',
+                    success: function (data) {
+                        layer.closeAll();
+                        if (data.status == 1){
+                            layer.msg(data.msg, {icon: 1, time: 2000},function(){
+                                location.href = data.url;
+                            });
+                        }else{
+                            layer.msg(data.msg, {icon: 2, time: 2000});
+                        }
+                    }
+                });
+            }, function (index) {
+                layer.close(index);
+            }
+        );
+    }
+</script>
+</body>
+</html>

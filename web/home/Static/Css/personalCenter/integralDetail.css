@@ -1,0 +1,71 @@
+/* 积分明细说明头部 */
+.rightContent{width: 958px;}
+.integralDetailTitle{padding: 0 20px 0 40px;height: 40px;line-height: 40px;background: #f6f6f6;border: 1px solid #e8e8e8;font-size: 16px;color: #333;}
+.integralDetailText{font-size: 15px;}
+.explainIcon{display: inline-block;width: 15px;height: 15px;background: url(../../Image/personalCenter/myPoints/ExplainIcon.png) no-repeat center;background-size: 15px 15px;vertical-align: middle;}
+.explainIconText{vertical-align: middle;font-size: 15px;margin-left: 10px;}
+
+/* 积分列表 */
+.integralDetailContent{margin-top: 20px;}
+.detailTitle{padding: 0 60px 0;height: 40px;line-height: 40px;background: #f6f6f6;border: 1px solid #e8e8e8;font-size: 16px;color: #666;}
+.detailDate{width: 25%;text-align: left;}
+.detailSource{width: 50%;text-align: center;}
+.detailIntegral{width: 25%;text-align: right;}
+
+.integralList{border: 1px solid #e8e8e8;border-top: none;}
+.integralList li{padding: 0 60px 0 20px;border-bottom: 1px dashed #e8e8e8;}
+.detailDateLi{font-size: 15px;color: #666;padding: 41px 0;}
+.detailSourceLi{padding: 24px 0;}
+.detailSourceLi img{vertical-align: middle;margin-right: 10px;background: #f4f4f4;}
+.detailSourceText{vertical-align: middle;}
+.detailSourceVal{text-align: left;}
+.detailSourceName{width: 160px;text-align: left;font-size: 16px;color: #333;margin-bottom: 4px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.detailSourceNum{font-size: 15px;color: #ff0000;margin-right: 6px;}
+.detailSourceMoney{font-size: 15px;color: #666;text-decoration:line-through;}
+.detailIntegralLi{padding: 36px 0;}
+.detailIntegralLi span{color: #f8981d;font-weight: 600;vertical-align: middle;}
+.detailIntegralNum{font-size: 24px;}
+
+/* 暂无记录 */
+.notAvailable{text-align: center;line-height: 160px;font-size: 15px;color: #666;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

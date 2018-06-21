@@ -1,0 +1,21 @@
+/* 意见反馈头部 */
+.mHome{margin-bottom: 0;}
+.page-group{padding: 0 .7rem;}
+.feedbackTitle{margin: 1rem 0 .8rem;}
+.feedbackTitle span{font-size: .8rem;color: #333;}
+.feedbackTitle a{font-size: .8rem;color: #edc15b;}
+
+/* 意见反馈内容 */
+.feedbackText{width: 100%;border: none;border-radius: 6px;height: 13rem;padding: .4rem;font-size: .8rem;}
+.surplus{text-align: right;padding: 0 .4rem .4rem;font-size: .7rem;color: #999;}
+.feedbackContent{border-radius: 6px;background: #fff;}
+
+.toast{border-radius: 6px;font-size: .9rem;letter-spacing: 1px;}
+
+
+
+
+
+
+
+

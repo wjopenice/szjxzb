@@ -1,0 +1,67 @@
+/* 右侧内容 */
+.userInfo{width: 876px;padding: 40px;margin-bottom: 20px;border: 1px solid #f4f4f4;}
+.userInfoLeft{width: 340px;border-right: 2px dashed #f8981d;}
+.headPortrait span{vertical-align: middle;margin: 10px 0 0 20px;width: 200px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.userInfoRightName{width: 90px;}
+
+/* 进度条 */
+.growthValue{padding: 20px 50px 20px 0;font-size: 15px;}
+.percent{height: 7px;border: 1px solid #f4f4f4;border-radius: 6px;}
+.growthValueText{height: 40px;line-height: 40px;}
+.percentSpeed {height: 7px;border-radius: 6px;background: linear-gradient(to right, #02cae1, #91febb);}
+
+.userInfoRight{padding-left: 60px;width: 474px;}
+.userInfoRightList{width: 220px;height: 50px;line-height: 50px;font-size: 15px;color: #333;}
+
+/* 未完成订单 */
+.unOrder{margin-bottom: 20px;}
+.unOrderContent li{border: 1px solid #f4f4f4;border-top: none;}
+.unOrderTitle{height: 44px;line-height: 44px;padding: 0 20px;background: #f8981d;font-size: 15px;color: #fff;}
+.orderBtn{font-size: 15px;color: #fff;}
+.orderList{text-align: center;font-size: 15px;height: 100px;line-height: 100px;padding: 0 20px;overflow: hidden;color: #333;border-right: 1px solid #f4f4f4;}
+.orderNum{width: 180px;text-align: left;}
+.shopPic{width: 160px;border-right: none;}
+.orderName{width: 103px;border-right: none;}
+.orderSend{width: 60px;}
+.orderMoney{width: 90px;}
+.orderDetail{width: 120px;border-right: none;color: #6699cc;}
+
+/* 暂无未完成订单 */
+.notOrder{text-align: center;margin: 80px 0;}
+.notOrderText{font-size: 15px;color: #c2c3c3;}
+.notOrder a{margin: 10px 0;width: 100px;height: 36px;line-height: 36px;background: #f8981d;color: #fff;font-size: 15px;}
+
+/* 我的收藏 */
+.myCollectionTitle{height: 44px;line-height: 44px;padding: 0 20px;background: #f8981d;font-size: 15px;color: #fff;}
+.myCollectionBtn{font-size: 15px;color: #fff;}
+.myCollectionUl{padding: 20px 0;border: 1px solid #f4f4f4;border-top: none;}
+.myCollectionUl li{width: 20%;text-align: center;}
+.myCollectionUl li a{padding: 8px;-moz-box-shadow:0 0 9px #d6d6d6; -webkit-box-shadow:0 0 9px #d6d6d6; box-shadow:0 0 9px #d6d6d6;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

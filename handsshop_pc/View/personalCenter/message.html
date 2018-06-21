@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <title>消息通知</title>
+    <link rel="stylesheet" href="../../Static/Css/common/base.css">
+    <link rel="stylesheet" href="../../Static/Css/common/public.css">
+    <link rel="stylesheet" href="../../Static/Css/personalCenter/common.css">
+    <link rel="stylesheet" href="../../Static/Css/personalCenter/message.css">
+</head>
+<body class="personalHeader footer">
+
+    <div class="container">
+        <!-- 面包屑 -->
+        <div class="crumbs">
+            <span>首页</span> &gt; <span class="secondLevel">个人中心</span>
+        </div>
+
+        <!-- content -->
+        <div class="content cf">
+            <!-- 左侧边导航 -->
+            <div class="leftNavigation fl">
+                <div class="typeTitle">账号管理</div>
+                <a href="index.html">个人中心</a>
+                <a href="javascript:;" class="active">消息通知<span class="notice dib"></span></a>
+                <a href="accountInfo.html">账号信息</a>
+                <a href="addressManagement.html">地址管理</a>
+                <a href="accountSecurity.html">账号安全</a>
+                <a href="myPoints.html">我的积分</a>
+                <a href="myCollection.html">我的收藏</a>
+                <a href="myTracks.html">我的足迹</a>
+                <div class="typeTitle">交易管理</div>
+                <a href="order.html">订单管理</a>
+                <a href="javascript:;">我的红包</a>
+                <a href="javascript:;">优惠券<span>(0)</span></a>
+                <div class="typeTitle">服务中心</div>
+                <a href="record.html">售后记录</a>
+                <a href="../helpCenter/index.html">帮助中心</a>
+            </div>
+            <div class="rightContent fl">
+                <div class="rightContentTitle cf">
+                    <a class="active fl" href="javascript:;"><span class="messageLine dib">我的资产</span></a>
+                    <a class="fl" href="javascript:;"><span class="messageLine dib">通知消息</span></a>
+                    <a class="fl" href="javascript:;"><span class="messageLine dib">物流助手</span></a>
+                    <a class="fl" href="javascript:;">互动消息</a>
+                </div>
+                <div class="messageContent">
+
+                    <!-- 我的资产 -->
+                    <div class="messageContentList myAssets cur">
+                        <ul class="myAssetsUl">
+                            <li class="copy" data-num="4">
+                                <div class="myAssetsTime"><span class="beOverdue dib" title="优惠券即将过期">优惠券即将过期</span><span class="myAssetsDate dib">2018-04-12 10:40:00</span></div>
+                                <div class="voucher"><span class="total dib">你有3张<span>（共计29元）</span>优惠券将于04.11到期，请即使使用。</span><a href="javascript:;" class="myAssetsDetail">查看详情&gt;&gt;</a></div>
+                            </li>
+                        </ul>
+                        <div class="unMyAssets hide">
+                            <i class="unMyAssetsIcon"></i>
+                            <p class="unMyAssetsText">暂无此类消息</p>
+                        </div>
+                    </div>
+
+                    <!-- 通知消息 -->
+                    <div class="messageContentList noticeMessage">
+                        <ul class="noticeMessageUl">
+                            <li class="copy" data-num="4">
+                                <div class="noticeMessageTime"><span class="survey dib">【有奖调研】聊聊您的居家购物生活</span><span class="noticeMessageDate">2018-04-12 10:40:00</span></div>
+                                <div class="noticeMessageExplain"><span class="noticeMessageText">想要更了解您的居家态度与购物需求，参与调研有机会赢取¥30元话费（3月28日截止）</span><a href="javascript:;" class="noticeMessageDetail">查看详情&gt;&gt;</a></div>
+                            </li>
+                        </ul>
+                        <div class="unMyAssets hide">
+                            <i class="unInteractionIcon"></i>
+                            <p class="unMyAssetsText">暂无此类消息</p>
+                        </div>
+                    </div>
+
+                    <!-- 物流助手 -->
+                    <div class="messageContentList logistics">
+                        <ul class="logisticsUl">
+                            <li class="copy" data-num="4">
+                                <div class="logisticsTime"><span class="deliver">订单33179178已发货</span><span class="logisticsDate">2018-04-12 10:40:00</span></div>
+                                <ul>
+                                    <li class="copy" data-num="2">
+                                        <div class="logisticsExplain cf">
+                                            <img class="fl" src="../../Static/Image/personalCenter/shop.png" width="155" height="155" alt="">
+                                            <div class="logisticsName fl">
+                                                <p title="产品名称">产品名称</p>
+                                                <p title="共1种商品">共1种商品</p>
+                                                <p>包裹1<span>（顺丰快递）</span></p>
+                                                <p><a href="javascript:;" class="logisticsDetail">查看详情&gt;&gt;</a></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="unMyAssets hide">
+                            <i class="unLogisticsIcon"></i>
+                            <p class="unMyAssetsText">暂无此类消息</p>
+                        </div>
+                    </div>
+
+                    <!-- 互动消息 -->
+                    <div class="messageContentList interaction">
+                        <ul>
+                            <li></li>
+                        </ul>
+                        <div class="unMyAssets">
+                            <i class="unInteractionIcon"></i>
+                            <p class="unMyAssetsText">暂无此类消息</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../../Static/Js/common/jquery.js"></script>
+    <script src="../../Static/Js/common/public.js"></script>
+    <script src="../../Static/Js/personalCenter/message.js"></script>
+</body>
+</html>

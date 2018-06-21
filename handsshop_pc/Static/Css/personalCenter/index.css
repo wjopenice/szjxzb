@@ -1,0 +1,85 @@
+/* 右侧内容 */
+.userInfo{width: 917px;padding: 40px;margin-bottom: 20px;border: 1px solid #CCC;}
+.userInfoLeft{width: 340px;border-right: 2px dashed #f8981d;}
+.headPortrait span{vertical-align: middle;margin: 10px 0 0 20px;width: 200px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.userInfoRightName{width: 90px;}
+
+/* 进度条 */
+.growthValue{padding: 20px 50px 20px 0;font-size: 15px;}
+.percent{height: 7px;border: 1px solid #e8e8e8;border-radius: 6px;}
+.growthValueText{height: 40px;line-height: 40px;}
+.percentSpeed {height: 7px;border-radius: 6px;background: linear-gradient(to right, #02cae1, #91febb);}
+
+.userInfoRight{padding-left: 60px;width: 474px;}
+.userInfoRightList{width: 220px;height: 50px;line-height: 50px;font-size: 15px;color: #333;}
+
+/* 未完成订单 */
+.unOrder{margin-bottom: 20px;}
+.unOrderContent li{border: 1px solid #e8e8e8;border-top: none;}
+.unOrderTitle{height: 44px;line-height: 44px;padding: 0 20px;background: #f4f4f4;font-size: 15px;color: #333;}
+.orderBtn{font-size: 15px;color: #333;}
+
+/* 待付款 */
+.subOrder{width: 100%;margin-top: 20px;}
+.orderTit{height: 44px;line-height: 44px;font-size: 14px;color: #333;background: #eee;border:1px solid #CCC;}
+.orderTime{margin:0 120px 0 20px;}
+.delIcon{padding-right: 20px;}
+.delIcon i{display: block;width: 18px;height: 20px;margin-top: 10px;cursor: pointer;background: url(../../Image/personalCenter/order/delIcon.png) no-repeat center;background-size: 18px 20px;}
+.subOrderGoods{height: 180px;font-size:14px;border: 1px solid #CCC;border-top: none;}
+.orderImgBox{width: 120px;height: 120px;margin: 30px;}
+.orderName{width: 220px;padding: 57px 0;}
+.orderName p{margin-bottom: 14px;font-size: 14px;color: #333;}
+.orderName p span{font-size: 14px;color: #999;}
+.orderNum{width: 120px;height: 180px;line-height: 180px;text-align: center;border-right: 1px solid #ccc;}
+.orderState{width: 140px;text-align: center;padding: 27px 0;border-right: 1px solid #ccc;font-size: 14px;color: #333;}
+.orderState p{margin-bottom: 2px;}
+.look a:hover{color: #f8981d;}
+.orderMoney{width: 180px;text-align: center;padding: 71px 0;border-right: 1px solid #ccc;font-size: 14px;color: #333;}
+.orderSure{width: 153px;text-align: center;line-height: 180px;}
+.orderSure a{width: 100px;height: 32px;line-height: 32px;font-size: 14px;}
+.collect{background: #f8981d;color: #fff;}
+.unPayDetail{border-bottom: 1px solid #ccc;}
+.unPay{display: flex;justify-content: space-around;border-right: 1px solid #ccc;border-left: 1px solid #ccc;}
+.unPayState{padding: 57px 0;border-bottom: 1px solid #ccc;}
+.unPayMoney ,.unPaySure{border-bottom: 1px solid #ccc;}
+
+/* 暂无记录 */
+.notShop{text-align: center;margin: 100px 0;}
+.notShopIcon{width: 275px;height: 170px;background: url(../../Image/personalCenter/order/notOrder.png) no-repeat center;background-size: 275px 170px;}
+.notShopText{text-align: center;padding: 20px 0;font-size: 16px;color: #666;}
+
+/* 我的收藏 */
+.myCollectionTitle{height: 44px;line-height: 44px;padding: 0 20px;background: #f4f4f4;font-size: 15px;color: #333;}
+.myCollectionBtn{font-size: 15px;color: #333;}
+.myCollectionContent{border: 1px solid #CCC;margin-top: 20px;}
+.subGoodsBox{width: 25%;padding-bottom: 20px;}
+.subGoodsBox .goodsBoxImg{width: 201px;height: 211px;margin: 0 auto;}
+.goodsBoxImgWrap{margin: 20px;background: #F4F4F4;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <title>账号信息</title>
+    <link rel="stylesheet" href="../../Static/Css/common/base.css">
+    <link rel="stylesheet" href="../../Static/Css/common/public.css">
+    <link rel="stylesheet" href="../../Static/Css/personalCenter/common.css">
+    <link rel="stylesheet" href="../../Static/Css/personalCenter/accountInfo.css">
+</head>
+<body class="personalHeader footer">
+    <div class="container">
+        <!-- 面包屑 -->
+        <div class="crumbs">
+            <span>首页</span> &gt; <span class="secondLevel">个人中心</span>
+        </div>
+
+        <!-- content -->
+        <div class="content cf">
+            <!-- 左侧边导航 -->
+            <div class="leftNavigation fl">
+                <div class="typeTitle">账号管理</div>
+                <a href="index.html">个人中心</a>
+                <a href="message.html">消息通知<span class="notice dib"></span></a>
+                <a href="javascript:;" class="active">账号信息</a>
+                <a href="addressManagement.html">地址管理</a>
+                <a href="accountSecurity.html">账号安全</a>
+                <a href="myPoints.html">我的积分</a>
+                <a href="myCollection.html">我的收藏</a>
+                <a href="myTracks.html">我的足迹</a>
+                <div class="typeTitle">交易管理</div>
+                <a href="order.html">订单管理</a>
+                <a href="javascript:;">我的红包</a>
+                <a href="javascript:;">优惠券<span>(0)</span></a>
+                <div class="typeTitle">服务中心</div>
+                <a href="record.html">售后记录</a>
+                <a href="../helpCenter/index.html">帮助中心</a>
+            </div>
+            <div class="rightContent fl">
+                <div class="infoTitle">
+                    <span>基本资料</span>
+                </div>
+                <ul class="infoContent">
+
+                    <!-- 用户头像 -->
+                    <li class="headPortrait">
+                        <span class="leftText dib">用户头像</span>
+                        <img class="dib" src="../../Static/Image/personalCenter/personalIcon.png" width="66" height="66" alt="">
+                    </li>
+
+                    <!-- 用户ID -->
+                    <li class="userId">
+                        <span class="leftText dib">用户ID</span>
+                        <span class="idNum">28692604</span>
+                    </li>
+
+                    <!-- 账号 -->
+                    <li class="account">
+                        <span class="leftText dib">账&emsp;&emsp;号</span>
+                        <span class="accountText">zb_xiaoshuai</span>
+                    </li>
+
+                    <!-- 昵称 -->
+                    <li class="nickname">
+                        <span class="leftText dib">昵&emsp;&emsp;称</span>
+                        <input class="nicknameInput" type="text" maxlength="20" value="zb_xiaoshuai">
+                    </li>
+
+                    <!-- 性别 -->
+                    <li class="sex">
+                        <span class="leftText dib">性&emsp;&emsp;别</span>
+                        <div class="dib sexIcon">
+                            <div class="dib male active"><i></i><span>男</span></div>
+                            <div class="dib male"><i></i><span>女</span></div>
+                        </div>
+                    </li>
+
+                    <!-- 手机号码 -->
+                    <li class="phoneNum">
+                        <span class="leftText dib">手机号码</span>
+                        <a class="bindNum" href="bindTelephone.html">绑定手机号码</a>
+                    </li>
+
+                    <!-- 出生日期 -->
+                    <li class="birth">
+                        <span class="leftText dib">出生日期</span>
+                        <input type="text" class="demo-input" placeholder="请选择日期" id="test1">
+                    </li>
+                </ul>
+                <a class="preservation" href="javascript:;">保存</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../Static/Js/common/jquery.js"></script>
+    <script src="../../Static/Js/common/public.js"></script>
+    <script src="../../Static/Js/personalCenter/laydate/laydate.js"></script>
+    <script src="../../Static/Js/personalCenter/accountInfo.js"></script>
+    <script>
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#test1' //指定元素
+        });
+    </script>
+</body>
+</html>

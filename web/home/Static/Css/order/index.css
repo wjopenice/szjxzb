@@ -1,0 +1,68 @@
+/*   收货信息填写    */
+.receiveInfo{margin:25px 0;border:1px solid #DCDCDC;}
+.receiveInfo .tit,.receiveBox .tit{width: 100%;height: 60px;line-height:60px;font-size:18px;color:#333;background: #F4F4F4;}
+.receiveInfo .tit span,.receiveBox .tit span{margin-left: 18px;}
+.receiveInfo .con{padding: 45px 0 64px 0;background: #FFF;}
+.receiveForm{width: 65%;border-right: 1px dashed #DCDCDC;}
+.subForm{width: 100%;margin-bottom: 18px;font-size: 14px;}
+.subForm .formName{width: 200px;text-align: right;color: #333;}
+.subForm .subFormCon{margin-left: 30px;font-size: 14px;color: #333;}
+.provinceBox,.cityBox,.districtBox{width: 150px;height: 30px;padding:0 10px;margin-right:20px;border:1px solid #999;}
+.detailAddress{width: 467px;height: 108px;padding:10px;}
+.receiver,.phoneNum{width: 180px;height: 30px;padding:0 10px;line-height: 28px;border:1px solid #999;}
+.setDefault{width: 350px;margin-left: 55px;}
+.setBox{width: 100%;height: 20px;margin: 120px 0 15px 0;line-height: 20px;font-size:14px;color: #999;}
+.setBox .check{margin-right: 15px;}
+.saveBtn,.cancelBtn{display: block;width: 150px;height: 40px;line-height: 40px;font-size:18px;text-align: center;}
+.saveBtn{color:#FFF;background: #F8981D;margin-right: 6px;}
+.saveBtn:active{color:#FFF;}
+.cancelBtn{color: #F8981D;background: #DCDCDC;}
+.cancelBtn:active{color: #F8981D;}
+
+/*    收货信息增修      */
+.receiveBox{margin-top:20px;background: #FFF;border:1px solid #DCDCDC;}
+.receiveBox .con{padding:40px 16px 80px 20px;}
+.addressIcon{display: block;width: 24px;height: 36px;background: url(../../Image/order/address.png) no-repeat;background-size: 24px 36px;}
+.updateBtn{display: block;width: 70px;height: 40px;margin:-2px 0 0 15px;line-height: 40px;text-align: center;font-size: 18px;color: #999;border:1px solid #DCDCDC;}
+.addressUpdateBox{margin-bottom: 30px;}
+.btnChangeAddress{display: block;width: 100px;height: 40px;font-size: 18px;line-height: 40px;text-align: center;color: #F8981D;border:1px solid #D2D2D2;}
+.subRInfo{height: 40px;line-height: 40px;}
+.receiveBox .btnAddAddress{display: block;width: 100%;height: 65px;line-height: 65px;font-size: 18px;text-align:center;color: #333;border-top:1px solid #DCDCDC;}
+.btnAddButton{font-size: 16px;display: block;height: 40px;margin: 30px auto;padding-right: 10px;text-decoration: underline;color: #efaf1b;}
+
+/*     管理收货地址      */
+.manageReceiveBox{margin-top: 5px;}
+.receiverUl{width: 110%;}
+.subReceiver{width:590px;margin:25px 20px 0 0;background: #FFF;}
+.subReceiver:hover{outline: 2px dashed #efaf1b;}
+.receiverInfo{padding:20px 25px;font-size:18px;border-bottom:1px solid #F4F4F4;}
+.receiverAddress{margin-top:15px;font-size: 14px;}
+.manageReceiveBox .btnAddAddress{display: block;width: 200px;height: 40px;margin:30px auto;line-height:40px;font-size:20px;text-align:center;color:#FFF;background: #EFAF1B;}
+.manageReceiveBox .btnAddAddress:active{color: #FFF;}
+
+/*     商品信息     */
+.goodsInfoBoxWrap{margin: 30px 0 55px 0;background: #FFF;}
+.goodsInfoBoxWrap table{width: 100%;border:1px solid #DCDCDC;}
+.goodsInfoBoxWrap thead tr{background: #F4F4F4;border:1px solid #DCDCDC;}
+.goodsInfoBoxWrap thead td{height: 60px;font-size:14px;}
+.goodsInfoBoxWrap thead td.goodsInfoName{padding-left:20px;font-size: 18px;}
+.goodsInfoBoxWrap tbody tr{border-top:1px solid #DCDCDC;}
+.goodsInfoBoxWrap tbody td{padding:20px 0;}
+.goodsInfoDiv{width: 40%;}
+.goodsInfoDiv img{margin-left: 20px;}
+.unitPrice,.goodsNum,.subGoodsTotal{width:20%;font-size:14px;text-align: center;}
+.countTotal{height: 70px;padding-right:80px;line-height: 70px;font-size:14px;color:#333;border-bottom: 1px dotted #E8E8E8;}
+.couponTit{margin-left: 20px;}
+.couponMoneyBox{color: #F81D1D;}
+.payBox{padding:30px 0 50px 0;}
+.inner{margin-right: 15px;}
+.btnPay{display: block;width: 200px;height: 60px;line-height:60px;font-size:20px;text-align:center;color:#FFF;background: #F8981D;}
+.payFinallyBox{margin-right:20px;line-height:30px;font-size:14px;text-align: right;color: #333;}
+.shouldPayBox{font-size: 18px;color: #F81D1D;}
+.receiverOp{height:30px;padding:20px 30px 10px 25px;line-height: 30px;}
+.receiverOp .defaultBox .check{margin: 5px 15px 0 0;}
+.editReceiver,.delReceiver{display: block;}
+.editReceiver{margin-right: 30px;}
+.delReceiver i,.editReceiver i{display: block;float:left;width: 30px;height: 30px;margin-right: 5px;}
+.delReceiver i{background: url(../../Image/order/del.png) no-repeat center center;background-size: 17px 19px;}
+.editReceiver i{background: url(../../Image/order/edit.png) no-repeat center center;background-size: 18px 18px;}

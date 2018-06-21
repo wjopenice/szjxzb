@@ -1,0 +1,15 @@
+/*     管理收货地址      */
+.subAddress{margin-bottom:.5rem;background: #FFF;}
+.receiverInfoBox{padding:.7rem .5rem;font-size: .7rem;color: #666;border-bottom: 1px solid #F4F4F4;}
+.infoNameBox{width: 100%;}
+.operateBox{padding:.5rem;font-size: .6rem;}
+.choseDefault i{display: block;float:left;width: .8rem;height: .8rem;margin-right:.5rem;background: url(../../Image/common/isChecked.png) no-repeat -.4rem -1.5rem;background-size: 4.83rem 2.63rem;}
+.choseDefault.active i{background: url(../../Image/common/isChecked.png)no-repeat -3.3rem -1.7rem;background-size: 5.36rem 2.92rem;}
+
+.editBtn,.delBtn,.editBtn i,.delBtn i{display: block;}
+.editBtn,.delBtn{margin-left: 1.2rem;}
+.editBtn i{width: 1rem;height: 1rem;margin-right:.3rem;background: url(../../Image/managementAddress/edit.png) no-repeat center center;background-size: .7rem .7rem;}
+.delBtn i{width: 1rem;height: 1rem;margin-right:.3rem;background: url(../../Image/managementAddress/del.png) no-repeat center center;background-size: .6rem .8rem;}
+
+.bar.address{text-align: center;line-height:3rem;background: #fff;}
+.addressText{letter-spacing: 1px;font-size: .8rem;color: #EEAF1B}

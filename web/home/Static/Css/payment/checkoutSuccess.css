@@ -1,0 +1,55 @@
+/* 下单成功头部 */
+.checkoutSuccess{background: #f4f4f4;margin-top: 40px;margin-bottom: 100px;}
+.checkoutSuccessTitle{height: 160px;line-height: 160px;text-align: center;}
+.checkoutSuccessTitle i{display: inline-block;width: 70px;height: 70px;vertical-align: middle;background: url(../../Image/payment/confirmationIcon.png) no-repeat center;background-size: 69px 69px;}
+.checkoutSuccessTitle span{vertical-align: middle;margin-left: 10px;font-size: 20px;font-weight: 600;}
+
+/* 下单 信息 */
+.checkoutInfo{background: #fff;margin: 0 20px;padding: 50px;border: 1px solid #e5e5e5;}
+.checkoutInfoLeft{width: 30%;border-right: 1px dashed #adadad;}
+.shopTotal ,.freight ,.realPay{font-size: 18px;padding: 10px 0;}
+
+.checkoutInfoRight{padding-left: 80px;width: 657px;}
+.shopTime ,.consignee ,.contactNumber ,.address{font-size: 18px;padding: 4px 0;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+.orderBtn{height: 120px;line-height: 120px;text-align: center;}
+.orderBtn a{width: 140px;height: 50px;line-height: 50px;text-align: center;}
+.lookOrder{background: #e5e5e5;color: #f8981d;}
+.continue{background: #f8981d;color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

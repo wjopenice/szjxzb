@@ -1,0 +1,128 @@
+/* 订单号搜索框 */
+.orderInput{width: 260px;height: 30px;line-height: 30px;border: 1px solid #f8981d;vertical-align: middle;padding-left: 10px;margin-right: 10px;font-size: 15px;}
+.searchBtn{cursor: pointer;width: 27px;height: 27px;vertical-align: middle;background: url(../../Image/personalCenter/record/searchIcon.png) no-repeat center;background-size: 27px 27px;}
+
+/* tap切换 */
+.recordTap{height: 40px;line-height: 40px;background: #f5f5f5;border: 1px solid #e8e8e8;}
+.recordTap span{width: 170px;text-align: center;cursor: pointer;font-size: 16px;color: #666;border-right: 1px solid #e8e8e8;}
+.recordTap .on{border-top: 2px solid #f8981d;color: #f8981d;}
+
+/* 售后记录商品列表 */
+.recordListContent{margin-top: 20px;display: none;}
+.cur{display: block;}
+.recordListTap{height: 20px;line-height: 20px;text-align: center;padding: 20px 0;font-size: 15px;color: #333;}
+.shopName{width: 298px;}
+.shopMoney{width: 140px;}
+.shopDate{width: 140px;}
+.shopType{width: 140px;}
+.shopState{width: 140px;}
+.operation{width: 138px;}
+
+.recordUl li{margin-bottom: 20px;height: 128px;border: 1px solid #dcdcdc;cursor: pointer;}
+.shopImg{background: #f4f4f4;margin: 14px;}
+.recordUl li:hover{border: 1px solid #f8981d;}
+
+.shopExplain{margin-top: 24px;width: 168px;}
+.name{padding: 2px 0;font-size: 15px;color: #333;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.explain{padding: 2px 0;font-size: 15px;color: #666;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.other{padding: 2px 0;font-size: 15px;color: #666;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.otherNum ,.otherWeight{margin-right:10px;}
+
+.recordLiMoney{text-align: center;line-height: 128px;font-size: 15px;color: #f81d1d;}
+
+.recordLiDate{text-align: center;padding: 44px 0;font-size: 15px;color: #333;}
+
+.recordLiType{text-align: center;line-height: 128px;font-size: 15px;color: #333;}
+
+.recordLiState{text-align: center;padding: 44px 0;font-size: 15px;color: #333;}
+.recordLiSuccess{color: #f81d1d;}
+.recordLiExamine{padding: 0;line-height: 128px;}
+
+.recordLiOperation{text-align: center;}
+.recordLiLook{display: block;line-height: 128px;font-size: 15px;color: #f9a850;}
+
+/* 更多 */
+.more{height: 60px;line-height: 60px;margin-top: 40px;text-align: center;background: #f4f4f4;font-size: 16px;color: #666;cursor: pointer;}
+
+/* 暂无记录 */
+.notShop{text-align: center;margin: 200px 0;}
+.notShopIcon{width: 83px;height: 93px;background: url(../../Image/personalCenter/record/notShop.png) no-repeat center;background-size: 83px 93px;}
+.notShopText{text-align: center;padding: 20px 0;font-size: 16px;color: #666;}
+
+
+/* 查看详情弹窗 */
+.refundSpeed{width: 650px;}
+.refundDetail{width: 370px;}
+.reSpeedBar{margin: 90px 0 0 60px;}
+.reSpeedBar li{width: 25%;text-align: center;font-size: 15px;color: #333;}
+.reSpeedBar li p{margin-top: 6px}
+.reSpeedBar li i{width: 30px;height: 30px;}
+.reSpeedBar li b{display: block;height: 6px;z-index: -1;}
+
+.apply b{position: absolute;top: 13px;right: 0;width: 50%;background: #F4F4F4;}
+.handle b{position: absolute;top: 13px;right: 0;width: 100%;background: #F4F4F4;}
+.refundable b{position: absolute;top: 13px;right: 0;width: 100%;background: #F4F4F4;}
+.complete b{position: absolute;top: 13px;left: 0;width: 50%;background: #F4F4F4;}
+
+.applyActive b{background: #f8981d;}
+.handleActive b{background: #f8981d;}
+.refundableActive b{background: #f8981d;}
+.completeActive b{background: #f8981d;}
+
+.apply i{background: url(../../Image/personalCenter/record/unConductIcon.png) no-repeat center;background-size: 30px 30px;}
+.handle i{background: url(../../Image/personalCenter/record/unConductIcon.png) no-repeat center;background-size: 30px 30px;}
+.refundable i{background: url(../../Image/personalCenter/record/unConductIcon.png) no-repeat center;background-size: 30px 30px;}
+.complete i{background: url(../../Image/personalCenter/record/unConductIcon.png) no-repeat center;background-size: 30px 30px;}
+
+/* 添加class改变进度条 */
+.applyActive i{background: url(../../Image/personalCenter/record/conductIcon.png) no-repeat center;background-size: 30px 30px;}
+.handleActive i{background: url(../../Image/personalCenter/record/conductIcon.png) no-repeat center;background-size: 30px 30px;}
+.refundableActive i{background: url(../../Image/personalCenter/record/conductIcon.png) no-repeat center;background-size: 30px 30px;}
+.completeActive i{background: url(../../Image/personalCenter/record/conductIcon.png) no-repeat center;background-size: 30px 30px;}
+
+.refundDetailRight{height: 70px;line-height: 70px;padding-left: 20px;font-size: 20px;color: #333;background: #f4f4f4;border-top-right-radius: 5px;}
+.refundDetailList{margin-top: 20px;height: 440px;border-left: 1px dashed #a5a5a5;}
+.refundDetailImg{margin-top: 0;}
+.reDelExplain{margin-top: 0;}
+.seller{margin: 0 0 10px 14px;font-size: 15px;color: #333;}
+.sellerText{width: 260px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+.reSpeedText{margin: 40px 0 0 90px;}
+.reSpeedBox{margin: 0 0 6px 0;font-size: 15px;color: #333;}
+.difference{color: #1db2f8;}
+
+/* 换货图片 */
+.reSpeedPic{margin: 50px 0 0 90px;}
+.reSpeedPicName{width: 170px;text-align: center;}
+.reSpeedPicImg{background: #F4F4F4;display: inline-block;}
+.exchangeIcon i{width: 28px;height: 28px;background: url(../../Image/personalCenter/record/exchangeIcon.png) no-repeat center;background-size: 28px 28px;}
+.exchangeIcon{margin: 60px 30px;}
+
+/* 退回银行卡 */
+.reMoney{margin: 50px 50px 0 90px;height: 56px;line-height: 56px;font-size: 15px;color: #333;padding-left: 20px;background: #F4F4F4;}
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

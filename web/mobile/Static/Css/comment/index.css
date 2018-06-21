@@ -1,0 +1,40 @@
+/* 评论头部 */
+.mHome{margin-bottom: 0;}
+.page-group{padding: 0 .7rem;}
+.feedbackTitle{margin: 1rem 0 .8rem;}
+.feedbackTitle span{font-size: .8rem;color: #333;}
+.feedbackTitle a{font-size: .8rem;color: #edc15b;}
+
+/* 商品内容 */
+.listContent{margin-bottom: .4rem;border-radius: 6px;background: #fff;}
+.listContent a{display: block;padding: 0 .8rem;}
+.shopInfo{padding: 1.2rem 0 .9rem;}
+.listImg{width: 4rem;height:4rem;border: 1px solid #eaeaea;}
+.shopInfoLeft{width: 28%;height: 4rem;}
+.shopInfoRight{width: 72%;height: 4rem;padding-left: .4rem;}
+.shopName{height: 1.33rem;line-height: 1.33rem;width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: .8rem;color: #333;}
+.shopText{height: 1.33rem;line-height: 1.33rem;width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: .7rem;color: #999;}
+.shopPrice{height: 1.33rem;line-height: 1.33rem;}
+.shopNum{padding-bottom: .4rem;}
+.price{font-size: .8rem;color: #333;}
+.num{font-size: .8rem;color: #ccc;}
+.total ,.money{font-size: .8rem;color: #ccc;}
+.money i{font-style: normal;color: #eeaf1b;}
+
+/* 评论内容 */
+.feedbackText{width: 100%;border: none;border-radius: 6px;height: 5.6rem;padding: .4rem;font-size: .8rem;}
+.surplus{text-align: right;padding: 0 .4rem .4rem;font-size: .6rem;color: #999;}
+.feedbackContent{border-radius: 6px;background: #fff;}
+
+/* 评分 */
+.score{margin: .4rem 0 .4rem;}
+.score i{display: inline-block;vertical-align: middle;margin-right: .4rem;width: 1rem;height: 1rem;background: url("../../Image/myOrder/shopIcon.png") no-repeat;background-size: 1rem 1rem;}
+.score span{vertical-align:middle;font-size: .7rem;color: #999;}
+.scoreDate{padding: 0 .2rem;}
+.describeTitle{vertical-align: middle;font-size: .7rem;color: #999;}
+.star{vertical-align: middle;}
+.evaluate{vertical-align: middle;margin-left: 1rem;letter-spacing: 4px;font-size: .7rem;color: #fd8585;}
+
+
+
+.toast{border-radius: 6px;font-size: .9rem;letter-spacing: 1px;}

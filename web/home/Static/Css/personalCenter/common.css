@@ -1,0 +1,18 @@
+/* 面包屑 */
+.crumbs{padding: 0 20px;height: 60px;line-height: 60px;font-size: 15px;}
+.secondLevel{color: #999;}
+
+/* 左侧边导航 */
+.content{margin-bottom: 160px;}
+.typeTitle{font-size: 17px;padding: 26px 0 0 40px;}
+.leftNavigation{width: 180px;height: 700px;margin-right: 20px;border: 1px solid #f4f4f4;}
+.leftNavigation a{display: block;font-size: 15px;margin: 16px 0;padding-left: 40px;color: #666;}
+.notice{vertical-align: text-top;width: 6px;height: 6px;margin-left: 4px;background: #d4282d;border-radius: 50%;}
+.leftNavigation .active{color: #f8981d;border-left: 2px solid #f8981d;}
+
+/* 右侧选项卡 */
+.rightContent{width: 998px;}
+.rightContentTitle{height: 38px;line-height: 38px;}
+.rightContentTitle a{width: 140px;text-align: center;font-size: 18px;font-weight: 600;color: #333;}
+.rightContentTitle .active{border-bottom: 2px solid #f8981d;color: #f8981d;}
+.messageLine{width: 140px;height: 22px;line-height: 22px;border-right: 1px solid #ccc;}

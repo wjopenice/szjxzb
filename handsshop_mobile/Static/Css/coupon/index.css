@@ -1,0 +1,20 @@
+.mHome{margin-bottom: 0;}
+/* content */
+.noGoods{width: 100%;}
+
+/* 券列表 */
+.content-block{margin: .6rem 0;}
+.buttons-tab .button{width: 33.33%;margin: 0 1.5rem;padding:0;height: 2.4rem;line-height: 2.4rem;color: #999;}
+.buttons-tab .button.active{color: #f8981d;border-color: #f8981d;}
+
+
+.welfareUl li{height: 5.4rem;margin-bottom: .7rem;background: url("../../Image/welfare/voucher1.png") no-repeat;background-size: 100% 100%;}
+.dateLeft{margin-top: 3.9rem;width: 60%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;padding: 0 .3rem;text-align: left;font-size: .6rem;color: #fff;}
+.explainRight{width: 40%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;text-align: right;padding: 1rem .4rem;}
+.explainRight span{display: block;color: #fff;}
+.explainRightMoney{height: 1.8rem;line-height: 1.8rem;}
+.explainRightMoney i{font-style: normal;}
+.money{font-size: 1.8rem;font-weight: 600;}
+.explainRightTitle{height: .8rem;line-height: .8rem;font-size: .68rem;}
+
+.usedUl li{height: 5.4rem;margin-bottom: .7rem;background: url("../../Image/welfare/voucher2.png") no-repeat;background-size: 100% 100%;}

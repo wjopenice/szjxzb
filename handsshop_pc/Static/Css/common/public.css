@@ -1,0 +1,88 @@
+ /*     官网居中       */
+.container{width: 1200px;margin: 0 auto;}
+html{min-width: 1200px;margin: 0 auto;overflow-y: auto;}
+body{overflow: hidden;}
+
+/*    头部公共     */
+.nav{width: 100%;height: 30px;line-height: 30px;background: #F5F5F5;}
+.nav .navLink{font-size:12px;color: #999;}
+.nav .navInterval{margin: 0 3px;font-size:12px;color: #999;}
+.logoBox{padding: 53px 0 44px 0;background: #FFF;}
+.logoBox .logoLink{display: block;width: 180px;height: 58px;}
+.searchBox{width: 400px;height: 50px;margin-right:40px;border:1px solid #F8981D;border-radius: 5px;}
+.searchBox .searchInput{width:300px;height: 38px;margin:1px 0 0 3px;padding:5px 10px;font-size:16px;line-height: 48px;color:#666;border:none;}
+.searchBox .searchIcon{display: block;width: 70px;height: 50px;background:#F8981D url(../../Image/common/header/search.png) no-repeat center center;background-size: 30px 30px;}
+.cartBox{width: 200px;height: 50px;font-size:18px;line-height:50px;color:#CCC;border:1px solid #CCC;}
+.cartBox .cartIcon{display: block;width: 50px;height: 50px;background:url(../../Image/common/header/cart-org.png) no-repeat center center;background-size: 30px 29px;}
+.navBar{width: 100%;height: 50px;background: #030000;}
+.navBar .subNavBar{width: 120px;}
+.navBar .subNavBar.active .navBarLink{background: #F8981D;}
+.navBar .navBarLink{display: block;width:100%;height:50px;line-height:50px;font-size:16px;text-align:center;color: #FFF;}
+
+/*  个人中心公共头部   */
+.backHome{margin-left: 60px;}
+.personalContent{background: #f8981d;margin: 46px 0 30px 0;padding: 34px 0;}
+.personalCartBox{border: none;cursor: pointer;background: #fff;color: #333;}
+.personalSearchBox{border: 1px solid #fff;background: #fff;}
+.personalSearchBox .personalSearchInput{margin: 0;height: 40px;line-height: 40px;}
+.personalSearchBox .personalSearchIcon{width: 80px;cursor: pointer;background: #f4f4f4 url(../../Image/common/header/search1.png) no-repeat center center;background-size: 30px 30px;}
+
+/*    公共底部      */
+.qualityBox{width:100%;height: 70px;padding:23px 0;background:#FFF;border-top:1px solid #CCC;border-bottom: 1px solid #CCC;}
+.qualityBox .subQuality{height: 77px;padding:0 90px;line-height:77px;font-size:30px;color:#333;border-right: 1px solid #CCC;}
+.qualityBox i{display: block;float:left;width: 64px;height: 64px;margin: 6px 20px 6px 18px;}
+.qualityBox .real{background: url(../../Image/common/footer/real.png) no-repeat;background-size: 64px 64px;}
+.qualityBox .seven{background: url(../../Image/common/footer/seven.png) no-repeat;background-size: 64px 64px;}
+.qualityBox .quick{background: url(../../Image/common/footer/quick.png) no-repeat;background-size: 64px 64px;}
+.qualityBox .quickBox{border-right: none;}
+.footConBox{width: 100%;padding:50px 0;background:#F4F4F4;border-bottom: 1px solid #CCC;}
+.footConBox .subFootCon{width:17%;margin:0 8%;font-size: 18px;}
+.subFootCon p{height:30px;line-height:30px;color: #333;}
+.subFootCon a{display: block;width: 100%;height:30px;line-height:30px;color: #999;}
+.footCopy{width: 100%;height: 120px;line-height: 120px;text-align: center;color: #FFF;background: #030000;}
+
+/*    右侧导航栏     */
+.rightSide{position: fixed;right: 0;top:200px;}
+.subSide{width: 100px;height: 100px;margin-bottom:12px;background: #333;border-radius: 5px;cursor: pointer;}
+.subSide i{display: block;width: 100px;height: 100px;}
+.subSide.active{background: #F8981D;}
+.wx i{background: url(../../Image/common/slide/wx.png) no-repeat center center;}
+.phone i{background: url(../../Image/common/slide/phone.png) no-repeat center center;}
+
+/*    banner      */
+.slide-box {position: relative; overflow: hidden;}
+.slide-box .slide-content li { height: 500px;}
+.slide-box .slide-content li a{ display: block; height: 100%;}
+.slide-box .slide-triggers {position: absolute;width: 100%;text-align: center;left: 0;right: 0;bottom: 10px;z-index: 3;}
+.slide-box .slide-triggers li {display: inline-block;width: 12px;height: 12px;margin: 0 4px;background:rgba(255,255,255,.5);border-radius: 16px;overflow: hidden;cursor: pointer; *display:inline;*zoom:1;}
+.slide-box .slide-triggers .cur {width: 9px;height: 9px;border:2px solid #F8981D;cursor: default;}
+
+/*    滑动      */
+.slide-btns .next,.slide-btns .prev{position:absolute;top:50%;z-index: 4; width: 30px;height: 50px;cursor: pointer;}
+.slide-btns .next{background: url(../../Image/common/nextPrev/next.png) no-repeat;background-size:30px 50px;float: right;right: 0;}
+.slide-btns .prev{background: url(../../Image/common/nextPrev/prev.png) no-repeat;background-size:30px 50px;}
+
+/*   加减框    */
+.cart_num .cart_min,.cart_num .cart_add{float:left;width: 38px;height: 38px;line-height:38px;text-align:center;font-size: 28px;color: #CCC;border:1px solid #CCC;cursor: pointer;}
+.cart_num .cart_min{background: url(../../Image/common/cart_num/cart_min.png) no-repeat center center;}
+.cart_num .cart_add{background: url(../../Image/common/cart_num/cart_add.png) no-repeat center center;}
+.cart_num .cart_text_box{float: left;width: 60px;height: 38px;padding:0 10px;line-height:38px;text-align:center;font-size:18px;color:#333;border-top:1px solid #CCC;border-bottom:1px solid #CCC;border-left:none;border-right:none;}
+
+/*    goodsBox      */
+.subGoodsBox .goodsBoxImg{width: 100%;}
+.subGoodsBox .goodsBoxName{width: 80%;height: 40px;margin:0 auto;line-height: 40px;font-size:18px;text-align: center;color:#333;}
+.subGoodsBox .goodsBoxPrice{height:30px;line-height:30px;font-size:18px;text-align: center;color: #F00;}
+
+/*    star    */
+.starBox{display: block;width:75px;height: 15px;background: url(../../Image/common/star.png) no-repeat 0 0;}
+.starBox em{display: block;float: left;height: 15px;background: url(../../Image/common/star.png) no-repeat 0 -13px;}
+
+/*    复选框    */
+.check{display: block;width:20px;height: 20px;background: url(../../Image/common/isChecked/unCheck.png) no-repeat;}
+.check.active{background: url(../../Image/common/isChecked/check.png) no-repeat;}
+
+/*    商品信息      */
+.goodsInfoDiv img{width: 100px;height: 100px;background: #FFF;}
+.goodsInfoDiv .name,.goodsInfoDiv .instr{width: 210px;margin-left: 15px;font-size: 14px;}
+.goodsInfoDiv .name{height: 30px;line-height: 30px;color: #333;}
+.goodsInfoDiv .instr{color: #999;}

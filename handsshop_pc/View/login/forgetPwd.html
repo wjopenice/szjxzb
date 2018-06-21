@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <title>手电筒商城-忘记密码</title>
+    <meta name="description" content="手电筒商城">
+    <link rel="stylesheet" href="../../Static/Css/common/base.css">
+    <link rel="stylesheet" href="../../Static/Css/common/public.css">
+    <link rel="stylesheet" href="../../Static/Css/login/forgetPwd.css">
+</head>
+<body class="header footer">
+
+    <!-- 面包屑 -->
+    <div class="crumbs container"><span>首页</span>&gt;<span>找回密码</span></div>
+    <!-- content -->
+    <div class="content container">
+        <ul class="cf pr">
+            <li class="complete fl active">
+                <i></i>
+                <span>填写账号</span>
+            </li>
+            <b class="line"></b>
+            <li class="verification fl">
+                <i></i>
+                <span>验证身份</span>
+            </li>
+            <b class="line twoLine"></b>
+            <li class="resetPwd fl">
+                <i></i>
+                <span>重置密码</span>
+            </li>
+            <b class="line threeLine"></b>
+            <li class="success fl">
+                <i></i>
+                <span>成功</span>
+            </li>
+        </ul>
+
+        <div class="forgetInputBox">
+            <!-- 账号信息 -->
+            <div class="inputInfo hide">
+                <div class="loginName">
+                    <label class="userText" for="userAccount">登录名：</label>
+                    <input class="userInput" type="text" id="userAccount" maxlength="20">
+                </div>
+                <div class="verificationCode">
+                    <label class="userText" for="drag">验证码：</label>
+                    <div id="drag"></div>
+                </div>
+                <input type="button" class="next dib" value="下一步">
+            </div>
+
+            <!-- 验证身份 -->
+            <div class="verificationInfo hide">
+                <p class="text">你正在找回登录名为"<span class="tel">17688830262</span>"的登录密码，账号不对？<a class="heavy" href="login.html">返回重填</a></p>
+                <p class="text">根据您的账号情况，可选择通过以下验证方式找回密码：</p>
+                <div class="bind">
+                    <i></i>
+                    <div class="bindText dib">
+                        <span>通过验证码绑定的手机号找回</span>
+                        <span class="tel">17688830262</span>
+                    </div>
+                </div>
+                <input type="button" class="immediate dib" value="立即验证">
+            </div>
+
+            <!-- 正在发送验证码 -->
+            <div class="beingSent hide">
+                <p class="text">正在发送<span class="tel">17688830262</span>，请注意查收。并在下方输入短信中的6位验证码：</p>
+                <div class="message">
+                    <label class="messageCode" for="messageCode">短信验证码：</label>
+                    <input class="messageInput" type="text" id="messageCode" maxlength="20">
+                    <input type="button" class="recapture dib" onclick="setTime(this);" value="获取验证码" >
+                </div>
+                <input type="button" class="sure dib" value="确定">
+            </div>
+
+            <!-- 确认密码 -->
+            <div class="surePwd hide">
+                <div>
+                    <div class="new pr">
+                        <label class="newPwd" for="newPwd">新的密码：</label>
+                        <input class="newPwdInput" type="text" id="newPwd" maxlength="20" placeholder="密码由6-20位数字和符号组合">
+                        <i class="keyBoardIcon"></i>
+                    </div>
+                </div>
+                <div>
+                    <div class="new pr">
+                        <label class="confirmPwd" for="confirmPwd">确认密码：</label>
+                        <input class="confirmPwdInput" type="text" id="confirmPwd" maxlength="20" placeholder="请再次输入上面密码">
+                        <i class="keyBoardIcon"></i>
+                    </div>
+                </div>
+                <input type="button" class="sure dib" value="确定">
+            </div>
+
+            <!-- 成功 -->
+            <div class="successInfo">
+                <h3>密码修改成功</h3>
+                <a href="login.html" class="returnLogon">返回登录</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="../../Static/Js/common/jquery.js"></script>
+    <script src="../../Static/Js/common/public.js"></script>
+    <script src="../../Static/Js/login/forgetPwd.js"></script>
+    <script>
+        $('#drag').drag();
+    </script>
+</body>
+</html>

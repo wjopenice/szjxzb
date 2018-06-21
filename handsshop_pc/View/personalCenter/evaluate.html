@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <title>商品评价</title>
+    <link rel="stylesheet" href="../../Static/Css/common/base.css">
+    <link rel="stylesheet" href="../../Static/Css/common/public.css">
+    <link rel="stylesheet" href="../../Static/Css/personalCenter/common.css">
+    <link rel="stylesheet" href="../../Static/Css/personalCenter/evaluate.css">
+</head>
+<body class="personalHeader footer">
+
+    <div class="container">
+        <!-- 面包屑 -->
+        <div class="crumbs">
+            <span>首页</span> &gt; <span class="secondLevel">个人中心</span>
+        </div>
+
+        <!-- content -->
+        <div class="content cf">
+            <!-- 左侧边导航 -->
+            <div class="leftNavigation fl">
+                <div class="typeTitle">账号管理</div>
+                <a href="javascript:;">个人中心</a>
+                <a href="message.html">消息通知<span class="notice dib"></span></a>
+                <a href="accountInfo.html">账号信息</a>
+                <a href="addressManagement.html">地址管理</a>
+                <a href="accountSecurity.html">账号安全</a>
+                <a href="myPoints.html">我的积分</a>
+                <a href="myCollection.html">我的收藏</a>
+                <a href="javascript:;">我的足迹</a>
+                <div class="typeTitle">交易管理</div>
+                <a href="../../View/personalCenter/order.html" class="active">订单管理</a>
+                <a href="javascript:;">我的红包</a>
+                <a href="javascript:;">优惠券<span>(0)</span></a>
+                <div class="typeTitle">服务中心</div>
+                <a href="record.html">售后记录</a>
+                <a href="../helpCenter/index.html">帮助中心</a>
+            </div>
+
+            <!-- 右侧内容 -->
+            <div class="rightContent fl">
+                <div class="evaluateHeader cf"><span class="shopHeader fl">商品</span><span class="shopHeader fl">评价</span></div>
+                <div class="evaluateContent cf">
+                    <div class="shopPic fl">
+                        <img src="" width="120" height="120" alt="">
+                        <p class="shopTitle" title="柠檬蜂蜜瓶">柠檬蜂蜜瓶</p>
+                        <p class="shopType">颜色分类：圆形500ML【拍两个】</p>
+                    </div>
+                    <div class="shopOperation fl cf">
+                        <div class="logistics cf">
+                            <span class="describeTitle fl">评价：</span>
+                            <div class="star fl cf">
+                                <span class="fl" onclick="logisticsStar(0)" id="logisticsOneStar"><img src="../../Static/Image/personalCenter/evaluate/unStar.png" width="16" height="15" alt=""></span>
+                                <span class="fl" onclick="logisticsStar(1)" id="logisticsTwoStar"><img src="../../Static/Image/personalCenter/evaluate/unStar.png" width="16" height="15" alt=""></span>
+                                <span class="fl" onclick="logisticsStar(2)" id="logisticsThreeStar"><img src="../../Static/Image/personalCenter/evaluate/unStar.png" width="16" height="15" alt=""></span>
+                                <span class="fl" onclick="logisticsStar(3)" id="logisticsFourStar"><img src="../../Static/Image/personalCenter/evaluate/unStar.png" width="16" height="15" alt=""></span>
+                                <span class="fl" onclick="logisticsStar(4)" id="logisticsFiveStar"><img src="../../Static/Image/personalCenter/evaluate/unStar.png" width="16" height="15" alt=""></span>
+                            </div>
+                            <span id="starNum" class="starNum fl"></span>
+                        </div>
+                        <div class="subForm pr">
+                            <textarea class="detailAddress" id="area" name="" placeholder="添加图文评价，即可获得成长值奖励！"></textarea>
+                            <p class="surplus">剩余<span id="word">300</span>个字</p>
+                        </div>
+
+                        <div class="fileInput">
+                            <p class="fileTitle"><i></i></p>
+                            <img src="" class="img">
+                            <input type="file" class="file" placeholder="" accept="image/*" capture="camera">
+                        </div>
+                        <a class="sureBtn fr" href="javascript:;">确定</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../Static/Js/common/jquery.js"></script>
+    <script src="../../Static/Js/common/public.js"></script>
+    <script src="../../Static/Js/personalCenter/evaluate.js"></script>
+</body>
+</html>

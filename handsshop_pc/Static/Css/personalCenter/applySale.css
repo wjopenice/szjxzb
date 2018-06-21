@@ -1,0 +1,68 @@
+/* 售后申请右侧 */
+.rightContent{width: 946px;padding-left: 50px;border: 1px solid #f4f4f4;}
+.shopList{margin: 24px 0;}
+.shopLeft{width: 86px;}
+.shopRight{margin-left: 20px;}
+
+.formName{font-size: 15px;color: #333;height: 30px;line-height: 30px;}
+.star{color: #ff4400;}
+
+
+.shopDetail img{border: 1px solid #e8e8e8;}
+.shopText{margin: 10px 0 0 10px;}
+.shopText p{margin: 4px 0;width: 500px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.shopTitle{font-size: 15px;color: #333;}
+.shopType{font-size: 15px;color: #666;}
+
+/* 服务类型 */
+
+.provinceBox{width: 220px;height: 30px;margin-left: 20px;border: 1px solid #e8e8e8;padding-left: 10px;}
+.explain{font-size: 13px;padding-left: 106px;color: #999;}
+.lookBtn{color: #0088cb;}
+.refundMoney{width: 210px;}
+.refundMoney input{color: #ff4400;height: 100%;width: 100%;border: none;}
+.refundExplain{padding: 10px 0;font-size: 13px;color: #999;}
+
+.detailAddress{width: 460px;height: 129px;padding: 20px;border: 1px solid #e8e8e8;color: #666;font-size: 14px;}
+/* 剩余字数 */
+.surplus{width: 500px;text-align: right;font-size: 12px;color: #999;}
+
+/* 提交 */
+.subBtn{width: 200px;height: 32px;line-height: 32px;text-align: center;background: #ff4400;font-size: 15px;color: #fff;}
+
+
+/* 跟踪物流弹窗 */
+.getCouponAlert{padding: 30px 30px 30px 60px;}
+.alertDel i{cursor: pointer;width: 23px;height: 22px;background: url(../../Image/personalCenter/order/alertDelIcon.png) no-repeat center;background-size: 23px 22px;}
+.track{font-size: 22px;color: #333;}
+.logisticsCar{padding: 40px 30px 40px 0;font-size: 14px;color: #333;}
+.logisticsCar i{margin-top: 8px;width: 50px;height: 50px;background: url(../../Image/personalCenter/order/logisticsCar.png) no-repeat center;background-size: 50px 50px;}
+.logisticsText{margin-left: 20px;}
+.logisticsText p{margin: 2px 0;}
+.oddNum{color: #999;}
+.timeList{padding: 20px 0;margin-right: 30px;border-top: 1px solid #f4f4f4;border-bottom: 1px solid #f4f4f4;height: 243px;overflow-y:auto;font-size: 14px;letter-spacing: 1px;}
+.complaint{padding: 10px 0;margin-right: 30px;text-align: right;}
+.complaint a{font-size: 14px;color: #6699cc;}
+.submit{text-align: center;padding-right: 30px;}
+.submitBtn{width: 140px;height: 40px;line-height: 40px;background: #f8981d;font-size: 16px;color: #fff;text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

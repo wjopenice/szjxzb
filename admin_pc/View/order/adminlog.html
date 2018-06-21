@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理系统日志</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="../../Static/Css/common/font-awesome.min.css" rel="stylesheet">
+    <link href="../../Static/Css/common/public.css" rel="stylesheet">
+    <link href="../../Static/Css/common/page.css" rel="stylesheet">
+    <style>
+        .dib{display: inline-block;}
+        .selectLeft{height: 26px;line-height: 26px;}
+        .flexigrid .sDiv2{border: none;}
+        .flexigrid .sDiv2 .qsbox, .flexigrid .sDiv2 .select, .flexigrid .sDiv2 .btn{border: 1px solid #D7D7D7;}
+        .checkbox{width: 18px;height: 18px;margin-top: 4px;}
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <!--  标题栏   -->
+        <div class="fixed-bar">
+            <div class="item-title">
+                <div class="subject">
+                    <h3>管理系统日志</h3>
+                    <h5>商城系统日志管理</h5>
+                </div>
+            </div>
+        </div>
+        <!--  操作提示  -->
+        <div id="explanation" class="explanation">
+            <div id="checkZoom" class="title">
+                <i class="fa pressIcon"></i>
+                <h4 title="提示相关设置操作时应注意的要点">操作提示</h4>
+                <span title="收起提示"></span>
+            </div>
+            <ul>
+                <li>商城系统日志管理注意发布商品后清理缓存.</li>
+                <li>商城系统日志管理也有缓存.</li>
+            </ul>
+        </div>
+        <!--  表格     -->
+        <div class="flexigrid">
+            <div class="mDiv">
+                <div class="ftitle">
+                    <h3>管理系统列表</h3><h5></h5>
+                </div>
+                <a href="javascript:void(0)"><div title="刷新数据" class="pReload"><i class="fa fa-refresh"></i></div></a>
+                <form action="" id="search-form2" class="form-inline fr" method="post" onSubmit="return false">
+                    <div class="sDiv">
+                        <div class="sDiv2">
+                            <div class="dib">
+                                <span class="selectLeft">管理员：</span>
+                                <select name="cat_id" class="select">
+                                    <option value="">-- 全部 --</option>
+                                </select>
+                            </div>
+                            <div class="dib">
+                                <span class="selectLeft">IP地址：</span>
+                                <input type="text" size="30" name="key_word" class="qsbox" placeholder="IP地址">
+                            </div>
+                            <div class="dib">
+                                <span class="selectLeft">时间：</span>
+                                <select name="is_on_sale" class="select">
+                                    <option value="">-- 全部 --</option>
+                                </select>
+                            </div>
+                            <!--排序规则-->
+                            <input type="button" class="btn" value="搜索">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="hDiv">
+                <div class="hDivBox">
+                    <table cellspacing="0" cellpadding="0">
+                        <thead>
+                        <tr>
+                            <th class="sign" axis="col6" onclick="checkAllSign(this)">
+                                <div style="width: 26px;"><i class="ico-check"></i></div>
+                            </th>
+                            <th align="center" abbr="article_title" axis="col6" class="">
+                                <div style=" width:162px;" class="ta_c">选择</div>
+                            </th>
+                            <th align="center" abbr="ac_id" axis="col4" class="">
+                                <div style=" width: 162px;" class="ta_c">管理员</div>
+                            </th>
+                            <th align="center" abbr="ac_img" axis="col10" class="">
+                                <div style=" width: 262px;" class="ta_c">访问文件</div>
+                            </th>
+                            <th align="center" abbr="article_show" axis="col6" class="">
+                                <div style="width: 162px;" class="ta_c">方式</div>
+                            </th>
+                            <th align="center" abbr="article_time" axis="col6" class="">
+                                <div style="width: 162px;" class="ta_c">访问IP</div>
+                            </th>
+                            <th align="center" abbr="article_time" axis="col6" class="">
+                                <div style="width: 162px;" class="ta_c">时间</div>
+                            </th>
+                            <th align="center" abbr="article_time" axis="col10" class="">
+                                <div style="width: 362px;" class="ta_c">Query参数</div>
+                            </th>
+                            <th style="" axis="col7">
+                                <div></div>
+                            </th>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <div class="tDiv">
+                <div class="tDiv2">
+                    <div class="fbutton">
+                        <a href="javascript:void(0)">
+                            <div class="add" title="反选">
+                                <span>反选</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fbutton">
+                        <a href="javascript:void(0)">
+                            <div class="add" title="删除所选">
+                                <span>删除所选</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fbutton">
+                        <a href="javascript:void(0)">
+                            <div class="add" title="清空所有日志">
+                                <span>清空所有日志</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="bDiv">
+                <div id="flexigrid">
+                    <table>
+                        <tr>
+                            <td class="sign" axis="col6">
+                                <div style="width: 24px;"><i class="ico-check"></i></div>
+                            </td>
+                            <td align="center" axis="col6">
+                                <div class="ta_c" style="width: 160px;">
+                                    <input class="checkbox" type="checkbox" name="vehicle" value="">
+                                </div>
+                            </td>
+                            <td align="center" axis="col6">
+                                <div class="ta_c" style="width: 160px;">haier海尔</div>
+                            </td>
+                            <td align="center" axis="col10">
+                                <div class="ta_c" style="width: 260px;">haier海尔</div>
+                            </td>
+                            <td align="center" axis="col6">
+                                <div class="ta_c" style="width: 160px;">haier海尔</div>
+                            </td>
+                            <td align="center" axis="col6">
+                                <div class="ta_c" style="width: 160px;">haier海尔</div>
+                            </td>
+                            <td align="center" axis="col6">
+                                <div class="ta_c" style="width: 160px;">haier海尔</div>
+                            </td>
+                            <td align="center" axis="col10">
+                                <div class="ta_c" style="width: 360px;">haier海尔</div>
+                            </td>
+                            <td class="" style="width: 100%;">
+                                <div>&nbsp;</div>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="../../Static/Js/common/jquery.js"></script>
+<script src="../../Static/Js/common/public.js"></script>
+</body>
+</html>

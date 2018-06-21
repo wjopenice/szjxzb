@@ -1,0 +1,29 @@
+.mHome{margin-bottom: 0;}
+.page-group{padding-top: 2rem;}
+
+/*    搜索     */
+.buttons-tab.order-tab{margin-top:-3rem;border-bottom: 1px solid #F4F4F4;}
+.bar.bar-header-secondary{background: #030000;}
+.bar .searchbar .searchbar-cancel{color: #FFF;}
+.bar .icon{padding:.5rem 0;}
+
+/*   搜索内容部分    */
+.searchTit,.searchLinkBox{margin: .5rem;color: #666;}
+.searchTit{font-size: .8rem;}
+.searchLinkBox{font-size: .6rem;}
+.subLink{display: block;float: left;padding: .3rem .5rem;margin:0 .5rem .5rem 0;color:#666;background: #DDD;border-radius: .2rem;}
+.subLink.active{color:#F8B500;background: #FFF0C6;}
+
+/*    搜索详情     */
+.buttons-tab .button.active{color:#FF5050;border:none;}
+.priceSearch span{vertical-align: middle;}
+.tab-link .icon-array{width: 1rem;height:1.4rem;background: url(../../Image/search/search.png) no-repeat -0.3rem -0.24rem;background-size: 4.17rem 1.86rem;}
+.priceSearch.active .icon-array{background: url(../../Image/search/search.png) no-repeat -2.7rem -0.24rem; background-size: 4.17rem 1.86rem;}
+.priceSearch.active .icon-array.active{background: url(../../Image/search/search.png) no-repeat -1.4rem -0.24rem; background-size: 4.17rem 1.86rem;}
+.filterGoods{background: #FFF;}
+.bottomBox{height:3rem;line-height:3rem;font-size:.7rem;text-align: center;color:#999;}
+
+
+#searchTap{ display: block; height: 2.5rem; width: 100%;}
+#searchTap a{display: inline-block;float: left; width: 25%;line-height: 2.5rem;}
+.buttons-tab{outline: solid 1px #e6e6e6;}

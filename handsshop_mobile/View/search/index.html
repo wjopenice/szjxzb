@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>搜索</title>
+    <link rel="stylesheet" href="../../Static/Css/common/sm.min.css">
+    <link rel="stylesheet" href="../../Static/Css/common/base.css">
+    <link rel="stylesheet" href="../../Static/Css/search/index.css">
+</head>
+<body class="mHome">
+
+    <!--  加载层   -->
+    <div id="loader">
+        <div class="loaderInner">
+            <img src="../../Static/Image/common/logo/logo1.png" alt="">
+        </div>
+    </div>
+
+    <!--  页面    -->
+    <div class="page-group">
+
+        <!--  搜索    -->
+        <div class="bar bar-header-secondary">
+            <div class="searchbar">
+                <a class="searchbar-cancel">取消</a>
+                <div class="search-input">
+                    <label class="icon icon-search" for="search"></label>
+                    <input type="search" id='search' placeholder='搜索感兴趣的内容...'/>
+                </div>
+            </div>
+        </div>
+        <!--  最近搜索   -->
+        <div class="recentlySearchBox">
+            <div class="searchTit cf">
+                <span class="fl">最近搜索</span>
+                <span class="icon icon-remove fr del"></span>
+            </div>
+            <div class="searchLinkBox cf">
+                <a class="subLink" href="javascript:void(0)">黄金套链</a>
+                <a class="subLink" href="javascript:void(0)">睫毛膏</a>
+                <a class="subLink" href="javascript:void(0)">口红</a>
+                <a class="subLink" href="javascript:void(0)">口红</a>
+                <a class="subLink" href="javascript:void(0)">口红</a>
+                <a class="subLink" href="javascript:void(0)">口红</a>
+                <a class="subLink" href="javascript:void(0)">口红</a>
+                <a class="subLink" href="javascript:void(0)">婚礼 订婚 钻戒</a>
+            </div>
+        </div>
+        <!--  热门搜索   -->
+        <div class="hotSearchBox">
+            <div class="searchTit cf">
+                <span class="fl">热门搜索</span>
+            </div>
+            <div class="searchLinkBox cf">
+                <a class="subLink active" href="javascript:void(0)">黄金套链</a>
+                <a class="subLink" href="javascript:void(0)">睫毛膏</a>
+                <a class="subLink" href="javascript:void(0)">口红</a>
+                <a class="subLink" href="javascript:void(0)">婚礼 订婚 钻戒</a>
+            </div>
+        </div>
+
+    </div>
+
+<script src="../../Static/Js/common/zepto.min.js"></script>
+<script src="../../Static/Js/common/sm.min.js"></script>
+<script src="../../Static/Js/common/public.js"></script>
+<script src="../../Static/Js/search/common.js"></script>
+</body>
+</html>

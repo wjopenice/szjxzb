@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>登录</title>
+    <link rel="stylesheet" href="../../Static/Css/common/sm.min.css">
+    <link rel="stylesheet" href="../../Static/Css/common/sm-extend.min.css">
+    <link rel="stylesheet" href="../../Static/Css/common/base.css">
+    <link rel="stylesheet" href="../../Static/Css/login/login.css">
+</head>
+<body class="mHome">
+
+    <!--  加载层   -->
+    <div id="loader">
+        <div class="loaderInner">
+            <img src="../../Static/Image/common/logo/logo1.png" alt="">
+        </div>
+    </div>
+
+    <!--  返回   -->
+    <div class="returnBox">
+        <a class="return fl cf" href="javascript:void(0)"><span class="icon icon-left"></span></a>
+        <a class="reg fr" href="../../View/login/register.html">注册</a>
+    </div>
+    <!--  logo  -->
+    <div class="logo">
+        <img class="logoImg dib" src="../../Static/Image/common/logo/logo.png" alt="">
+    </div>
+
+    <!--  表单   -->
+    <form action="" class="formBox">
+        <div class="formBoxWrap account pr" id="account"><i></i><input type="text" placeholder="请输入账号" maxlength="20"></div>
+        <div class="formBoxWrap pwd pr" id="pwd"><i></i><input type="password" placeholder="请输入密码" maxlength="20"></div>
+        <a href="javascript:void(0)" class="btnLogin" id="btnLogin">登录</a>
+        <div class="operation">
+            <a href="../../View/login/forgetPwd.html" class="forgetPwd">忘记密码</a>
+        </div>
+    </form>
+
+
+<script src="../../Static/Js/common/zepto.min.js"></script>
+<script src="../../Static/Js/common/sm.min.js"></script>
+<script src="../../Static/Js/common/sm-extend.min.js"></script>
+<script src="../../Static/Js/common/public.js"></script>
+<script src="../../Static/Js/login/login.js"></script>
+</body>
+</html>

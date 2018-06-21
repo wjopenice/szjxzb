@@ -1,0 +1,37 @@
+.login{width: 100%;min-width: 1200px;overflow: hidden;overflow-y: auto;}
+
+/* 登录头部 */
+.header{padding: 46px 0 30px;}
+.headerLogo i{display: block;width: 136px;height: 51px;background: url(../../Image/login/login/logo.png) no-repeat;background-size: 136px 51px;}
+.explainUl{height: 51px;}
+.explainUl li i{display: block;width: 60px;height: 51px;}
+.explainUl li{padding: 0 20px;}
+.explainUl li span{height: 51px;line-height: 45px;font-size: 18px;color: #494949;}
+.qualityGoods i{background: url(../../Image/login/login/qualityGoodsIcon.png) no-repeat;background-size: 45px 46px;}
+.sevenDay i{background: url(../../Image/login/login/sevenDayReturn.png) no-repeat;background-size: 43px 46px;}
+.express i{background: url(../../Image/login/login/express.png) no-repeat;background-size: 45px 46px;}
+.qualityGoods ,.sevenDay{border-right: 1px solid #ccc;}
+
+/* content */
+.loginPopup{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+.popup{width: 340px;height: 300px;background: #fdfdfd;margin-right: 20px;padding: 20px;}
+.loginTit span{font-size: 15px;}
+.loginTit a{font-size: 15px;color: #f81d1d;}
+.eachInput{margin: 20px 0;}
+.inputBox{width: 329px;height: 36px;padding-left: 10px;font-size: 15px;border: 1px solid #dcdcdc;background: #f4f4f4;}
+.keyBoardIcon{display: block;width: 26px;height: 18px;position: absolute;right: 10px;top: 10px;z-index: 999;cursor: pointer;background: url(../../Image/login/login/keyBoard.png) no-repeat;background-size: 26px 18px;}
+
+.isChose{display: block;width: 20px;height: 20px;margin-right: 10px;border: 1px solid #dcdcdc;}
+.btnLogin{display: block;width: 340px;height: 46px;margin-top: 25px;line-height: 46px;font-size: 16px;text-align: center;color: #FFF;background: #f8981d;}
+.isChose.active {background: url(../../Image/login/login/isChose.png) no-repeat;background-size: 20px 20px;}
+.rememberPwd ,.forgetPwd ,.thirdTitle{font-size: 14px;}
+.forgetPwd{color: #f8981d;}
+
+.third{margin-top: 20px;}
+.thirdIcon{display: block;width: 25px;height: 25px;margin-left: 20px;cursor: pointer;}
+.qq{background: url(../../Image/login/login/qqIcon.png) no-repeat;background-size: 21px 23px;}
+.weChat{background: url(../../Image/login/login/wechatIcon.png) no-repeat;background-size: 25px 21px;}
+
+/* 版本号 */
+.version{text-align: center;height: 120px;line-height: 120px;font-size: 16px;color: #333;}
+

@@ -1,0 +1,47 @@
+.mHome{margin-bottom: 0;}
+
+/*    收货地址    */
+.addressChoseBox{position:relative;padding:.5rem;margin-bottom:.5rem;font-size: .7rem;color:#333;background: #FFF;}
+.noAddressBox{color: #666;}
+.receiverCall{margin-left: 1rem;}
+.receiverAddressDetail{width: 85%;margin-top: .5rem;}
+.linkInner{display: block;width: 100%;height: 100%;}
+.noAddressBox .writeAddressBtn{top:.6rem;}
+.hasAddress .writeAddressBtn{top:2rem;}
+
+/*    订单商品     */
+.orderGoodsBox{background:#FFF;}
+.subOrderGoods{padding:.5rem;border-bottom: 1px solid #F4F4F4;}
+.orderImg{width: 3rem;height: 3rem;margin-right: 1rem;}
+.orderInfo{width:55%;font-size: .6rem;color: #666;}
+.orderName{font-size:.7rem;color: #000;}
+.orderInstr{margin:.1rem 0 .3rem 0;}
+.orderPriceBox{font-size: .7rem;text-align: right;}
+.orderPrice{color:#FF2929;}
+.totalBox{height: 2rem;padding:0 .5rem;font-size:.6rem;line-height: 2rem;color: #999;}
+.totalMoneyBox{font-size: .7rem;color: #333;}
+.totalMoneyBox .money{font-weight: 700;}
+
+/*    优惠券    */
+.coupon{height:2rem;margin: .5rem 0 3.5rem 0;padding:0 .5rem;line-height:2rem;font-size:.7rem;color:#666;background: #FFF;}
+.couponVal{color: #EEAF1B;}
+.coupon .rightIcon{display:inline-block;margin-left:.3rem;}
+
+/*    提交的导航栏    */
+.submitNavBar{position: fixed;bottom: 0;left: 0;width:100%;height: 2.5rem;color:#FFF;background: #030000;}
+.submitBtn{display: block;width: 5rem;height:100%;line-height:2.5rem;text-align:center;font-size:.8rem;color:#FFF;background: #EEAF1B;}
+.payInfoBox{padding-left: .5rem;}
+.realPay{font-size: .7rem;margin-top: .2rem;}
+.realPay .money{font-weight: 700;}
+.payInfoBox .post{font-size: .5rem;}
+
+/*    选择优惠券     */
+.choseCouponBox{position:fixed;bottom:0;left:0;width:100%;min-height:6rem;background: #FFF;}
+.operationBox{height: 2rem;margin:.3rem .7rem;line-height: 2rem;}
+.operationBox .confirm{display: block;}
+.operationBox .close{display: block;width: .8rem;height: .8rem;margin-top:.6rem;background:url(../../Image/goodsDetail/close.png) no-repeat;background-size: .8rem .8rem;}
+.subCouponBox{margin: .5rem 1rem;}
+.subCouponBox .unChose{display: block;width: .8rem;height: .8rem;margin-top:2rem;background: url(../../Image/common/isChecked.png) no-repeat -1.9rem -0.12rem;background-size: 3.45rem 1.87rem;}
+.subCouponBox.active .unChose{background: url(../../Image/common/isChecked.png) no-repeat -.08rem -0.12rem;background-size: 3.45rem 1.87rem;}
+.subCouponBox .couponImg{width: 90%;height: 5rem;margin-left: .6rem;}
+.couponBoxWrap{max-height: 11.6rem;overflow-y: auto;}

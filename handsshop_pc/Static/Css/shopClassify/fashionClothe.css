@@ -1,0 +1,58 @@
+.shopClassifyContainer{padding-bottom: 36px;}
+/*    banner      */
+.slide-box {position: relative; overflow: hidden;}
+.slide-box .slide-content li { height: 400px;}
+.slide-box .slide-content li a{ display: block; height: 100%;}
+.slide-box .slide-triggers {position: absolute;width: 100%;text-align: center;left: 0;right: 0;bottom: 10px;z-index: 3;}
+.slide-box .slide-triggers li {display: inline-block;width: 12px;height: 12px;margin: 0 4px;background:rgba(255,255,255,.5);border-radius: 16px;overflow: hidden;cursor: pointer; *display:inline;*zoom:1;}
+.slide-box .slide-triggers .cur {width: 9px;height: 9px;border:2px solid #F8981D;cursor: default;}
+
+/*    滑动      */
+.slide-btns .next,.slide-btns .prev{position:absolute;top:50%;margin-top: -30px;z-index: 4; width: 40px;height: 60px;cursor: pointer;}
+.slide-btns .next{background: url(../../Image/shopClassify/nextIcon.png) no-repeat;background-size:40px 60px;float: right;right: 0;}
+.slide-btns .prev{background: url(../../Image/shopClassify/prevIcon.png) no-repeat;background-size:40px 60px;}
+
+/* 商品列表分类 */
+.shopContent{background: #f4f4f4;}
+.shopList{padding: 20px 40px;margin-top:40px;background: #fff;}
+.shopList h3{font-weight: normal;font-size: 16px;width: 100px;height: 100px;line-height: 100px;text-align: center;position: absolute;top: 0;left: 0;}
+.shopListClassifyUl{border-bottom: 1px dashed #999;}
+.shopListClassifyUl li{font-size: 16px;width: 100px;height: 100px;line-height: 100px;text-align: center;cursor: pointer;}
+.shopList .all{margin-left: 100px;}
+.shopClassify .active{color: #f8981d;}
+.shopSort .active{color: #f8981d;}
+
+/* 商品分类头部 */
+.classifyTitle{height: 160px;line-height: 160px;text-align: center;}
+.classifyTitle i{display: inline-block;width: 60px;height: 60px;vertical-align: middle;background: url(../../Image/shopClassify/jacket.png) no-repeat center;background-size: 40px 40px;}
+.classifyTitle span{font-size: 28px;font-weight: 600;vertical-align: middle;margin-left: 10px;}
+.trousers i{display: inline-block;width: 60px;height: 60px;vertical-align: middle;background: url(../../Image/shopClassify/trousers.png) no-repeat center;background-size: 33px 46px;}
+
+/* 商品列表 */
+.shopUl li{width: 25%;text-align: center;}
+.shopUl li img{width: 255px;height: 280px;}
+.shopExplain{width: 255px;margin: 50px 0;}
+.shopName{padding: 2px 0;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: 18px;}
+.shopUl .money{color: #ff0000;padding: 2px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

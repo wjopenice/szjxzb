@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <title>订单管理</title>
+    <link rel="stylesheet" href="../../Static/Css/common/base.css">
+    <link rel="stylesheet" href="../../Static/Css/common/public.css">
+    <link rel="stylesheet" href="../../Static/Css/personalCenter/common.css">
+    <link rel="stylesheet" href="../../Static/Css/personalCenter/order.css">
+</head>
+<body class="personalHeader footer">
+
+    <div class="container">
+        <!-- 面包屑 -->
+        <div class="crumbs">
+            <span>首页</span> &gt; <span class="secondLevel">个人中心</span>
+        </div>
+
+        <!-- content -->
+        <div class="content cf">
+            <!-- 左侧边导航 -->
+            <div class="leftNavigation fl">
+                <div class="typeTitle">账号管理</div>
+                <a href="javascript:;">个人中心</a>
+                <a href="message.html">消息通知<span class="notice dib"></span></a>
+                <a href="accountInfo.html">账号信息</a>
+                <a href="addressManagement.html">地址管理</a>
+                <a href="accountSecurity.html">账号安全</a>
+                <a href="myPoints.html">我的积分</a>
+                <a href="myCollection.html">我的收藏</a>
+                <a href="javascript:;">我的足迹</a>
+                <div class="typeTitle">交易管理</div>
+                <a href="../../View/personalCenter/order.html" class="active">订单管理</a>
+                <a href="javascript:;">我的红包</a>
+                <a href="javascript:;">优惠券<span>(0)</span></a>
+                <div class="typeTitle">服务中心</div>
+                <a href="record.html">售后记录</a>
+                <a href="../helpCenter/index.html">帮助中心</a>
+            </div>
+
+            <!-- 右侧内容 -->
+            <div class="rightContent fl">
+                <div class="rightContentTitle cf">
+                    <a class="active" href="javascript:;"><span class="messageLine dib">全部订单</span></a>
+                    <a href="javascript:;"><span class="messageLine dib">待付款</span></a>
+                    <a href="javascript:;"><span class="messageLine dib">待发货</span></a>
+                    <a href="javascript:;"><span class="messageLine dib">已发货</span></a>
+                    <a href="javascript:;"><span class="dib">待评价</span></a>
+                    <div class="searchOrderBox fr cf">
+                        <input class="fl" type="text" placeholder="输入商品名称或订单号搜素">
+                        <a class="fr btnSearchOrder" href="javascript:void(0)">搜索</a>
+                    </div>
+                </div>
+                <div class="orderContentWrap">
+
+                    <!--全部订单-->
+                    <div class="orderModule allOrder cur">
+                        <div class="allOrderList">
+                            <div class="subOrder">
+                                <div class="orderTit cf"><p class="fl orderTime">下单时间：<span>2018-04-13 11:06:55</span></p><p class="fl">订单号：<span>3317918</span></p><p class="fr delIcon"><i></i></p></div>
+                                <div class="allOrderGoodsBox">
+                                    <div class="subOrderGoods cf copy" data-num="2">
+                                        <img src="../../Static/Image/personalCenter/shop.png" alt="" class="orderImgBox fl">
+                                        <div class="orderName fl">
+                                            <p class="ofh" title="柠檬蜂蜜瓶带盖酱菜 [交易快照]">柠檬蜂蜜瓶带盖酱菜 [交易快照]</p>
+                                            <p class="ofh"><span>颜色分类：</span><span title="圆形500ML【拍两个送夹子】">圆形500ML【拍两个送夹子】</span></p>
+                                        </div>
+                                        <div class="orderNum fl">1</div>
+                                        <div class="orderState fl">
+                                            <p>已发货</p>
+                                            <p class="look"><a href="orderDetail.html">订单详情</a></p>
+                                            <p class="look"><a href="../index/index.html">再次购买</a></p>
+                                            <p class="look"><a href="applySale.html">申请售后</a></p>
+                                            <p class="look"><a class="lookLogistics" href="javascript:;">查看物流</a></p>
+                                        </div>
+                                        <div class="orderMoney fl">
+                                            <p>￥46.00</p>
+                                            <p>（含运费：￥10元）</p>
+                                        </div>
+                                        <div class="orderSure fl"><a class="collect" href="javascript:;">确认收货</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 评价 -->
+                            <div class="subOrder">
+                                <div class="orderTit cf"><p class="fl orderTime">下单时间：<span>2018-04-13 11:06:55</span></p><p class="fl">订单号：<span>3317918</span></p><p class="fr delIcon"><i></i></p></div>
+                                <div class="allOrderGoodsBox">
+                                    <div class="subOrderGoods cf">
+                                        <img src="../../Static/Image/personalCenter/shop.png" alt="" class="orderImgBox fl">
+                                        <div class="orderName fl">
+                                            <p class="ofh" title="柠檬蜂蜜瓶带盖酱菜 [交易快照]">柠檬蜂蜜瓶带盖酱菜 [交易快照]</p>
+                                            <p class="ofh"><span>颜色分类：</span><span title="圆形500ML【拍两个送夹子】">圆形500ML【拍两个送夹子】</span></p>
+                                        </div>
+                                        <div class="orderNum fl">1</div>
+                                        <div class="orderState fl">
+                                            <p>交易成功</p>
+                                            <p class="look"><a href="orderDetail.html">订单详情</a></p>
+                                            <p class="look"><a href="../index/index.html">再次购买</a></p>
+                                            <p class="look"><a href="applySale.html">申请售后</a></p>
+                                            <p class="look"><a class="lookLogistics" href="javascript:;">查看物流</a></p>
+                                        </div>
+                                        <div class="orderMoney fl">
+                                            <p>￥46.00</p>
+                                            <p>（含运费：￥10元）</p>
+                                        </div>
+                                        <div class="orderSure fl"><a class="evaluate" href="evaluate.html">评价</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 待付款 -->
+                            <div class="subOrder">
+                                <div class="orderTit cf"><p class="fl orderTime">下单时间：<span>2018-04-13 11:06:55</span></p><p class="fl">订单号：<span>3317918</span></p><p class="fr delIcon"><i></i></p></div>
+                                <div class="unPay">
+                                    <div class="unPayLeft">
+                                        <div class="unPayDetail cf">
+                                            <img src="../../Static/Image/personalCenter/shop.png" alt="" class="orderImgBox fl">
+                                            <div class="orderName fl">
+                                                <p class="ofh" title="柠檬蜂蜜瓶带盖酱菜 [交易快照]">柠檬蜂蜜瓶带盖酱菜 [交易快照]</p>
+                                                <p class="ofh"><span>颜色分类：</span><span title="圆形500ML【拍两个送夹子】">圆形500ML【拍两个送夹子】</span></p>
+                                            </div>
+                                            <div class="orderNum fl">1</div>
+                                        </div>
+                                        <div class="unPayDetail cf">
+                                            <img src="../../Static/Image/personalCenter/shop.png" alt="" class="orderImgBox fl">
+                                            <div class="orderName fl">
+                                                <p class="ofh" title="柠檬蜂蜜瓶带盖酱菜 [交易快照]">柠檬蜂蜜瓶带盖酱菜 [交易快照]</p>
+                                                <p class="ofh"><span>颜色分类：</span><span title="圆形500ML【拍两个送夹子】">圆形500ML【拍两个送夹子】</span></p>
+                                            </div>
+                                            <div class="orderNum fl">1</div>
+                                        </div>
+                                        <div class="unPayDetail cf">
+                                            <img src="../../Static/Image/personalCenter/shop.png" alt="" class="orderImgBox fl">
+                                            <div class="orderName fl">
+                                                <p class="ofh" title="柠檬蜂蜜瓶带盖酱菜 [交易快照]">柠檬蜂蜜瓶带盖酱菜 [交易快照]</p>
+                                                <p class="ofh"><span>颜色分类：</span><span title="圆形500ML【拍两个送夹子】">圆形500ML【拍两个送夹子】</span></p>
+                                            </div>
+                                            <div class="orderNum fl">1</div>
+                                        </div>
+                                    </div>
+                                    <div class="orderState unPayState">
+                                        <p>未付款</p>
+                                        <p class="look"><a href="orderDetail.html">订单详情</a></p>
+                                        <p class="look"><a href="javascript:;">取消订单</a></p>
+                                    </div>
+                                    <div class="orderMoney unPayMoney">
+                                        <p>￥46.00</p>
+                                        <p>（含运费：￥10元）</p>
+                                    </div>
+                                    <div class="orderSure unPaySure"><a class="collect" href="../payment/pay.html">立即付款</a></div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- 暂无订单 -->
+                        <div class="notShop hide">
+                            <i class="notShopIcon dib"></i>
+                            <p class="notShopText">当前暂无任何订单</p>
+                        </div>
+                    </div>
+
+                    <!-- 待付款 -->
+                    <div class="orderModule wailPayOrder">
+                        <div class="wPOrderList">
+                            <div class="subOrder">
+                                <div class="orderTit cf"><p class="fl orderTime">下单时间：<span>2018-04-13 11:06:55</span></p><p class="fl">订单号：<span>3317918</span></p><p class="fr delIcon"><i></i></p></div>
+                                <div class="unPay">
+                                    <div class="unPayLeft">
+                                        <div class="unPayDetail cf">
+                                            <img src="../../Static/Image/personalCenter/shop.png" alt="" class="orderImgBox fl">
+                                            <div class="orderName fl">
+                                                <p class="ofh" title="柠檬蜂蜜瓶带盖酱菜 [交易快照]">柠檬蜂蜜瓶带盖酱菜 [交易快照]</p>
+                                                <p class="ofh"><span>颜色分类：</span><span title="圆形500ML【拍两个送夹子】">圆形500ML【拍两个送夹子】</span></p>
+                                            </div>
+                                            <div class="orderNum fl">1</div>
+                                        </div>
+                                        <div class="unPayDetail cf">
+                                            <img src="../../Static/Image/personalCenter/shop.png" alt="" class="orderImgBox fl">
+                                            <div class="orderName fl">
+                                                <p class="ofh" title="柠檬蜂蜜瓶带盖酱菜 [交易快照]">柠檬蜂蜜瓶带盖酱菜 [交易快照]</p>
+                                                <p class="ofh"><span>颜色分类：</span><span title="圆形500ML【拍两个送夹子】">圆形500ML【拍两个送夹子】</span></p>
+                                            </div>
+                                            <div class="orderNum fl">1</div>
+                                        </div>
+                                        <div class="unPayDetail cf">
+                                            <img src="../../Static/Image/personalCenter/shop.png" alt="" class="orderImgBox fl">
+                                            <div class="orderName fl">
+                                                <p class="ofh" title="柠檬蜂蜜瓶带盖酱菜 [交易快照]">柠檬蜂蜜瓶带盖酱菜 [交易快照]</p>
+                                                <p class="ofh"><span>颜色分类：</span><span title="圆形500ML【拍两个送夹子】">圆形500ML【拍两个送夹子】</span></p>
+                                            </div>
+                                            <div class="orderNum fl">1</div>
+                                        </div>
+                                    </div>
+                                    <div class="orderState unPayState">
+                                        <p>未付款</p>
+                                        <p class="look"><a href="orderDetail.html">订单详情</a></p>
+                                        <p class="look"><a href="javascript:;">取消订单</a></p>
+                                    </div>
+                                    <div class="orderMoney unPayMoney">
+                                        <p>￥46.00</p>
+                                        <p>（含运费：￥10元）</p>
+                                    </div>
+                                    <div class="orderSure unPaySure"><a class="collect" href="../payment/pay.html">立即付款</a></div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- 暂无订单 -->
+                        <div class="notShop hide">
+                            <i class="notShopIcon dib"></i>
+                            <p class="notShopText">当前暂无任何订单</p>
+                        </div>
+                    </div>
+
+                    <!-- 待发货 -->
+                    <div class="orderModule wailDeliverOrder">
+                        <div class="wDOrderList">
+                            <div class="subOrder">
+                                <div class="orderTit cf"><p class="fl orderTime">下单时间：<span>2018-04-13 11:06:55</span></p><p class="fl">订单号：<span>3317918</span></p><p class="fr delIcon"><i></i></p></div>
+                                <div class="allOrderGoodsBox">
+                                    <div class="subOrderGoods cf copy" data-num="2">
+                                        <img src="../../Static/Image/personalCenter/shop.png" alt="" class="orderImgBox fl">
+                                        <div class="orderName fl">
+                                            <p class="ofh" title="柠檬蜂蜜瓶带盖酱菜 [交易快照]">柠檬蜂蜜瓶带盖酱菜 [交易快照]</p>
+                                            <p class="ofh"><span>颜色分类：</span><span title="圆形500ML【拍两个送夹子】">圆形500ML【拍两个送夹子】</span></p>
+                                        </div>
+                                        <div class="orderNum fl">1</div>
+                                        <div class="orderState fl">
+                                            <p>已发货</p>
+                                            <p class="look"><a href="orderDetail.html">订单详情</a></p>
+                                            <p class="look"><a href="../index/index.html">再次购买</a></p>
+                                            <p class="look"><a href="applySale.html">申请售后</a></p>
+                                            <p class="look"><a class="lookLogistics" href="javascript:;">查看物流</a></p>
+                                        </div>
+                                        <div class="orderMoney fl">
+                                            <p>￥46.00</p>
+                                            <p>（含运费：￥10元）</p>
+                                        </div>
+                                        <div class="orderSure fl"><a class="collect" href="javascript:;">确认收货</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 暂无订单 -->
+                        <div class="notShop hide">
+                            <i class="notShopIcon dib"></i>
+                            <p class="notShopText">当前暂无任何订单</p>
+                        </div>
+                    </div>
+
+                    <!-- 已发货 -->
+                    <div class="orderModule alreadyDeliverOrder">
+                        <div class="aDOrderList">
+                            <div class="subOrder">
+                                <div class="orderTit cf"><p class="fl orderTime">下单时间：<span>2018-04-13 11:06:55</span></p><p class="fl">订单号：<span>3317918</span></p><p class="fr delIcon"><i></i></p></div>
+                                <div class="allOrderGoodsBox">
+                                    <div class="subOrderGoods cf copy" data-num="2">
+                                        <img src="../../Static/Image/personalCenter/shop.png" alt="" class="orderImgBox fl">
+                                        <div class="orderName fl">
+                                            <p class="ofh" title="柠檬蜂蜜瓶带盖酱菜 [交易快照]">柠檬蜂蜜瓶带盖酱菜 [交易快照]</p>
+                                            <p class="ofh"><span>颜色分类：</span><span title="圆形500ML【拍两个送夹子】">圆形500ML【拍两个送夹子】</span></p>
+                                        </div>
+                                        <div class="orderNum fl">1</div>
+                                        <div class="orderState fl">
+                                            <p>已发货</p>
+                                            <p class="look"><a href="orderDetail.html">订单详情</a></p>
+                                            <p class="look"><a href="../index/index.html">再次购买</a></p>
+                                            <p class="look"><a href="applySale.html">申请售后</a></p>
+                                            <p class="look"><a class="lookLogistics" href="javascript:;">查看物流</a></p>
+                                        </div>
+                                        <div class="orderMoney fl">
+                                            <p>￥46.00</p>
+                                            <p>（含运费：￥10元）</p>
+                                        </div>
+                                        <div class="orderSure fl"><a class="collect" href="javascript:;">确认收货</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 暂无订单 -->
+                        <div class="notShop hide">
+                            <i class="notShopIcon dib"></i>
+                            <p class="notShopText">当前暂无任何订单</p>
+                        </div>
+                    </div>
+
+                    <!-- 待评价 -->
+                    <div class="orderModule wailEvaOrder">
+                        <div class="wEOrderList">
+                            <div class="subOrder">
+                                <div class="orderTit cf"><p class="fl orderTime">下单时间：<span>2018-04-13 11:06:55</span></p><p class="fl">订单号：<span>3317918</span></p><p class="fr delIcon"><i></i></p></div>
+                                <div class="allOrderGoodsBox">
+                                    <div class="subOrderGoods cf">
+                                        <img src="../../Static/Image/personalCenter/shop.png" alt="" class="orderImgBox fl">
+                                        <div class="orderName fl">
+                                            <p class="ofh" title="柠檬蜂蜜瓶带盖酱菜 [交易快照]">柠檬蜂蜜瓶带盖酱菜 [交易快照]</p>
+                                            <p class="ofh"><span>颜色分类：</span><span title="圆形500ML【拍两个送夹子】">圆形500ML【拍两个送夹子】</span></p>
+                                        </div>
+                                        <div class="orderNum fl">1</div>
+                                        <div class="orderState fl">
+                                            <p>交易成功</p>
+                                            <p class="look"><a href="orderDetail.html">订单详情</a></p>
+                                            <p class="look"><a href="../index/index.html">再次购买</a></p>
+                                            <p class="look"><a href="applySale.html">申请售后</a></p>
+                                            <p class="look"><a class="lookLogistics" href="javascript:;">查看物流</a></p>
+                                        </div>
+                                        <div class="orderMoney fl">
+                                            <p>￥46.00</p>
+                                            <p>（含运费：￥10元）</p>
+                                        </div>
+                                        <div class="orderSure fl"><a class="evaluate" href="evaluate.html">评价</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 暂无订单 -->
+                        <div class="notShop hide">
+                            <i class="notShopIcon dib"></i>
+                            <p class="notShopText">当前暂无任何订单</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 追踪物流弹窗 -->
+    <div class="getCouponAlert hide">
+        <div class="alertDel cf"><span class="track fl">追踪物流</span><i class="close fr"></i></div>
+        <div class="logisticsCar cf">
+            <i class="fl"></i>
+            <div class="logisticsText fl">
+                <p><span>物流公司：</span><span class="oddNum">顺风快递</span></p>
+                <p><span>快递单号：</span><span class="oddNum">VB41153264154</span></p>
+                <p><span>预计到达：</span><span class="oddNum">4月15日前到达</span></p>
+            </div>
+        </div>
+        <div class="timeList">留空，调用物流系统</div>
+        <div class="complaint"><a href="complaintLogistics.html">投诉物流服务&gt;&gt;</a></div>
+        <div class="submit"><a class="submitBtn" href="javascript:;">确定</a></div>
+    </div>
+
+    <!-- 确认收货 -->
+    <div class="getCollectAlert hide">
+        <div class="CollectDel cf"><i class="closeBtn fr"></i></div>
+        <p class="sureShop">请确认您已收到商品</p>
+        <div class="submitCollect"><a class="sureBtn" href="javascript:;">确定</a><a class="cancelBtn" href="javascript:;">取消</a></div>
+    </div>
+
+    <!-- 删除弹窗 -->
+    <div class="getDelAlert hide">
+        <div class="DelBtn cf"><i class="closeBtn fr"></i></div>
+        <p class="sureShop">请确认您要删除该订单？</p>
+        <div class="submitCollect"><a class="sureBtn" id="delBtn" href="javascript:;">确定</a><a class="cancelBtn" href="javascript:;">取消</a></div>
+    </div>
+
+    <script src="../../Static/Js/common/jquery.js"></script>
+    <script src="../../Static/Js/common/jquery.ext.js"></script>
+    <script src="../../Static/Js/common/public.js"></script>
+    <script src="../../Static/Js/personalCenter/order.js"></script>
+</body>
+</html>

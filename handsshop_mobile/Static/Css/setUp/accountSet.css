@@ -1,0 +1,28 @@
+/* 列表 */
+.mHome{margin-bottom: 0;}
+.accountSetUl ,.bindSetUl{margin: .7rem 0;}
+.accountSetUl li a{width: 100%;font-size: .8rem;}
+.modifyAccount ,.modifyPwd{padding: 0 .7rem;height: 2.6rem;line-height: 2.5rem;border-bottom: 1px solid #f4f4f4;color: #333;background: #fff;}
+
+/* 绑定 */
+.bindSetUl li a{width: 100%;font-size: .8rem;}
+.modifyPwd{padding: 0 .7rem;height: 2.6rem;line-height: 2.5rem;border-bottom: 1px solid #f4f4f4;color: #333;background: #fff;}
+.bindNum{padding: 0 .7rem;height: 2.6rem;line-height: 2.5rem;border-bottom: 1px solid #f4f4f4;color: #333;background: #fff;}
+.bindRight span{vertical-align: middle;}
+.bind{margin-right: .6rem;padding: .2rem .4rem .3rem;color: #eab945;}
+.unBind{color: #fff;background: #eab945;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+/* 选项卡头部 */
+.mHome{margin-bottom: 0;}
+.button{padding: 0;margin: 0 .5rem;display: inline-block;}
+.buttons-tab .button{width: 20%;height: 2.4rem;line-height: 2.4rem;color: #333;}
+.buttons-tab .button.active{color: #eeaf1b;border-color: #eeaf1b;}
+.buttons-tab:after{background-color: #f4f4f4;}
+
+/* 订单列表 */
+.content-block{margin: .7rem 0;padding: 0;}
+.all li{margin: .7rem 0;background: #fff;}
+.listTitle{padding: 0 .8rem;height: 2.6rem;line-height: 2.6rem;text-align: right;border-bottom: 1px solid #f4f4f4;font-size: .8rem;color: #eeaf1b;}
+.listContent{padding: 0 .8rem;}
+.shopInfo{padding: 1.2rem 0 .9rem;}
+.listImg{width: 4rem;height:4rem;border: 1px solid #999;}
+.shopInfoLeft{width: 28%;height: 4rem;}
+.shopInfoRight{width: 72%;height: 4rem;padding-left: .4rem;}
+.shopName{height: 1.33rem;line-height: 1.33rem;width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: .8rem;color: #333;}
+.shopText{height: 1.33rem;line-height: 1.33rem;width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: .7rem;color: #999;}
+.shopPrice{height: 1.33rem;line-height: 1.33rem;}
+.shopNum{padding-bottom: .4rem;border-bottom: 1px solid #ccc;}
+.price{font-size: .8rem;color: #333;}
+.num{font-size: .8rem;color: #ccc;}
+.total ,.money{font-size: .8rem;color: #ccc;}
+.money i{font-style: normal;color: #eeaf1b;}
+.listFoot{padding: 0 .8rem;height: 3rem;line-height: 3rem;text-align: right;}
+.listFoot span{width: 4.4rem;height: 1.8rem;line-height: 1.7rem;text-align: center;border-radius: 6px;font-size: .8rem;}
+.cancel{margin-right: .8rem;border: 1px solid #666;color: #666;}
+.payment{border: 1px solid #eeaf1b;color: #eeaf1b;}
+.payment a{display: block;color: #eeaf1b;}
+
+/*    选择支付方式弹层     */
+.chosePayType{width: 80%;height: 10rem;}
+.chosePayType .tit{height:2.2rem;line-height:2.2rem;font-size:.7rem;text-align: center;color: #666;border-bottom: 1px solid #F4F4F4;}
+.chosePayType .closeBtn{display: block;float: right;width: 1rem;height: 1rem;margin:.6rem;background:url(../../Image/goodsDetail/close.png) no-repeat;background-size: .8rem .8rem;}
+.chosePayType .payMoney{height: 2.5rem;line-height: 2.5rem;font-size: .9rem;font-weight: 700;text-align: center;border-bottom: 1px solid #F4F4F4;}
+.chosePayType .payTypeBox{height: 2.2rem;line-height:2.2rem;font-size:.8rem;border-bottom: 1px solid #F4F4F4;padding: 0 .7rem 0 1.9rem;}
+.chosePayType .wxIcon{display: block;width: 1rem;height: 1rem;margin:.6rem 1rem 0 0;border-radius: 2px;background: url(../../Image/aboutUs/aboutUs.png) no-repeat -3.6rem -.3rem;background-size: 5.03rem 3.2rem;}
+.chosePayType .confirmPayBtn{display: block;width: 9rem;height: 2rem;margin:.5rem auto;line-height:2rem;text-align:center;font-size:.7rem;color:#FFF;background: #F8981D;border-radius: .4rem;}
+
+
+.toast{border-radius: 6px;font-size: .9rem;letter-spacing: 1px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

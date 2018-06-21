@@ -1,0 +1,46 @@
+/*  个人中心头像  */
+.headBox{background: #fff;}
+.headContent{text-align: center;border-bottom:1px solid #f4f4f4;}
+.headContent img{width:3.2rem;height:3.2rem;margin-top: 2rem;}
+.headText{display: block;padding: .2rem 0 .8rem;font-size: 1rem;font-weight:600;letter-spacing: 1px;color: #333;}
+
+/* 购物车Icon */
+.shopCar{position: absolute;right: 0;top:2rem;padding: .3rem .8rem .3rem .9rem;border: 2px solid #eeaf1b;border-right: none;border-bottom-left-radius: 24px;border-top-left-radius: 24px;}
+.shopCar i{display: block;float: left;width:1.4rem;height:1.2rem;margin-right:.2rem;background: url(../../Image/personalCenter/personalCenter.png) no-repeat -.4rem -.26rem;background-size: 10.67rem 3.37rem;}
+.shopCar span{font-size: .8rem;color: #eeaf1b;}
+
+/* 收藏优惠券积分Ul */
+.headUl li{width: 33.3%;height: 2.6rem;line-height: 2.6rem;text-align: center;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: .76rem;}
+.date{margin-right: .2rem;color: #eeaf1b;}
+.collection ,.discount{border-right:1px solid #f4f4f4;}
+.list-block{margin: .5rem 0;}
+.list-block .item-content{padding-left: 0;padding-right: .5rem;}
+.item-content{height: 2.6rem;line-height:2.6rem;border-bottom: 1px solid #f4f4f4;}
+.item-content a{display: block;width: 100%;font-size: .76rem;}
+.item-content i{display: inline-block;float: left;width:1.8rem;height:1.8rem;margin: .4rem .5rem;}
+.item-myOrder i{background: url(../../Image/personalCenter/personalCenter.png) no-repeat -10.53rem -.1rem;background-size: 13.34rem 4.21rem;}
+.item-about i{background: url(../../Image/personalCenter/personalCenter.png) no-repeat -0.47rem -1.68rem;background-size: 11.43rem 3.6rem;}
+.item-contact i{background: url(../../Image/personalCenter/personalCenter.png) no-repeat -2.42rem -1.68rem;background-size: 11.43rem 3.6rem;}
+.item-notice i{background: url(../../Image/personalCenter/personalCenter.png) no-repeat -4.6rem -1.68rem;background-size: 11.43rem 3.6rem;}
+.item-set i{background: url(../../Image/personalCenter/personalCenter.png) no-repeat -6.76rem -1.68rem;background-size: 11.43rem 3.6rem;}
+
+/* 待付款收货发货评价 */
+.itemOrderLi a{width: 25%;text-align: center;padding: .8rem 0;font-size: .72rem;}
+.itemOrderLi a i{display: inline-block;width:1.8rem;height:1.8rem;}
+.pendText{display: block;}
+.pendPay i{background: url(../../Image/personalCenter/personalCenter.png) no-repeat -3rem -.2rem;background-size: 13.34rem 4.21rem;}
+.pendDelivery i{background: url(../../Image/personalCenter/personalCenter.png) no-repeat -5.66rem -.1rem;background-size: 13.34rem 4.21rem;}
+.pendGoods i{background: url(../../Image/personalCenter/personalCenter.png) no-repeat -8.05rem -.1rem;background-size: 13.34rem 4.21rem;}
+.pendEvaluate i{background: url(../../Image/personalCenter/personalCenter.png) no-repeat -10.56rem -2.1rem;background-size: 13.34rem 4.21rem;}
+
+
+
+
+
+
+
+
+
+
+
+

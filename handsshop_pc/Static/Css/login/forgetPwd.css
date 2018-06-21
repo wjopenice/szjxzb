@@ -1,0 +1,91 @@
+/* 面包屑 */
+.crumbs{height: 65px;line-height: 65px;}
+.crumbs span{font-size: 15px;color: #333;}
+
+/* content导向 */
+.content ul{height: 114px;margin: 80px 202px;}
+.content ul li{width:74px;height: 114px;text-align: center;}
+.account{position: absolute;top: 0;left: 0;}
+.verification{position: absolute;top: 0;left: 240px;}
+.resetPwd{position: absolute;top: 0;left: 480px;}
+.success{position: absolute;top: 0;left: 720px;}
+.content ul li i{display:block;width: 60px;height: 60px;margin: 0 7px;}
+.content ul li span{display: block;margin-top: 30px;font-size: 18px;color: #333;}
+.verification i{background: url(../../Image/login/forgetPwd/two.png) no-repeat;background-size: 60px 60px;}
+.resetPwd i{background: url(../../Image/login/forgetPwd/three.png) no-repeat;background-size: 60px 60px;}
+.success i{background: url(../../Image/login/forgetPwd/four.png) no-repeat;background-size: 60px 60px;}
+.complete i{background: url(../../Image/login/forgetPwd/complete.png) no-repeat;background-size: 60px 60px;}
+.active i{background: url(../../Image/login/forgetPwd/active.png) no-repeat;background-size: 60px 60px;}
+
+/* 用户信息 */
+.inputInfo ,.verificationInfo ,.beingSent ,.surePwd ,.successInfo{text-align: center;}
+.userText{font-size: 18px;vertical-align: middle;}
+.userInput{width: 380px;height: 40px;vertical-align: middle;border: 1px solid #999;font-size: 18px;padding-left: 10px;}
+.loginName{margin-bottom: 30px;}
+.verificationCode{margin-bottom: 100px;}
+.next{width: 382px;height: 42px;margin: 0 0 100px 77px;line-height: 42px;cursor: pointer;background: #f8981d;border: 1px solid #f8981d;font-size: 18px;color: #fff;}
+.line{display: block;width: 182px;height: 6px;position: absolute;top: 28px;left: 66px;background: #f8981d;}
+.twoLine{position: absolute;top: 28px;left: 306px;}
+.threeLine{position: absolute;top: 28px;left: 546px;}
+
+/* 滑动模块 */
+#drag{display: inline-block;vertical-align: middle;position: relative;background-color: #f9f9f9;width: 380px;height: 40px;line-height: 40px;text-align: center;border: 1px solid #999;border-radius: 22px;}
+#drag .handler{position: absolute;top: 0;left: 0;width: 70px;height: 36px;border: 1px solid #999;border-radius: 22px;cursor: move;margin: 1px 0 0 1px;}
+.handler_bg{background: #fff url(../../Image/login/forgetPwd/slideIcon.png) no-repeat center;background-size: 28px 20px;}
+.handler_ok_bg{background: #fff url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo0ZDhlNWY5My05NmI0LTRlNWQtOGFjYi03ZTY4OGYyMTU2ZTYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDlBRDI3NjVGMkQ2MTFFNEI5NDBCMjQ2M0ExMDQ1OUYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDlBRDI3NjRGMkQ2MTFFNEI5NDBCMjQ2M0ExMDQ1OUYiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDphNWEzMWNhMC1hYmViLTQxNWEtYTEwZS04Y2U5NzRlN2Q4YTEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NGQ4ZTVmOTMtOTZiNC00ZTVkLThhY2ItN2U2ODhmMjE1NmU2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+k+sHwwAAASZJREFUeNpi/P//PwMyKD8uZw+kUoDYEYgloMIvgHg/EM/ptHx0EFk9I8wAoEZ+IDUPiIMY8IN1QJwENOgj3ACo5gNAbMBAHLgAxA4gQ5igAnNJ0MwAVTsX7IKyY7L2UNuJAf+AmAmJ78AEDTBiwGYg5gbifCSxFCZoaBMCy4A4GOjnH0D6DpK4IxNSVIHAfSDOAeLraJrjgJp/AwPbHMhejiQnwYRmUzNQ4VQgDQqXK0ia/0I17wJiPmQNTNBEAgMlQIWiQA2vgWw7QppBekGxsAjIiEUSBNnsBDWEAY9mEFgMMgBk00E0iZtA7AHEctDQ58MRuA6wlLgGFMoMpIG1QFeGwAIxGZo8GUhIysmwQGSAZgwHaEZhICIzOaBkJkqyM0CAAQDGx279Jf50AAAAAABJRU5ErkJggg==") no-repeat center;}
+#drag .drag_bg{background-color: #7ac23c;height: 40px;width: 0;border-top-left-radius: 22px;border-bottom-left-radius: 22px;}
+#drag .drag_text{position: absolute;top: 0;width: 236px;user-select: none;margin: 0 70px;}
+
+/* 验证身份 */
+.heavy{color: #1dc2f8;}
+.verificationInfo .text{margin: 10px 0;}
+.bind i{display: inline-block;width: 60px;height: 60px;vertical-align: middle;background: url(../../Image/login/forgetPwd/mailboxIcon.png) no-repeat center;background-size: 60px 60px;}
+.bindText{vertical-align: middle;text-align: left;margin-left: 16px;}
+.bindText span{display: block;padding: 2px 0;}
+.immediate{margin: 50px 0 100px;width: 80px;height: 32px;line-height: 32px;cursor: pointer;border: 1px solid #f8981d;font-size: 15px;color: #f8981d;background: #fff;}
+
+/* 正在发送 */
+.beingSent .text{margin: 10px 0;}
+.message{margin: 30px 0;}
+.messageInput{width: 180px;height: 30px;line-height: 30px;padding-left: 10px;font-size: 16px;border: 1px solid #f8981d;}
+.recapture{width: 130px;height: 32px;line-height: 32px;text-align: center;cursor: pointer;background: #e5e5e5;border: 1px solid #e5e5e5;color: #333;}
+.sure{width: 380px;height: 40px;margin: 40px 0 100px;line-height: 40px;cursor: pointer;background: #f8981d;border: 1px solid #f8981d;font-size: 16px;color: #fff;}
+
+/* 确认密码 */
+.newPwd ,.confirmPwd{font-size: 17px;}
+.newPwdInput ,.confirmPwdInput{width: 380px;height: 40px;padding-left: 10px;line-height: 40px;cursor: pointer;border: 1px solid #999;font-size: 16px;color: #333;}
+.new{padding: 10px 0;display: inline-block;}
+.keyBoardIcon{display: block;width: 26px;height: 18px;position: absolute;right: 10px;top: 21px;z-index: 999;cursor: pointer;background: url(../../Image/login/login/keyBoard.png) no-repeat;background-size: 26px 18px;}
+
+/* 成功 */
+.successInfo h3{font-size: 22px;color: #333;}
+.returnLogon{margin: 20px 0 100px;width: 150px;height: 40px;line-height: 40px;cursor: pointer;border: 1px solid #f8981d;font-size: 18px;color: #f8981d;background: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
